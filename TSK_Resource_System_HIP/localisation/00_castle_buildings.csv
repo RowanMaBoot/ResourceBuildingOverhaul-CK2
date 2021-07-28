@@ -1,0 +1,868 @@
+ca_r_settlement_1;Hill Fort;;;;;;;;;;;;;x
+ca_r_settlement_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_settlement_2;Motte and Bailey;;;;;;;;;;;;;x
+ca_r_settlement_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_settlement_3;Stronghold;;;;;;;;;;;;;x
+ca_r_settlement_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_settlement_4;Stone Castle;;;;;;;;;;;;;x
+ca_r_settlement_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_settlement_5;Concentric Stone Castle;;;;;;;;;;;;;x
+ca_r_settlement_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_settlement_6;Lesser Bastion;;;;;;;;;;;;;x
+ca_r_settlement_6_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_settlement_7;Bastion;;;;;;;;;;;;;x
+ca_r_settlement_7_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_settlement_8;Fortress;;;;;;;;;;;;;x
+ca_r_settlement_8_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_settlement_9;Citadel;;;;;;;;;;;;;x
+ca_r_settlement_9_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_settlement_10;Sprawling Citadel;;;;;;;;;;;;;x
+ca_r_settlement_10_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_walls_1;Primitive Breastwork;;;;;;;;;;;;;x
+ca_r_walls_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_walls_2;Extensive Breastwork;;;;;;;;;;;;;x
+ca_r_walls_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_walls_3;Stockade;;;;;;;;;;;;;x
+ca_r_walls_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_walls_4;Palisade Walls;;;;;;;;;;;;;x
+ca_r_walls_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_walls_5;Wooden Walls;;;;;;;;;;;;;x
+ca_r_walls_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_walls_6;Wood and Stone Walls;;;;;;;;;;;;;x
+ca_r_walls_6_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_walls_7;Stone Walls;;;;;;;;;;;;;x
+ca_r_walls_7_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_walls_8;Strengthened Stone Walls;;;;;;;;;;;;;x
+ca_r_walls_8_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_walls_9;Tall Stone Walls;;;;;;;;;;;;;x
+ca_r_walls_9_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_walls_10;Great Stone Bulwark ;;;;;;;;;;;;;x
+ca_r_walls_10_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_town_1;Outlying Cottages;;;;;;;;;;;;;x
+ca_r_town_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_town_2;Scattered Hamlet;;;;;;;;;;;;;x
+ca_r_town_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_town_3;Clustered Hamlet;;;;;;;;;;;;;x
+ca_r_town_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_town_4;Meagre Castle Village;;;;;;;;;;;;;x
+ca_r_town_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_town_5;Small Castle Village;;;;;;;;;;;;;x
+ca_r_town_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_town_6;Sizeable Castle Village;;;;;;;;;;;;;x
+ca_r_town_6_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_town_7;Meagre Castle Town;;;;;;;;;;;;;x
+ca_r_town_7_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_town_8;Noteworthy Castle Town;;;;;;;;;;;;;x
+ca_r_town_8_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_town_9;Sizeable Castle Town;;;;;;;;;;;;;x
+ca_r_town_9_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_town_10;Large, Flourishing Castle Town;;;;;;;;;;;;;x
+ca_r_town_10_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_town_11;Sprawling Regional Settlements;;;;;;;;;;;;;x
+ca_r_town_11_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_recruit_1;Primitive Levying;;;;;;;;;;;;;x
+ca_r_recruit_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_recruit_2;Rudimentry Levying;;;;;;;;;;;;;x
+ca_r_recruit_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_recruit_3;Well-Established Levying;;;;;;;;;;;;;x
+ca_r_recruit_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_recruit_4;Elaborate Levying;;;;;;;;;;;;;x
+ca_r_recruit_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_recruit_5;Regional Draft;;;;;;;;;;;;;x
+ca_r_recruit_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_barracks_1;Farmhouse Infantry Bunks;;;;;;;;;;;;;x
+ca_r_barracks_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_barracks_2;Crude Infantry Barracks;;;;;;;;;;;;;x
+ca_r_barracks_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_barracks_3;Small Infantry Barracks;;;;;;;;;;;;;x
+ca_r_barracks_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_barracks_4;Modest Infantry Barracks;;;;;;;;;;;;;x
+ca_r_barracks_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_barracks_5;Sizeable Infantry Barracks;;;;;;;;;;;;;x
+ca_r_barracks_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_barracks_6;Large Infantry Barracks;;;;;;;;;;;;;x
+ca_r_barracks_6_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_barracks_7;Infantry Barracks Wing;;;;;;;;;;;;;x
+ca_r_barracks_7_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_bowyer_1;Rudimentry Bowyer;;;;;;;;;;;;;x
+ca_r_bowyer_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_bowyer_2;Small Bowyer;;;;;;;;;;;;;x
+ca_r_bowyer_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_bowyer_3;Modest Bowyer;;;;;;;;;;;;;x
+ca_r_bowyer_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_bowyer_4;Bowyer;;;;;;;;;;;;;x
+ca_r_bowyer_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_bowyer_5;Sizeable Bowyer;;;;;;;;;;;;;x
+ca_r_bowyer_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_bowyer_6;Established Bowyer;;;;;;;;;;;;;x
+ca_r_bowyer_6_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_bowyer_7;Large Bowyer;;;;;;;;;;;;;x
+ca_r_bowyer_7_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_stables_1;Dedicated Horse Hitches;;;;;;;;;;;;;x
+ca_r_stables_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_stables_2;Small Thatched Stable;;;;;;;;;;;;;x
+ca_r_stables_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_stables_3;Thatched Stables;;;;;;;;;;;;;x
+ca_r_stables_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_stables_4;Large Thatched Stables;;;;;;;;;;;;;x
+ca_r_stables_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_stables_5;Small Castle Stables;;;;;;;;;;;;;x
+ca_r_stables_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_stables_6;Sizeable Castle Stables;;;;;;;;;;;;;x
+ca_r_stables_6_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_stables_7;Large Castle Stables;;;;;;;;;;;;;x
+ca_r_stables_7_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_pat_1;Infrequent Foot Patrols;;;;;;;;;;;;;x
+ca_r_pat_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_pat_2;Irregular Foot Patrols;;;;;;;;;;;;;x
+ca_r_pat_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_pat_3;Regular Foot Patrols;;;;;;;;;;;;;x
+ca_r_pat_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_pat_4;Frequent Foot Patrols;;;;;;;;;;;;;x
+ca_r_pat_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_pat_5;Infrequent Cavalry Patrols;;;;;;;;;;;;;x
+ca_r_pat_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_pat_6;Irregular Cavalry Patrols;;;;;;;;;;;;;x
+ca_r_pat_6_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_pat_7;Regular Cavalry Patrols;;;;;;;;;;;;;x
+ca_r_pat_7_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_pat_8;Frequent Cavalry Patrols;;;;;;;;;;;;;x
+ca_r_pat_8_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_toll_1;Trivial Arterial Tolling;;;;;;;;;;;;;x
+ca_r_toll_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_toll_2;Arterial Tolling;;;;;;;;;;;;;x
+ca_r_toll_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_toll_3;Established Arterial Tolling;;;;;;;;;;;;;x
+ca_r_toll_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_toll_4;Well-Established Arterial Tolling;;;;;;;;;;;;;x
+ca_r_toll_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_toll_5;Widespread Tolling;;;;;;;;;;;;;x
+ca_r_toll_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_toll_6;Extensive Widespread Tolling;;;;;;;;;;;;;x
+ca_r_toll_6_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_port_1;Primitive Pier;;;;;;;;;;;;;x
+ca_r_port_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_port_2;Rudimentry Harbour;;;;;;;;;;;;;x
+ca_r_port_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_port_3;Well-Established Harbour;;;;;;;;;;;;;x
+ca_r_port_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_port_4;Military Port;;;;;;;;;;;;;x
+ca_r_port_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_port_5;Regional Military Port;;;;;;;;;;;;;x
+ca_r_port_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_smith_1;Primitive Blacksmith's Forge;;;;;;;;;;;;;x
+ca_r_smith_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_smith_2;Crude Blacksmiths Forge;;;;;;;;;;;;;x
+ca_r_smith_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_smith_3;Established Blacksmith's Forge;;;;;;;;;;;;;x
+ca_r_smith_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_smith_4;Sizeable Blacksmith's Forge;;;;;;;;;;;;;x
+ca_r_smith_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_smith_5;Small Blacksmithy;;;;;;;;;;;;;x
+ca_r_smith_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_smith_6;Sizeable Blacksmithy;;;;;;;;;;;;;x
+ca_r_smith_6_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_smith_7;Large Blacksmithy;;;;;;;;;;;;;x
+ca_r_smith_7_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_weaponsmithy_1;Primitive Weaponsmithy;;;;;;;;;;;;;x
+ca_r_weaponsmithy_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_weaponsmithy_2;Crude Weaponsmithy;;;;;;;;;;;;;x
+ca_r_weaponsmithy_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_weaponsmithy_3;Established Weaponsmithy;;;;;;;;;;;;;x
+ca_r_weaponsmithy_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_weaponsmithy_4;Well-Established Weaponsmithy;;;;;;;;;;;;;x
+ca_r_weaponsmithy_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_weaponsmithy_5;Quality Weaponsmithy;;;;;;;;;;;;;x
+ca_r_weaponsmithy_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_weaponsmithy_6;High Quality Weaponsmithy;;;;;;;;;;;;;x
+ca_r_weaponsmithy_6_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_weaponsmithy_7;Renowned Steel Weaponsmithy;;;;;;;;;;;;;x
+ca_r_weaponsmithy_7_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_fletcher_1;Primitive Fletcher;;;;;;;;;;;;;x
+ca_r_fletcher_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_fletcher_2;Fletchers' Hut;;;;;;;;;;;;;x
+ca_r_fletcher_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_fletcher_3;Established Fletcher;;;;;;;;;;;;;x
+ca_r_fletcher_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_fletcher_4;Well-Established Fletcher;;;;;;;;;;;;;x
+ca_r_fletcher_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_fletcher_5;Quality Fletcher;;;;;;;;;;;;;x
+ca_r_fletcher_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_fletcher_6;High Quality Fletcher;;;;;;;;;;;;;x
+ca_r_fletcher_6_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_fletcher_7;Renowned Fletcher;;;;;;;;;;;;;x
+ca_r_fletcher_7_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_armoursmithy_1;Primitive Armoursmithy;;;;;;;;;;;;;x
+ca_r_armoursmithy_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_armoursmithy_2;Crude Armoursmithy;;;;;;;;;;;;;x
+ca_r_armoursmithy_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_armoursmithy_3;Established Armoursmithy;;;;;;;;;;;;;x
+ca_r_armoursmithy_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_armoursmithy_4;Well-Established Armoursmithy;;;;;;;;;;;;;x
+ca_r_armoursmithy_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_armoursmithy_5;Quality Armoursmithy;;;;;;;;;;;;;x
+ca_r_armoursmithy_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_armoursmithy_6;High Quality Armoursmithy;;;;;;;;;;;;;x
+ca_r_armoursmithy_6_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_armoursmithy_7;Renowned Steel Armoursmithy;;;;;;;;;;;;;x
+ca_r_armoursmithy_7_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_horse_pad_1;Small Horse Breeder;;;;;;;;;;;;;x
+ca_r_horse_pad_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_horse_pad_2;Sizeable Horse Breeder;;;;;;;;;;;;;x
+ca_r_horse_pad_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_horse_pad_3;Established Horse Breeder;;;;;;;;;;;;;x
+ca_r_horse_pad_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_horse_pad_4;Well-Established Horse Breeder;;;;;;;;;;;;;x
+ca_r_horse_pad_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_horse_pad_5;Thoroughbred Horse Breeder;;;;;;;;;;;;;x
+ca_r_horse_pad_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_horse_pad_6;Renowned Thoroughbred Horse Breeder;;;;;;;;;;;;;x
+ca_r_horse_pad_6_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_far_sus_1;Primitive Sustenance Farming;;;;;;;;;;;;;x
+ca_r_far_sus_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_far_sus_2;Crude Sustenance Farming;;;;;;;;;;;;;x
+ca_r_far_sus_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_far_sus_3;Sustenance Farming;;;;;;;;;;;;;x
+ca_r_far_sus_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_far_sus_4;Established Sustenance Farming;;;;;;;;;;;;;x
+ca_r_far_sus_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_far_sus_5;Abundant Sustenance Farming;;;;;;;;;;;;;x
+ca_r_far_sus_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_far_sus_6;Small Scale Grain Farming;;;;;;;;;;;;;x
+ca_r_far_sus_6_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_far_sus_7;Grain Farming;;;;;;;;;;;;;x
+ca_r_far_sus_7_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_far_sus_8;Extensive Grain Farming;;;;;;;;;;;;;x
+ca_r_far_sus_8_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_steelworks_1;Primitive Steelworks;;;;;;;;;;;;;x
+ca_r_steelworks_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_steelworks_2;Crude Steelworks;;;;;;;;;;;;;x
+ca_r_steelworks_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_steelworks_3;Established Steelworks;;;;;;;;;;;;;x
+ca_r_steelworks_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_steelworks_4;Well-Established Steelworks;;;;;;;;;;;;;x
+ca_r_steelworks_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_steelworks_5;Renown Steelworks;;;;;;;;;;;;;x
+ca_r_steelworks_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_lumbermill_k_1;Primitive Kingswood Lumbershack;;;;;;;;;;;;;x
+ca_r_lumbermill_k_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_lumbermill_k_2;Small Kingswood Lumbershack;;;;;;;;;;;;;x
+ca_r_lumbermill_k_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_lumbermill_k_3;Sizeable Kingswood Lumbershack;;;;;;;;;;;;;x
+ca_r_lumbermill_k_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_lumbermill_k_4;Crude Kingswood Lumberyard;;;;;;;;;;;;;x
+ca_r_lumbermill_k_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_lumbermill_k_5;Established Kingswood Lumberyard;;;;;;;;;;;;;x
+ca_r_lumbermill_k_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_lumbermill_r_1;Primitive Rainwood Lumbershack;;;;;;;;;;;;;x
+ca_r_lumbermill_r_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_lumbermill_r_2;Small Rainwood Lumbershack;;;;;;;;;;;;;x
+ca_r_lumbermill_r_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_lumbermill_r_3;Sizeable Rainwood Lumbershack;;;;;;;;;;;;;x
+ca_r_lumbermill_r_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_lumbermill_r_4;Crude Rainwood Lumberyard;;;;;;;;;;;;;x
+ca_r_lumbermill_r_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_lumbermill_r_5;Established Rainwood Lumberyard;;;;;;;;;;;;;x
+ca_r_lumbermill_r_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_lumbermill_m_1;Primitive Mistwood Lumbershack;;;;;;;;;;;;;x
+ca_r_lumbermill_m_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_lumbermill_m_2;Small Mistwood Lumbershack;;;;;;;;;;;;;x
+ca_r_lumbermill_m_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_lumbermill_m_3;Sizeable Mistwood Lumbershack;;;;;;;;;;;;;x
+ca_r_lumbermill_m_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_lumbermill_m_4;Crude Mistwood Lumberyard;;;;;;;;;;;;;x
+ca_r_lumbermill_m_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_lumbermill_m_5;Established Mistwood Lumberyard;;;;;;;;;;;;;x
+ca_r_lumbermill_m_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_lumbermill_l_1;Primitive Lemonwood Lumbershack;;;;;;;;;;;;;x
+ca_r_lumbermill_l_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_lumbermill_l_2;Small Lemonwood Lumbershack;;;;;;;;;;;;;x
+ca_r_lumbermill_l_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_lumbermill_l_3;Sizeable Lemonwood Lumbershack;;;;;;;;;;;;;x
+ca_r_lumbermill_l_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_lumbermill_l_4;Crude Lemonwood Lumberyard;;;;;;;;;;;;;x
+ca_r_lumbermill_l_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_lumbermill_l_5;Established Lemonwood Lumberyard;;;;;;;;;;;;;x
+ca_r_lumbermill_l_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_lumbermill_w_1;Primitive Wolfwood Lumbershack;;;;;;;;;;;;;x
+ca_r_lumbermill_w_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_lumbermill_w_2;Small Wolfwood Lumbershack;;;;;;;;;;;;;x
+ca_r_lumbermill_w_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_lumbermill_w_3;Sizeable Wolfwood Lumbershack;;;;;;;;;;;;;x
+ca_r_lumbermill_w_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_lumbermill_w_4;Crude Wolfwood Lumberyard;;;;;;;;;;;;;x
+ca_r_lumbermill_w_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_lumbermill_w_5;Established Wolfwood Lumberyard;;;;;;;;;;;;;x
+ca_r_lumbermill_w_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_quarry_1;Raw Stone Collection;;;;;;;;;;;;;x
+ca_r_quarry_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_quarry_2;Shallow Quarry;;;;;;;;;;;;;x
+ca_r_quarry_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_quarry_3;Crude Quarry;;;;;;;;;;;;;x
+ca_r_quarry_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_quarry_4;Sizeable Quarry;;;;;;;;;;;;;x
+ca_r_quarry_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_quarry_5;Established Quarry;;;;;;;;;;;;;x
+ca_r_quarry_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_c_1;Shallow Coal Pit;;;;;;;;;;;;;x
+ca_r_mine_c_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_c_2;Primitive Coal Shafts;;;;;;;;;;;;;x
+ca_r_mine_c_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_c_3;Crude Coal Mine;;;;;;;;;;;;;x
+ca_r_mine_c_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_c_4;Sizeable Coal Mine;;;;;;;;;;;;;x
+ca_r_mine_c_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_c_5;Established Coal Mine;;;;;;;;;;;;;x
+ca_r_mine_c_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_sa_1;Shallow Salt Bores;;;;;;;;;;;;;x
+ca_r_mine_sa_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_sa_2;Extensive Salt Bores;;;;;;;;;;;;;x
+ca_r_mine_sa_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_sa_3;Small Salt Mine;;;;;;;;;;;;;x
+ca_r_mine_sa_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_sa_4;Sizeable Salt Mine;;;;;;;;;;;;;x
+ca_r_mine_sa_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_sa_5;Extensive Salt Mine;;;;;;;;;;;;;x
+ca_r_mine_sa_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_quarry_m_1;Primitive Marble Quarry;;;;;;;;;;;;;x
+ca_r_quarry_m_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_quarry_m_2;Crude Marble Quarry;;;;;;;;;;;;;x
+ca_r_quarry_m_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_quarry_m_3;Small Marble Quarry;;;;;;;;;;;;;x
+ca_r_quarry_m_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_quarry_m_4;Sizeable Marble Quarry;;;;;;;;;;;;;x
+ca_r_quarry_m_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_quarry_m_5;Established Marble Quarry;;;;;;;;;;;;;x
+ca_r_quarry_m_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_quarry_gr_1;Primitive Granite Quarry;;;;;;;;;;;;;x
+ca_r_quarry_gr_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_quarry_gr_2;Crude Granite Quarry;;;;;;;;;;;;;x
+ca_r_quarry_gr_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_quarry_gr_3;Small Granite Quarry;;;;;;;;;;;;;x
+ca_r_quarry_gr_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_quarry_gr_4;Sizeable Granite Quarry;;;;;;;;;;;;;x
+ca_r_quarry_gr_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_quarry_gr_5;Established Granite Quarry;;;;;;;;;;;;;x
+ca_r_quarry_gr_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_co_1;Primitive Copper Mine;;;;;;;;;;;;;x
+ca_r_mine_co_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_co_2;Crude Copper Mine;;;;;;;;;;;;;x
+ca_r_mine_co_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_co_3;Small Copper Mine;;;;;;;;;;;;;x
+ca_r_mine_co_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_co_4;Sizeable Copper Mine;;;;;;;;;;;;;x
+ca_r_mine_co_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_co_5;Established Copper Mine;;;;;;;;;;;;;x
+ca_r_mine_co_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_i_1;Primitive Iron Mine;;;;;;;;;;;;;x
+ca_r_mine_i_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_i_2;Crude Iron Mine;;;;;;;;;;;;;x
+ca_r_mine_i_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_i_3;Small Iron Mine;;;;;;;;;;;;;x
+ca_r_mine_i_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_i_4;Sizeable Iron Mine;;;;;;;;;;;;;x
+ca_r_mine_i_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_i_5;Established Iron Mine;;;;;;;;;;;;;x
+ca_r_mine_i_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_s_1;Primitive Silver Mine;;;;;;;;;;;;;x
+ca_r_mine_s_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_s_2;Small Silver Mine;;;;;;;;;;;;;x
+ca_r_mine_s_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_s_3;Sizeable Silver Mine;;;;;;;;;;;;;x
+ca_r_mine_s_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_s_4;Established Silver Mine;;;;;;;;;;;;;x
+ca_r_mine_s_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_s_5;Renowned Silver Mine;;;;;;;;;;;;;x
+ca_r_mine_s_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_g_1;Primitive Gold Mine;;;;;;;;;;;;;x
+ca_r_mine_g_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_g_2;Small Gold Mine;;;;;;;;;;;;;x
+ca_r_mine_g_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_g_3;Sizeable Gold Mine;;;;;;;;;;;;;x
+ca_r_mine_g_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_g_4;Established Gold Mine;;;;;;;;;;;;;x
+ca_r_mine_g_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_g_5;Renowned Gold Mine;;;;;;;;;;;;;x
+ca_r_mine_g_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_d_1;Primitive Diamond Mine;;;;;;;;;;;;;x
+ca_r_mine_d_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_d_2;Small Diamond Mine;;;;;;;;;;;;;x
+ca_r_mine_d_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_d_3;Sizeable Diamond Mine;;;;;;;;;;;;;x
+ca_r_mine_d_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_d_4;Established Diamond Mine;;;;;;;;;;;;;x
+ca_r_mine_d_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_d_5;Renowned Diamond Mine;;;;;;;;;;;;;x
+ca_r_mine_d_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_gm_1;Primitive Gemstone Mine;;;;;;;;;;;;;x
+ca_r_mine_gm_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_gm_2;Small Gemstone Mine;;;;;;;;;;;;;x
+ca_r_mine_gm_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_gm_3;Sizeable Gemstone Mine;;;;;;;;;;;;;x
+ca_r_mine_gm_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_gm_4;Established Gemstone Mine;;;;;;;;;;;;;x
+ca_r_mine_gm_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_gm_5;Renowned Gemstone Mine;;;;;;;;;;;;;x
+ca_r_mine_gm_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_o_1;Primitive Dragonglass Mine;;;;;;;;;;;;;x
+ca_r_mine_o_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_o_2;Small Dragonglass Mine;;;;;;;;;;;;;x
+ca_r_mine_o_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_o_3;Sizeable Dragonglass Mine;;;;;;;;;;;;;x
+ca_r_mine_o_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_o_4;Established Dragonglass Mine;;;;;;;;;;;;;x
+ca_r_mine_o_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mine_o_5;Renowned Dragonglass Mine;;;;;;;;;;;;;x
+ca_r_mine_o_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_seal_hunt_1;Trivial Seal Hunting;;;;;;;;;;;;;x
+ca_r_seal_hunt_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_seal_hunt_2;Insignificant Seal Hunting;;;;;;;;;;;;;x
+ca_r_seal_hunt_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_seal_hunt_3;Sizeable Seal Hunting;;;;;;;;;;;;;x
+ca_r_seal_hunt_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_seal_hunt_4;Established Seal Hunting;;;;;;;;;;;;;x
+ca_r_seal_hunt_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_seal_hunt_5;Extensive Seal Hunting;;;;;;;;;;;;;x
+ca_r_seal_hunt_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_hunt_1;Trivial Hunting;;;;;;;;;;;;;x
+ca_r_hunt_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_hunt_2;Insignificant Hunting;;;;;;;;;;;;;x
+ca_r_hunt_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_hunt_3;Sizeable Hunting;;;;;;;;;;;;;x
+ca_r_hunt_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_hunt_4;Established Hunting;;;;;;;;;;;;;x
+ca_r_hunt_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_hunt_5;Extensive Hunting;;;;;;;;;;;;;x
+ca_r_hunt_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_jewellery_1;Tiny Jeweller;;;;;;;;;;;;;x
+ca_r_jewellery_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_jewellery_2;Small Jeweller;;;;;;;;;;;;;x
+ca_r_jewellery_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_jewellery_3;Sizeable Jeweller;;;;;;;;;;;;;x
+ca_r_jewellery_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_jewellery_4;Established Jeweller;;;;;;;;;;;;;x
+ca_r_jewellery_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_jewellery_5;Renowned Jeweller;;;;;;;;;;;;;x
+ca_r_jewellery_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_precious_fabrics_1;Tiny Fabric Merchant;;;;;;;;;;;;;x
+ca_r_precious_fabrics_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_precious_fabrics_2;Small Fabric Merchant;;;;;;;;;;;;;x
+ca_r_precious_fabrics_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_precious_fabrics_3;Sizeable Fabric Merchant;;;;;;;;;;;;;x
+ca_r_precious_fabrics_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_precious_fabrics_4;Established Fabric Merchant;;;;;;;;;;;;;x
+ca_r_precious_fabrics_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_precious_fabrics_5;Renowned Fabric Merchant;;;;;;;;;;;;;x
+ca_r_precious_fabrics_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_castle_chapel_1;Altar;;;;;;;;;;;;;x
+ca_r_castle_chapel_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_castle_chapel_2;Small Castle Chapel;;;;;;;;;;;;;x
+ca_r_castle_chapel_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_castle_chapel_3;Castle Chapel;;;;;;;;;;;;;x
+ca_r_castle_chapel_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_farming_v_1;Trivial Smallhold Vineyards;;;;;;;;;;;;;x
+ca_r_farming_v_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_farming_v_2;Insignificant Smallhold Vineyards;;;;;;;;;;;;;x
+ca_r_farming_v_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_farming_v_3;Meagre Smallhold Vineyards;;;;;;;;;;;;;x
+ca_r_farming_v_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_farming_v_4;Noteworthy Smallhold Vineyards;;;;;;;;;;;;;x
+ca_r_farming_v_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_farming_v_5;Significant Smallhold Vineyards;;;;;;;;;;;;;x
+ca_r_farming_v_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_farming_v_6;Sprawling Smallhold Vineyards;;;;;;;;;;;;;x
+ca_r_farming_v_6_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_win_1;Local Winery;;;;;;;;;;;;;x
+ca_r_win_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_win_2;Well-Established Local Winery;;;;;;;;;;;;;x
+ca_r_win_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_win_3;Regional Winery;;;;;;;;;;;;;x
+ca_r_win_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_win_4;Well Known Regional Winery;;;;;;;;;;;;;x
+ca_r_win_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_win_5;Renowned Winery;;;;;;;;;;;;;x
+ca_r_win_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_farming_o_1;Trivial Smallhold Orchards;;;;;;;;;;;;;x
+ca_r_farming_o_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_farming_o_2;Insignificant Smallhold Orchards;;;;;;;;;;;;;x
+ca_r_farming_o_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_farming_o_3;Meagre Smallhold Orchards;;;;;;;;;;;;;x
+ca_r_farming_o_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_farming_o_4;Noteworthy Smallhold Orchards;;;;;;;;;;;;;x
+ca_r_farming_o_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_farming_o_5;Significant Smallhold Orchards;;;;;;;;;;;;;x
+ca_r_farming_o_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_farming_o_6;Sprawling Smallhold Orchards;;;;;;;;;;;;;x
+ca_r_farming_o_6_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_pasture_c_1;Trivial Cattle Pastures;;;;;;;;;;;;;x
+ca_r_pasture_c_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_pasture_c_2;Insignificant Cattle Pastures;;;;;;;;;;;;;x
+ca_r_pasture_c_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_pasture_c_3;Meagre Cattle Pastures;;;;;;;;;;;;;x
+ca_r_pasture_c_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_pasture_c_4;Noteworthy Cattle Pastures;;;;;;;;;;;;;x
+ca_r_pasture_c_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_pasture_c_5;Significant Cattle Pastures;;;;;;;;;;;;;x
+ca_r_pasture_c_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_pasture_c_6;Sprawling Cattle Pastures;;;;;;;;;;;;;x
+ca_r_pasture_c_6_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_pasture_s_1;Trivial Sheep Pastures;;;;;;;;;;;;;x
+ca_r_pasture_s_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_pasture_s_2;Insignificant Sheep Pastures;;;;;;;;;;;;;x
+ca_r_pasture_s_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_pasture_s_3;Meagre Sheep Pastures;;;;;;;;;;;;;x
+ca_r_pasture_s_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_pasture_s_4;Noteworthy Sheep Pastures;;;;;;;;;;;;;x
+ca_r_pasture_s_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_pasture_s_5;Significant Sheep Pastures;;;;;;;;;;;;;x
+ca_r_pasture_s_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_pasture_s_6;Sprawling Sheep Pastures;;;;;;;;;;;;;x
+ca_r_pasture_s_6_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_pasture_g_1;Trivial Goat Pastures;;;;;;;;;;;;;x
+ca_r_pasture_g_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_pasture_g_2;Insignificant Goat Pastures;;;;;;;;;;;;;x
+ca_r_pasture_g_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_pasture_g_3;Meagre Goat Pastures;;;;;;;;;;;;;x
+ca_r_pasture_g_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_pasture_g_4;Noteworthy Goat Pastures;;;;;;;;;;;;;x
+ca_r_pasture_g_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_pasture_g_5;Significant Goat Pastures;;;;;;;;;;;;;x
+ca_r_pasture_g_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_pasture_g_6;Sprawling Goat Pastures;;;;;;;;;;;;;x
+ca_r_pasture_g_6_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_fishing_1;Handfishing;;;;;;;;;;;;;x
+ca_r_fishing_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_fishing_2;Organised Handfishing;;;;;;;;;;;;;x
+ca_r_fishing_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_fishing_3;Primitve Coastal Fishing;;;;;;;;;;;;;x
+ca_r_fishing_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_fishing_4;Established Coastal Fishing;;;;;;;;;;;;;x
+ca_r_fishing_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_fishing_5;Well-Established Coastal Fishing;;;;;;;;;;;;;x
+ca_r_fishing_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_fishing_6;Sophisticated Coastal Fishing;;;;;;;;;;;;;x
+ca_r_fishing_6_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_moat_cailin;Moat Cailin;;;;;;;;;;;;;x
+ca_r_moat_cailin_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_wallportion;The Wall;;;;;;;;;;;;;x
+ca_r_wallportion_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_ironwood;Ironwood;;;;;;;;;;;;;x
+ca_r_ironwood_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_starfall;Starfall;;;;;;;;;;;;;x
+ca_r_starfall_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_dreadfort;Dreadfort;;;;;;;;;;;;;x
+ca_r_dreadfort_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_smallbarrow;Smallbarrow;;;;;;;;;;;;;x
+ca_r_smallbarrow_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_greatbarrow;Greatbarrow;;;;;;;;;;;;;x
+ca_r_greatbarrow_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_castamere;Castamere;;;;;;;;;;;;;x
+ca_r_castamere_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_riverrun;Riverrun;;;;;;;;;;;;;x
+ca_r_riverrun_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_hammerhorn_mine;Hammerhorn Mine;;;;;;;;;;;;;x
+ca_r_hammerhorn_mine_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_marchercastle;Marcher Castle;;;;;;;;;;;;;x
+ca_r_marchercastle_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_duskendale;Duskendale;;;;;;;;;;;;;x
+ca_r_duskendale_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_the_arbor;The Arbor;;;;;;;;;;;;;x
+ca_r_the_arbor_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_gates_of_the_moon;Gates of the Moon;;;;;;;;;;;;;x
+ca_r_gates_of_the_moon_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_runestone;Runestone;;;;;;;;;;;;;x
+ca_r_runestone_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_sistermen_keep;Sisterman Keep;;;;;;;;;;;;;x
+ca_r_sistermen_keep_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_sistermen_shipyard;Sisterman Shipyard;;;;;;;;;;;;;x
+ca_r_sistermen_shipyard_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_bloody_gate;Bloody Gate;;;;;;;;;;;;;x
+ca_r_bloody_gate_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_gulltown;Gulltown;;;;;;;;;;;;;x
+ca_r_gulltown_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_hearthome;Hearthome;;;;;;;;;;;;;x
+ca_r_hearthome_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_dun_fort;Dun Fort;;;;;;;;;;;;;x
+ca_r_dun_fort_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_craggon_keep;Craggon Keep;;;;;;;;;;;;;x
+ca_r_craggon_keep_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_raventree_hall;Raventree Hall;;;;;;;;;;;;;x
+ca_r_raventree_hall_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_stone_hedge;Stone Hedge;;;;;;;;;;;;;x
+ca_r_stone_hedge_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_seagard;Seagard;;;;;;;;;;;;;x
+ca_r_seagard_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_maidenpool;Maidenpool;;;;;;;;;;;;;x
+ca_r_maidenpool_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_viceroy_palace;Viceroy's Palace;;;;;;;;;;;;;x
+ca_r_viceroy_palace_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_pyke;Pyke;;;;;;;;;;;;;x
+ca_r_pyke_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_water_gardens;Water Gardens;;;;;;;;;;;;;x
+ca_r_water_gardens_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_boneway_keep;Boneway Keep;;;;;;;;;;;;;x
+ca_r_boneway_keep_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_brightwater_keep;Brightwater Keep;;;;;;;;;;;;;x
+ca_r_brightwater_keep_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_shield_island;Shield Keep;;;;;;;;;;;;;x
+ca_r_shield_island_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_coldmoat;Coldmoat;;;;;;;;;;;;;x
+ca_r_coldmoat_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_horn_hill;Horn Hill;;;;;;;;;;;;;x
+ca_r_horn_hill_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mander_keep;Mander Keep;;;;;;;;;;;;;x
+ca_r_mander_keep_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_lannisport;Lannisport;;;;;;;;;;;;;x
+ca_r_lannisport_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_lannisgate;Lannisgate;;;;;;;;;;;;;x
+ca_r_lannisgate_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_lannisfield;Lanisfield;;;;;;;;;;;;;x
+ca_r_lannisfield_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_crakehall;Crakehall;;;;;;;;;;;;;x
+ca_r_crakehall_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_fair_keep;Fair Keep;;;;;;;;;;;;;x
+ca_r_fair_keep_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_bear_hall;Bear Hall;;;;;;;;;;;;;x
+ca_r_bear_hall_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_deepwood_motte;Deepwood Motte;;;;;;;;;;;;;x
+ca_r_deepwood_motte_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_barrowton;Barrowton;;;;;;;;;;;;;x
+ca_r_barrowton_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_last_hearth;Last Hearth;;;;;;;;;;;;;x
+ca_r_last_hearth_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_greywater_watch;Greywater Watch;;;;;;;;;;;;;x
+ca_r_greywater_watch_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_skagosi_keep;Skagosi Keep;;;;;;;;;;;;;x
+ca_r_skagosi_keep_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_starpike;Starpike;;;;;;;;;;;;;x
+ca_r_starpike_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_titan;Titan;;;;;;;;;;;;;x
+ca_r_titan_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_torrhens_square;Torrhens Square;;;;;;;;;;;;;x
+ca_r_torrhens_square_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_widows_watch;Widows Watch;;;;;;;;;;;;;x
+ca_r_widows_watch_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_wolfsden;Wolfsden;;;;;;;;;;;;;x
+ca_r_wolfsden_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_whiteharbor;Whiteharbour;;;;;;;;;;;;;x
+ca_r_whiteharbor_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_hornwood;Hornwood;;;;;;;;;;;;;x
+ca_r_hornwood_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_flint_keep;Flint Keep;;;;;;;;;;;;;x
+ca_r_flint_keep_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_arrendell;Arrendell;;;;;;;;;;;;;x
+ca_r_arrendell_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_bell_tower;Bell Tower;;;;;;;;;;;;;x
+ca_r_bell_tower_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_svalia;Svalia Hall;;;;;;;;;;;;;x
+ca_r_svalia_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_strongsong;Strongsong;;;;;;;;;;;;;x
+ca_r_strongsong_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_coldwater;Coldwater;;;;;;;;;;;;;x
+ca_r_coldwater_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_snakewood;Snakewod;;;;;;;;;;;;;x
+ca_r_snakewood_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_thumb;Thumb;;;;;;;;;;;;;x
+ca_r_thumb_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_longbow_hall;Longbow Hall;;;;;;;;;;;;;x
+ca_r_longbow_hall_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_hardvale;Hardvale;;;;;;;;;;;;;x
+ca_r_hardvale_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_redfort;Redfort;;;;;;;;;;;;;x
+ca_r_redfort_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_ironoaks;Ironoaks;;;;;;;;;;;;;x
+ca_r_ironoaks_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_saltpans;Saltpans;;;;;;;;;;;;;x
+ca_r_saltpans_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_acorn_hall;Acorn Hall;;;;;;;;;;;;;x
+ca_r_acorn_hall_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_fairmarket;Fairmarket;;;;;;;;;;;;;x
+ca_r_fairmarket_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_pinkmaiden;Pinkmaiden;;;;;;;;;;;;;x
+ca_r_pinkmaiden_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_stoney_sept;Stoney Sept;;;;;;;;;;;;;x
+ca_r_stoney_sept_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_harrowaytown;Harrowaytown;;;;;;;;;;;;;x
+ca_r_harrowaytown_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_tridents_holdfast;Tridents Holdfast;;;;;;;;;;;;;x
+ca_r_tridents_holdfast_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_goodfaith;Goodfaith;;;;;;;;;;;;;x
+ca_r_goodfaith_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_wycombe;Wycombe;;;;;;;;;;;;;x
+ca_r_wycombe_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_chiltern;Chiltern;;;;;;;;;;;;;x
+ca_r_chiltern_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_atranta;Atranta;;;;;;;;;;;;;x
+ca_r_atranta_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_the_crag;The Crag;;;;;;;;;;;;;x
+ca_r_the_crag_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_ashemark;Ashemark;;;;;;;;;;;;;x
+ca_r_ashemark_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_golden_tooth;Golden Tooth;;;;;;;;;;;;;x
+ca_r_golden_tooth_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_payne_hall;Payne Hall;;;;;;;;;;;;;x
+ca_r_payne_hall_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_riverspring;Riverspring;;;;;;;;;;;;;x
+ca_r_riverspring_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_cornfield;Cornfield;;;;;;;;;;;;;x
+ca_r_cornfield_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_bower;Bower;;;;;;;;;;;;;x
+ca_r_bower_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_deep_den;Deep Den;;;;;;;;;;;;;x
+ca_r_deep_den_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_silverhall;Silverhall;;;;;;;;;;;;;x
+ca_r_silverhall_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_hawthorne;Hawthorne;;;;;;;;;;;;;x
+ca_r_hawthorne_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_kayce;Kayce;;;;;;;;;;;;;x
+ca_r_kayce_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_sows_horn;Sows Horn;;;;;;;;;;;;;x
+ca_r_sows_horn_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_stokeworth;Stokeworth;;;;;;;;;;;;;x
+ca_r_stokeworth_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_antlers;Antlers;;;;;;;;;;;;;x
+ca_r_antlers_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_whispers;Whispers;;;;;;;;;;;;;x
+ca_r_whispers_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_dyre_den;Dyre Den;;;;;;;;;;;;;x
+ca_r_dyre_den_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_rooks_rest;Rooks Rest;;;;;;;;;;;;;x
+ca_r_rooks_rest_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_driftmark;Driftmark;;;;;;;;;;;;;x
+ca_r_driftmark_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_sharp_point;Sharp Point;;;;;;;;;;;;;x
+ca_r_sharp_point_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_haystack_hall;Haystack Hall;;;;;;;;;;;;;x
+ca_r_haystack_hall_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_parchments;Parchments;;;;;;;;;;;;;x
+ca_r_parchments_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_bronzegate;Bronzegate;;;;;;;;;;;;;x
+ca_r_bronzegate_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_belland;Belland Way;;;;;;;;;;;;;x
+ca_r_belland_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_waterperry;Waterperry;;;;;;;;;;;;;x
+ca_r_waterperry_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_fellwood;Fellwood;;;;;;;;;;;;;x
+ca_r_fellwood_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_griffins_roost;Griffins Roost;;;;;;;;;;;;;x
+ca_r_griffins_roost_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_crows_nest;Crows Nest;;;;;;;;;;;;;x
+ca_r_crows_nest_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_lockport;Lockport;;;;;;;;;;;;;x
+ca_r_lockport_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_weeping_town;Weeping Town;;;;;;;;;;;;;x
+ca_r_weeping_town_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_mistwood;Mistwood;;;;;;;;;;;;;x
+ca_r_mistwood_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_rain_house;Rain House;;;;;;;;;;;;;x
+ca_r_rain_house_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_greenstone;Greenstone;;;;;;;;;;;;;x
+ca_r_greenstone_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_evenfall;Evenfall;;;;;;;;;;;;;x
+ca_r_evenfall_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_old_oak;Old Oak Hall;;;;;;;;;;;;;x
+ca_r_old_oak_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_goldengrove;Goldengrove;;;;;;;;;;;;;x
+ca_r_goldengrove_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_grassy_vale;Grassy Vale;;;;;;;;;;;;;x
+ca_r_grassy_vale_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_stonebridge;Stonebridge;;;;;;;;;;;;;x
+ca_r_stonebridge_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_longtable;Longtable;;;;;;;;;;;;;x
+ca_r_longtable_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_tumbleton;Tumbleton;;;;;;;;;;;;;x
+ca_r_tumbleton_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_honeyholt;Honeyholt;;;;;;;;;;;;;x
+ca_r_honeyholt_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_bandallon;Bandallon;;;;;;;;;;;;;x
+ca_r_bandallon_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_blackcrown;Blackcrown;;;;;;;;;;;;;x
+ca_r_blackcrown_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_three_towers;Three Towers;;;;;;;;;;;;;x
+ca_r_three_towers_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_sunhouse;Sunhouse;;;;;;;;;;;;;x
+ca_r_sunhouse_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_blackmont;Blackmont;;;;;;;;;;;;;x
+ca_r_blackmont_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_high_hermitage;High Hermitage;;;;;;;;;;;;;x
+ca_r_high_hermitage_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_kingsgrave;Kingsgrave;;;;;;;;;;;;;x
+ca_r_kingsgrave_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_vulture_keep;Vulture Keep;;;;;;;;;;;;;x
+ca_r_vulture_keep_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_ghaston_grey;Ghaston Grey;;;;;;;;;;;;;x
+ca_r_ghaston_grey_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_sandstone;Sandstone;;;;;;;;;;;;;x
+ca_r_sandstone_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_hellholt;Hellholt;;;;;;;;;;;;;x
+ca_r_hellholt_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_vaith;Vaith;;;;;;;;;;;;;x
+ca_r_vaith_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_salt_shore;Salt Shore;;;;;;;;;;;;;x
+ca_r_salt_shore_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_godsgrace;Godsgrace;;;;;;;;;;;;;x
+ca_r_godsgrace_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_lemonwood;Lemonwood;;;;;;;;;;;;;x
+ca_r_lemonwood_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_the_tor;The Tor;;;;;;;;;;;;;x
+ca_r_the_tor_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_plankytown;Plankytown;;;;;;;;;;;;;x
+ca_r_plankytown_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_ghost_hill;Ghost Hill;;;;;;;;;;;;;x
+ca_r_ghost_hill_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_spotswood;Spotswood;;;;;;;;;;;;;x
+ca_r_spotswood_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_glimmering;Glimmering House;;;;;;;;;;;;;x
+ca_r_glimmering_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_ten_towers;Ten Towers;;;;;;;;;;;;;x
+ca_r_ten_towers_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_harlaw_hill;Harlaw Hill;;;;;;;;;;;;;x
+ca_r_harlaw_hill_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_langaanes;Langaanes;;;;;;;;;;;;;x
+ca_r_langaanes_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_lordsport;Lordsport;;;;;;;;;;;;;x
+ca_r_lordsport_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_lonely_light;Lonely Light;;;;;;;;;;;;;x
+ca_r_lonely_light_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_pebbleton;Pebbleton;;;;;;;;;;;;;x
+ca_r_pebbleton_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_naggas_hill;Naggas Hill;;;;;;;;;;;;;x
+ca_r_naggas_hill_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_shatterstone;Shatterstone Keep;;;;;;;;;;;;;x
+ca_r_shatterstone_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_drumm_tower;Drumm Tower;;;;;;;;;;;;;x
+ca_r_drumm_tower_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_hammerhorn;Hammerhorn Keep;;;;;;;;;;;;;x
+ca_r_hammerhorn_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_crow_spike_keep;Crow Spike Keep;;;;;;;;;;;;;x
+ca_r_crow_spike_keep_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_blacktyde;Blacktyde;;;;;;;;;;;;;x
+ca_r_blacktyde_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_sealskin_point;Sealskin Point;;;;;;;;;;;;;x
+ca_r_sealskin_point_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_dragonmont;Dragonmont;;;;;;;;;;;;;x
+ca_r_dragonmont_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_skyreach;Skyreach;;;;;;;;;;;;;x
+ca_r_skyreach_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_hornvale;Hornvale;;;;;;;;;;;;;x
+ca_r_hornvale_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_darry;Darry;;;;;;;;;;;;;x
+ca_r_darry_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_rosby;Rosby;;;;;;;;;;;;;x
+ca_r_rosby_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_last_refuge;Last Refuge;;;;;;;;;;;;;x
+ca_r_last_refuge_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_wayfarer;Wayfarer's Rest;;;;;;;;;;;;;x
+ca_r_wayfarer_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_banefort;Banefort;;;;;;;;;;;;;x
+ca_r_banefort_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_harrenhal;Harrenhal;;;;;;;;;;;;;x
+ca_r_harrenhal_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_harrenhal_towers;Harrenhal Towers;;;;;;;;;;;;;x
+ca_r_harrenhal_towers_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_sunspear;Sunspear;;;;;;;;;;;;;x
+ca_r_sunspear_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_twins_east;Eastern Twins;;;;;;;;;;;;;x
+ca_r_twins_east_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+ca_r_twins_west;Western Twins;;;;;;;;;;;;;x
+ca_r_twins_west_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x

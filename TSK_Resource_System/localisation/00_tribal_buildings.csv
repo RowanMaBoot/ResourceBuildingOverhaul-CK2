@@ -1,0 +1,332 @@
+tb_r_settlement_1;Dispersed Nomadic Camps;;;;;;;;;;;;;x
+tb_r_settlement_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_settlement_2;Large Clustered Nomadic Camps;;;;;;;;;;;;;x
+tb_r_settlement_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_settlement_3;Small Semi-permanent Camps;;;;;;;;;;;;;x
+tb_r_settlement_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_settlement_4;Noteworthy Semi-permanent Camps;;;;;;;;;;;;;x
+tb_r_settlement_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_settlement_5;Small Tribal Village;;;;;;;;;;;;;x
+tb_r_settlement_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_settlement_6;Growing Tribal Village;;;;;;;;;;;;;x
+tb_r_settlement_6_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_settlement_7;Established Tribal Village;;;;;;;;;;;;;x
+tb_r_settlement_7_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_settlement_8;Large Tribal Village;;;;;;;;;;;;;x
+tb_r_settlement_8_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_settlement_9;Expansive Tribal Villages;;;;;;;;;;;;;x
+tb_r_settlement_9_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_settlement_10;Sprawling Tribal Settlement;;;;;;;;;;;;;x
+tb_r_settlement_10_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_walls_1;Primitive Breastwork;;;;;;;;;;;;;x
+tb_r_walls_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_walls_2;Extensive Breastwork;;;;;;;;;;;;;x
+tb_r_walls_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_walls_3;Crude Wooden Fencing;;;;;;;;;;;;;x
+tb_r_walls_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_walls_4;Stockade;;;;;;;;;;;;;x
+tb_r_walls_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_walls_5;Palisade Walls;;;;;;;;;;;;;x
+tb_r_walls_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_walls_6;Wooden Walls;;;;;;;;;;;;;x
+tb_r_walls_6_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_walls_7;Wood and Stone Walls;;;;;;;;;;;;;x
+tb_r_walls_7_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_walls_8;Stone Walls;;;;;;;;;;;;;x
+tb_r_walls_8_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_market_1;Isolated Market Stalls;;;;;;;;;;;;;x
+tb_r_market_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_market_2;Tiny Marketplace;;;;;;;;;;;;;x
+tb_r_market_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_market_3;Small Marketplace;;;;;;;;;;;;;x
+tb_r_market_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_market_4;Sizeable Marketplace;;;;;;;;;;;;;x
+tb_r_market_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_market_5;Established Marketplace;;;;;;;;;;;;;x
+tb_r_market_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_market_6;Busy Marketplace;;;;;;;;;;;;;x
+tb_r_market_6_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_market_7;Bustling Marketplace;;;;;;;;;;;;;x
+tb_r_market_7_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_granary_1;Sparse Hidden Food Caches;;;;;;;;;;;;;x
+tb_r_granary_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_granary_2;Sizeable Hidden Food Caches;;;;;;;;;;;;;x
+tb_r_granary_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_granary_3;Large Hidden Food Caches;;;;;;;;;;;;;x
+tb_r_granary_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_granary_4;Tribal Granaries;;;;;;;;;;;;;x
+tb_r_granary_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_granary_5;Established Tribal Granaries;;;;;;;;;;;;;x
+tb_r_granary_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_training_grounds_1;Primitive Warrior Training Grounds;;;;;;;;;;;;;x
+tb_r_training_grounds_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_training_grounds_2;Overburdened Tribal Training Grounds;;;;;;;;;;;;;x
+tb_r_training_grounds_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_training_grounds_3;Warrior Training Grounds;;;;;;;;;;;;;x
+tb_r_training_grounds_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_training_grounds_4;Established Warrior Training Grounds;;;;;;;;;;;;;x
+tb_r_training_grounds_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_training_grounds_5;Well-Established Warrior Training Grounds;;;;;;;;;;;;;x
+tb_r_training_grounds_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_training_grounds_6;Renowned Warrior Training Grounds;;;;;;;;;;;;;x
+tb_r_training_grounds_6_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_elders_1;Rare Elder Gatherings;;;;;;;;;;;;;x
+tb_r_elders_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_elders_2;Infrequent Elder Gatherings;;;;;;;;;;;;;x
+tb_r_elders_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_elders_3;Irregular Elder Gatherings;;;;;;;;;;;;;x
+tb_r_elders_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_elders_4;Regular Elder Gatherings;;;;;;;;;;;;;x
+tb_r_elders_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_elders_5;Frequent Elder Gatherings;;;;;;;;;;;;;x
+tb_r_elders_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_port_1;Primitive Tribal Pier;;;;;;;;;;;;;x
+tb_r_port_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_port_2;Rudimentry Tribal Pier;;;;;;;;;;;;;x
+tb_r_port_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_port_3;Well-Established Tribal Pier;;;;;;;;;;;;;x
+tb_r_port_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_port_4;Tribal Harbour;;;;;;;;;;;;;x
+tb_r_port_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_smith_1;Primitive Tribal Forge;;;;;;;;;;;;;x
+tb_r_smith_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_smith_2;Crude Tribal Forge;;;;;;;;;;;;;x
+tb_r_smith_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_smith_3;Established Tribal Forge;;;;;;;;;;;;;x
+tb_r_smith_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_smith_4;IV:Sizeable Tribal Forge;;;;;;;;;;;;;x
+tb_r_smith_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_smith_5;Large Tribal Forge;;;;;;;;;;;;;x
+tb_r_smith_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_far_sus_1;Primitive Sustenance Farming;;;;;;;;;;;;;x
+tb_r_far_sus_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_far_sus_2;Inefficient Sustenance Farming;;;;;;;;;;;;;x
+tb_r_far_sus_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_far_sus_3;Sustenance Farming;;;;;;;;;;;;;x
+tb_r_far_sus_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_far_sus_4;Well-Established Sustenance Farming;;;;;;;;;;;;;x
+tb_r_far_sus_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_far_sus_5;Efficient Sustenance Farming;;;;;;;;;;;;;x
+tb_r_far_sus_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_far_sus_6;Abundant Sustenance Farming;;;;;;;;;;;;;x
+tb_r_far_sus_6_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_lumbermill_k_1;Primitive Kingswood Lumbershack;;;;;;;;;;;;;x
+tb_r_lumbermill_k_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_lumbermill_k_2;Small Kingswood Lumbershack;;;;;;;;;;;;;x
+tb_r_lumbermill_k_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_lumbermill_k_3;Sizeable Kingswood Lumbershack;;;;;;;;;;;;;x
+tb_r_lumbermill_k_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_lumbermill_k_4;Crude Kingswood Lumberyard;;;;;;;;;;;;;x
+tb_r_lumbermill_k_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_lumbermill_k_5;Established Kingswood Lumberyard;;;;;;;;;;;;;x
+tb_r_lumbermill_k_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_lumbermill_r_1;Primitive Rainwood Lumbershack;;;;;;;;;;;;;x
+tb_r_lumbermill_r_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_lumbermill_r_2;Small Rainwood Lumbershack;;;;;;;;;;;;;x
+tb_r_lumbermill_r_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_lumbermill_r_3;Sizeable Rainwood Lumbershack;;;;;;;;;;;;;x
+tb_r_lumbermill_r_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_lumbermill_r_4;Crude Rainwood Lumberyard;;;;;;;;;;;;;x
+tb_r_lumbermill_r_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_lumbermill_r_5;Established Rainwood Lumberyard;;;;;;;;;;;;;x
+tb_r_lumbermill_r_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_lumbermill_m_1;Primitive Mistwood Lumbershack;;;;;;;;;;;;;x
+tb_r_lumbermill_m_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_lumbermill_m_2;Small Mistwood Lumbershack;;;;;;;;;;;;;x
+tb_r_lumbermill_m_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_lumbermill_m_3;Sizeable Mistwood Lumbershack;;;;;;;;;;;;;x
+tb_r_lumbermill_m_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_lumbermill_m_4;Crude Mistwood Lumberyard;;;;;;;;;;;;;x
+tb_r_lumbermill_m_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_lumbermill_m_5;Established Mistwood Lumberyard;;;;;;;;;;;;;x
+tb_r_lumbermill_m_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_lumbermill_l_1;Primitive Lemonwood Lumbershack;;;;;;;;;;;;;x
+tb_r_lumbermill_l_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_lumbermill_l_2;Small Lemonwood Lumbershack;;;;;;;;;;;;;x
+tb_r_lumbermill_l_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_lumbermill_l_3;Sizeable Lemonwood Lumbershack;;;;;;;;;;;;;x
+tb_r_lumbermill_l_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_lumbermill_l_4;Crude Lemonwood Lumberyard;;;;;;;;;;;;;x
+tb_r_lumbermill_l_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_lumbermill_l_5;Established Lemonwood Lumberyard;;;;;;;;;;;;;x
+tb_r_lumbermill_l_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_lumbermill_w_1;Primitive Wolfwood Lumbershack;;;;;;;;;;;;;x
+tb_r_lumbermill_w_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_lumbermill_w_2;Small Wolfwood Lumbershack;;;;;;;;;;;;;x
+tb_r_lumbermill_w_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_lumbermill_w_3;Sizeable Wolfwood Lumbershack;;;;;;;;;;;;;x
+tb_r_lumbermill_w_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_lumbermill_w_4;Crude Wolfwood Lumberyard;;;;;;;;;;;;;x
+tb_r_lumbermill_w_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_lumbermill_w_5;Established Wolfwood Lumberyard;;;;;;;;;;;;;x
+tb_r_lumbermill_w_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_quarry_1;Raw Stone Collection;;;;;;;;;;;;;x
+tb_r_quarry_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_quarry_2;Shallow Quarry;;;;;;;;;;;;;x
+tb_r_quarry_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_quarry_3;Crude Quarry;;;;;;;;;;;;;x
+tb_r_quarry_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_quarry_4;Sizeable Quarry;;;;;;;;;;;;;x
+tb_r_quarry_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_quarry_5;Established Quarry;;;;;;;;;;;;;x
+tb_r_quarry_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_c_1;Shallow Coal Pit;;;;;;;;;;;;;x
+tb_r_mine_c_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_c_2;Primitive Coal Shafts;;;;;;;;;;;;;x
+tb_r_mine_c_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_c_3;Crude Coal Mine;;;;;;;;;;;;;x
+tb_r_mine_c_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_c_4;Sizeable Coal Mine;;;;;;;;;;;;;x
+tb_r_mine_c_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_c_5;Established Coal Mine;;;;;;;;;;;;;x
+tb_r_mine_c_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_sa_1;Shallow Salt Bores;;;;;;;;;;;;;x
+tb_r_mine_sa_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_sa_2;Extensive Salt Bores;;;;;;;;;;;;;x
+tb_r_mine_sa_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_sa_3;Small Salt Mine;;;;;;;;;;;;;x
+tb_r_mine_sa_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_sa_4;Sizeable Salt Mine;;;;;;;;;;;;;x
+tb_r_mine_sa_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_sa_5;Extensive Salt Mine;;;;;;;;;;;;;x
+tb_r_mine_sa_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_quarry_m_1;Primitive Marble Quarry;;;;;;;;;;;;;x
+tb_r_quarry_m_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_quarry_m_2;Crude Marble Quarry;;;;;;;;;;;;;x
+tb_r_quarry_m_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_quarry_m_3;Small Marble Quarry;;;;;;;;;;;;;x
+tb_r_quarry_m_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_quarry_m_4;Sizeable Marble Quarry;;;;;;;;;;;;;x
+tb_r_quarry_m_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_quarry_m_5;Established Marble Quarry;;;;;;;;;;;;;x
+tb_r_quarry_m_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_quarry_gr_1;Primitive Granite Quarry;;;;;;;;;;;;;x
+tb_r_quarry_gr_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_quarry_gr_2;Crude Granite Quarry;;;;;;;;;;;;;x
+tb_r_quarry_gr_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_quarry_gr_3;Small Granite Quarry;;;;;;;;;;;;;x
+tb_r_quarry_gr_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_quarry_gr_4;Sizeable Granite Quarry;;;;;;;;;;;;;x
+tb_r_quarry_gr_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_quarry_gr_5;Established Granite Quarry;;;;;;;;;;;;;x
+tb_r_quarry_gr_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_co_1;Primitive Copper Mine;;;;;;;;;;;;;x
+tb_r_mine_co_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_co_2;Crude Copper Mine;;;;;;;;;;;;;x
+tb_r_mine_co_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_co_3;Small Copper Mine;;;;;;;;;;;;;x
+tb_r_mine_co_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_co_4;Sizeable Copper Mine;;;;;;;;;;;;;x
+tb_r_mine_co_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_co_5;Established Copper Mine;;;;;;;;;;;;;x
+tb_r_mine_co_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_i_1;Primitive Iron Mine;;;;;;;;;;;;;x
+tb_r_mine_i_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_i_2;Crude Iron Mine;;;;;;;;;;;;;x
+tb_r_mine_i_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_i_3;Small Iron Mine;;;;;;;;;;;;;x
+tb_r_mine_i_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_i_4;Sizeable Iron Mine;;;;;;;;;;;;;x
+tb_r_mine_i_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_i_5;Established Iron Mine;;;;;;;;;;;;;x
+tb_r_mine_i_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_s_1;Primitive Silver Mine;;;;;;;;;;;;;x
+tb_r_mine_s_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_s_2;Small Silver Mine;;;;;;;;;;;;;x
+tb_r_mine_s_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_s_3;Sizeable Silver Mine;;;;;;;;;;;;;x
+tb_r_mine_s_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_s_4;Established Silver Mine;;;;;;;;;;;;;x
+tb_r_mine_s_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_s_5;Renowned Silver Mine;;;;;;;;;;;;;x
+tb_r_mine_s_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_g_1;Primitive Gold Mine;;;;;;;;;;;;;x
+tb_r_mine_g_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_g_2;Small Gold Mine;;;;;;;;;;;;;x
+tb_r_mine_g_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_g_3;Sizeable Gold Mine;;;;;;;;;;;;;x
+tb_r_mine_g_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_g_4;Established Gold Mine;;;;;;;;;;;;;x
+tb_r_mine_g_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_g_5;Renowned Gold Mine;;;;;;;;;;;;;x
+tb_r_mine_g_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_d_1;Primitive Diamond Mine;;;;;;;;;;;;;x
+tb_r_mine_d_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_d_2;Small Diamond Mine;;;;;;;;;;;;;x
+tb_r_mine_d_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_d_3;Sizeable Diamond Mine;;;;;;;;;;;;;x
+tb_r_mine_d_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_d_4;Established Diamond Mine;;;;;;;;;;;;;x
+tb_r_mine_d_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_d_5;Renowned Diamond Mine;;;;;;;;;;;;;x
+tb_r_mine_d_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_gm_1;Primitive Gemstone Mine;;;;;;;;;;;;;x
+tb_r_mine_gm_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_gm_2;Small Gemstone Mine;;;;;;;;;;;;;x
+tb_r_mine_gm_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_gm_3;Sizeable Gemstone Mine;;;;;;;;;;;;;x
+tb_r_mine_gm_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_gm_4;Established Gemstone Mine;;;;;;;;;;;;;x
+tb_r_mine_gm_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_gm_5;Renowned Gemstone Mine;;;;;;;;;;;;;x
+tb_r_mine_gm_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_o_1;Primitive Dragonglass Mine;;;;;;;;;;;;;x
+tb_r_mine_o_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_o_2;Small Dragonglass Mine;;;;;;;;;;;;;x
+tb_r_mine_o_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_o_3;Sizeable Dragonglass Mine;;;;;;;;;;;;;x
+tb_r_mine_o_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_o_4;Established Dragonglass Mine;;;;;;;;;;;;;x
+tb_r_mine_o_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_mine_o_5;Renowned Dragonglass Mine;;;;;;;;;;;;;x
+tb_r_mine_o_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_seal_hunt_1;Trivial Seal Hunting;;;;;;;;;;;;;x
+tb_r_seal_hunt_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_seal_hunt_2;Insignificant Seal Hunting;;;;;;;;;;;;;x
+tb_r_seal_hunt_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_seal_hunt_3;Sizeable Seal Hunting;;;;;;;;;;;;;x
+tb_r_seal_hunt_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_seal_hunt_4;Established Seal Hunting;;;;;;;;;;;;;x
+tb_r_seal_hunt_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_seal_hunt_5;Extensive Seal Hunting;;;;;;;;;;;;;x
+tb_r_seal_hunt_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_hunt_1;Trivial Hunting;;;;;;;;;;;;;x
+tb_r_hunt_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_hunt_2;Insignificant Hunting;;;;;;;;;;;;;x
+tb_r_hunt_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_hunt_3;Sizeable Hunting;;;;;;;;;;;;;x
+tb_r_hunt_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_hunt_4;Established Hunting;;;;;;;;;;;;;x
+tb_r_hunt_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_hunt_5;Extensive Hunting;;;;;;;;;;;;;x
+tb_r_hunt_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_jewellery_1;Tiny Jeweller;;;;;;;;;;;;;x
+tb_r_jewellery_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_jewellery_2;Small Jeweller;;;;;;;;;;;;;x
+tb_r_jewellery_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_jewellery_3;Sizeable Jeweller;;;;;;;;;;;;;x
+tb_r_jewellery_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_jewellery_4;Established Jeweller;;;;;;;;;;;;;x
+tb_r_jewellery_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_jewellery_5;Renowned Jeweller;;;;;;;;;;;;;x
+tb_r_jewellery_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_precious_fabrics_1;Tiny Fabric Merchant;;;;;;;;;;;;;x
+tb_r_precious_fabrics_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_precious_fabrics_2;Small Fabric Merchant;;;;;;;;;;;;;x
+tb_r_precious_fabrics_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_precious_fabrics_3;Sizeable Fabric Merchant;;;;;;;;;;;;;x
+tb_r_precious_fabrics_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_precious_fabrics_4;Established Fabric Merchant;;;;;;;;;;;;;x
+tb_r_precious_fabrics_4_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_precious_fabrics_5;Renowned Fabric Merchant;;;;;;;;;;;;;x
+tb_r_precious_fabrics_5_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_shrine_1;Secluded Grove;;;;;;;;;;;;;x
+tb_r_shrine_1_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_shrine_2;Sacred Grove;;;;;;;;;;;;;x
+tb_r_shrine_2_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_shrine_3;Sacred Grounds;;;;;;;;;;;;;x
+tb_r_shrine_3_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_hardhome;Hardhome;;;;;;;;;;;;;x
+tb_r_hardhome_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x
+tb_r_fistofthefirstmen;Fist of the First Men;;;;;;;;;;;;;x
+tb_r_fistofthefirstmen_desc;PLACEHOLDER DESC;;;;;;;;;;;;;x

@@ -1,0 +1,15 @@
+# Written by Rowan
+
+#This file governs starting buildings for hand-selected provinces, and is awarded in 00_core_building_setup.txt event core_building_setup.1
+
+tsk_infra_constantinople_effect = {
+	add_building = ca_r_settlement_10
+	add_building = ca_r_walls_9
+	add_building = ca_r_town_9
+	add_building = ca_r_recruit_5
+	add_building = ca_r_barracks_7
+	add_building = ca_r_stables_7
+	add_building = ca_r_smith_7
+	add_building = ca_r_far_sus_6
+	add_building = ca_r_castle_chapel_3
+}

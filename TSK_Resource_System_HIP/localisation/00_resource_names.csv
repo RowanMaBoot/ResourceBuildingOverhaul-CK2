@@ -1,0 +1,65 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kingswood;Kingswood;;;;;;;;;;;;;x
+rainwood;Rainwood;;;;;;;;;;;;;x
+mistwood;Mistwood;;;;;;;;;;;;;x
+lemonwood;Lemonwood;;;;;;;;;;;;;x
+wolfswood;Wolfswood;;;;;;;;;;;;;x
+flint;Flint;;;;;;;;;;;;;x
+flint_desc;Flint is abundant and easy to come by in this region.;;;;;;;;;;;;;x
+coal;Coal;;;;;;;;;;;;;x
+coal_desc;Coal is abundant in this region, and easily exploited.;;;;;;;;;;;;;x
+salt;Salt;;;;;;;;;;;;;x
+copper;Copper;;;;;;;;;;;;;x
+copper_desc;Copper deposits allows for construction of higher tier blacksmiths (1-7) within this province.;;;;;;;;;;;;;x
+tin;Tin;;;;;;;;;;;;;x
+tin_desc;The presence of tin deposits allows for construction of higher tier blacksmiths (1-7) within this province.;;;;;;;;;;;;;x
+iron;Iron;;;;;;;;;;;;;x
+iron_desc;The presence of iron in this province allows for higher tier weaponsmiths (1-6), armoursmiths (1-6) and blacksmiths (1-7) within this province.;;;;;;;;;;;;;x
+steel;Steel;;;;;;;;;;;;;x
+steel_desc;The presence of steel  in this province allows for higher tier weaponsmiths (1-7), armoursmiths (1-7) and blacksmiths (1-7) within this province.;;;;;;;;;;;;;x
+silver;Silver;;;;;;;;;;;;;x
+gold;Gold;;;;;;;;;;;;;x
+marble;Marble;;;;;;;;;;;;;x
+granite;Granite;;;;;;;;;;;;;x
+northern_gems;Northern Gemstones;;;;;;;;;;;;;x
+diamonds;Diamonds;;;;;;;;;;;;;x
+obsidian;Obsidian;;;;;;;;;;;;;x
+seals;Seals;;;;;;;;;;;;;x
+spice;Spices;;;;;;;;;;;;;x
+jewellery;Jewelery;;;;;;;;;;;;;x
+precious_fabrics;Precious Fabrics;;;;;;;;;;;;;x
+cheese;Cheese;;;;;;;;;;;;;x
+honey;Honey;;;;;;;;;;;;;x
+lumber;Lumber;;;;;;;;;;;;;x
+livestock;Livestock;;;;;;;;;;;;;x
+grain;Grain;;;;;;;;;;;;;x
+fish;Fish;;;;;;;;;;;;;x
+game;Game;;;;;;;;;;;;;x
+tsk_arctic;Arctic;;;;;;;;;;;;;x
+tsk_arid;Arid;;;;;;;;;;;;;x
+tsk_lush;Lush;;;;;;;;;;;;;x
+tsk_fruitful;Fruitful;;;;;;;;;;;;;x
+tsk_bleak;Bleak;;;;;;;;;;;;;x
+tsk_desolate;Desolate;;;;;;;;;;;;;x
+tsk_volcanic;Volcanic;;;;;;;;;;;;;x
+tsk_ravaged;Ravaged;;;;;;;;;;;;;x
+tsk_major_population_centre;Major Population Center;;;;;;;;;;;;;x
+tsk_minor_centre_of_trade;Minor Center of Trade;;;;;;;;;;;;;x
+tsk_centre_of_trade;Center of Trade;;;;;;;;;;;;;x
+tsk_natural_harbour;Natural Harbor;;;;;;;;;;;;;x
+tsk_major_natural_harbour;Significant Natural Harbor;;;;;;;;;;;;;x
+tsk_wall;The Wall;;;;;;;;;;;;;x
+tsk_infra_1;I: Primitive Regional Infrastructure;;;;;;;;;;;;;x
+tsk_infra_2;II: Rudimentary Regional Infrastructure;;;;;;;;;;;;;x
+tsk_infra_3;III: Basic Regional Infrastructure;;;;;;;;;;;;;x
+tsk_infra_4;IV: Developed Regional Infrastructure;;;;;;;;;;;;;x
+tsk_infra_5;V: Elaborate Regional Infrastructure;;;;;;;;;;;;;x
+tsk_road_1;I: Gravel Road Network;;;;;;;;;;;;;x
+tsk_road_2;II: Rudimentary Cobbled Road Network;;;;;;;;;;;;;x
+tsk_road_3;III: Cobbled Road Network;;;;;;;;;;;;;x
+tsk_road_4;IV: Brick Road Network;;;;;;;;;;;;;x
+tsk_road_5;V: Paved Road Network;;;;;;;;;;;;;x
+upgrade_regional_infrastructure;Improve Province Infrastructure;;;;;;;;;;;;;x
+upgrade_regional_infrastructure_desc;Upgrades the infrastructure in the region, allowing for greater investment into local baronies, but at great cost.;;;;;;;;;;;;;x
+upgrade_road_infrastructure;Improve Province Roads;;;;;;;;;;;;;x
+upgrade_road_infrastructure_desc;Improves the road networks through targeted investments, bolstering trade, and reducing the cost of future investments.;;;;;;;;;;;;;x

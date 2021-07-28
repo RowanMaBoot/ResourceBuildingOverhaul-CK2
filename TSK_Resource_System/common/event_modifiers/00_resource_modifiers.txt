@@ -1,0 +1,263 @@
+# Economic Modifiers
+# These modifiers are assigned to provinces through the 00_core_resource_allocation event.
+# Special effects may be provided through the modifier directly, or by the building that requires it's presence.
+
+
+# Raw Resources
+
+kingswood = {
+	icon = 139 # Generic Trade
+	
+	tradevalue = 5
+	local_build_cost_modifier = -0.05
+}
+
+rainwood = {
+	icon = 139 # Generic Trade
+	
+	tradevalue = 5
+	local_build_cost_modifier = -0.05
+}
+
+mistwood = {
+	icon = 139 # Generic Trade
+	
+	tradevalue = 5
+	local_build_cost_modifier = -0.05
+}
+
+lemonwood = {
+	icon = 139 # Generic Trade
+	
+	tradevalue = 5
+	local_build_cost_modifier = -0.05
+}
+
+wolfswood = {
+	icon = 139 # Generic Trade
+	
+	tradevalue = 5
+	local_build_cost_modifier = -0.05
+}
+
+lumber = {
+	icon = 139 # Generic Trade
+	
+	tradevalue = 5
+	local_build_cost_modifier = -0.05
+}
+
+flint = {
+	icon = 139 # Generic Trade
+	
+	tradevalue = 5
+	local_build_time_modifier = -0.05
+}
+
+coal = {
+	icon = 139 # Generic Trade
+	
+	tradevalue = 5
+	local_build_time_modifier = -0.05
+}
+
+salt = {
+	icon = 139 # Generic Trade
+	
+	tradevalue = 9
+	local_build_time_modifier = -0.05
+	local_tax_modifier = 0.03
+}
+
+copper = {
+	icon = 139 # Generic Trade
+	
+	tradevalue = 7
+	local_build_time_modifier = -0.03
+	local_tax_modifier = 0.025
+}
+
+# Crackclaw Point
+tin = {
+	icon = 139 # Generic Trade
+	
+	tradevalue = 5
+	local_build_time_modifier = -0.03
+	local_tax_modifier = 0.01
+}
+
+iron = {
+	icon = 141 # Iron Icon
+	
+	tradevalue = 6
+	local_build_time_modifier = -0.05
+	local_tax_modifier = 0.015
+}
+
+steel = {
+	icon = 142 # Steel Icon
+	
+	tradevalue = 8
+	local_build_time_modifier = -0.05
+	local_tax_modifier = 0.02
+}
+
+silver = {
+	icon = 136 # Silver Bar
+	
+	tradevalue = 6
+	local_build_time_modifier = -0.04
+	local_tax_modifier = 0.03
+}
+
+gold = {
+	icon = 135 # Gold Bar
+	
+	tradevalue = 7
+	local_build_time_modifier = -0.05
+	local_tax_modifier = 0.04
+}
+
+marble = {
+	icon = 139 # Generic Trade
+	
+	tradevalue = 10
+	local_build_cost_modifier = -0.05
+	local_build_cost_modifier = -0.025
+}
+
+granite = {
+	icon = 139 # Generic Trade
+	
+	tradevalue = 7
+	local_build_cost_modifier = -0.035
+	local_build_cost_modifier = -0.05
+}
+
+northern_gems = {
+	icon = 140 # Special Trade
+	
+	tradevalue = 11
+	local_tax_modifier = 0.025
+}
+
+diamonds = {
+	icon = 140 # Special Trade
+	
+	tradevalue = 12
+	local_tax_modifier = 0.025
+}
+
+obsidian = {
+	icon = 140 # Special Trade
+	
+	tradevalue = 10
+	local_tax_modifier = 0.025
+}
+
+seals = {
+	icon = 139 # Generic Trade
+	
+	tradevalue = 7
+	local_build_time_modifier = -0.025
+	local_tax_modifier = 0.015
+}
+
+cheese = {
+	icon = 139 # Generic Trade
+	
+	tradevalue = 7
+	local_build_time_modifier = -0.025
+	local_tax_modifier = 0.02
+}
+
+mouse_cheese = {
+	icon = 139 # Generic Trade
+	
+	tradevalue = 5
+	local_build_time_modifier = -0.01
+	local_tax_modifier = 0.01
+}
+
+honey = {
+	icon = 139 # Generic Trade
+	
+	tradevalue = 9
+	local_build_time_modifier = -0.01
+	local_tax_modifier = 0.025
+}
+
+livestock = {
+	icon = 139 # Generic Trade
+	
+	tradevalue = 7
+	local_build_time_modifier = -0.02
+	local_tax_modifier = 0.015
+}
+
+grain = {
+	icon = 139 # Generic Trade
+	
+	tradevalue = 5
+	local_build_time_modifier = -0.025
+	local_tax_modifier = 0.01
+}
+
+fish = {
+	icon = 139 # Generic Trade
+	
+	tradevalue = 5
+	local_build_time_modifier = -0.025
+	local_tax_modifier = 0.01
+}
+
+game = {
+	icon = 139 # Generic Trade
+	
+	tradevalue = 5
+	local_build_time_modifier = -0.025
+	local_tax_modifier = 0.015
+}
+
+thoroughbreds = {
+	icon = 139 # Generic Trade
+	
+	tradevalue = 5
+	local_build_time_modifier = -0.025
+	local_tax_modifier = 0.015
+}
+
+# Regional based buildings account for the southern vineyards, but some counties have something special about the grapes (and the wine) sourced from them. This resource accounts for those provinces.
+exceptional_grapes = {
+	icon = 140 # Special Trade
+	
+	tradevalue = 10
+	local_build_time_modifier = -0.025
+	local_tax_modifier = 0.015
+}
+
+# Trade Goods
+
+spice = {
+	icon = 140 # Special Trade
+	
+	tradevalue = 15
+	local_build_time_modifier = -0.025
+	local_build_cost_modifier = -0.025
+}
+
+jewellery = {
+	icon = 140 # Special Trade
+	
+	tradevalue = 15
+	local_build_time_modifier = -0.025
+	local_build_cost_modifier = -0.025
+}
+
+precious_fabrics = {
+	icon = 140 # Special Trade
+	
+	tradevalue = 15
+	local_build_time_modifier = -0.025
+	local_build_cost_modifier = -0.025
+}

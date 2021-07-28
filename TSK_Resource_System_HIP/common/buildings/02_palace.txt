@@ -1,0 +1,947 @@
+family_palace = {
+
+	# By N0body / Rowan
+	
+	## GoT Vanilla Total Base Values
+	# Total Cost: 1400
+	# Total Time [Days]: 6935
+
+	# tax_income = 26
+	# levy_size = 1.0
+	# max_tradeposts = 9
+	
+	## New Total Base Values
+	# Total Cost: 5100
+	# Total Time [Days]: 10961.5 (30 Years)
+
+	# tax_income = 44
+	# levy_size = 1.2
+	# max_tradeposts = 12
+	# monthly_character_prestige = 1.15
+	# demesne_size = 1
+	
+	# CORE (Tax, prestige, levy size and trade posts)
+	# These buildings function as the base tree. All buildings will require that these buildings have
+	# been constructed.
+	
+	fp_r_merchant_house_1 = { # Frivolous Town House
+		desc = fp_r_merchant_house_1_desc
+		gold_cost = 150
+		build_time = 143
+		
+		levy_size = 0.025
+		tax_income = 1
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 1.9 # Small chance of getting
+        
+        ai_creation_factor = 110
+	}
+	fp_r_merchant_house_2 = { # Merchant's Town House
+		desc = fp_r_merchant_house_2_desc
+		upgrades_from = fp_r_merchant_house_1
+		
+		gold_cost = 200
+		build_time = 215
+		
+		levy_size = 0.025
+		tax_income = 2
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 2.0 # Rare chance of getting
+        
+        ai_creation_factor = 109
+	}
+	fp_r_merchant_house_3 = { # Affluent Merchant's Town House
+		desc = fp_r_merchant_house_3_desc
+		upgrades_from = fp_r_merchant_house_2
+		
+		gold_cost = 300
+		build_time = 322
+		
+		levy_size = 0.025
+		tax_income = 3
+		
+		max_tradeposts = 1
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 3.0 # Never get at start of game
+        
+        ai_creation_factor = 108
+	}
+	fp_r_merchant_house_4 = { # Merchant's Manor House
+		desc = fp_r_merchant_house_4_desc
+		upgrades_from = fp_r_merchant_house_3
+		
+		gold_cost = 400
+		build_time = 483
+		
+		levy_size = 0.025
+		tax_income = 4
+		
+		monthly_character_prestige = 0.05
+		max_tradeposts = 1
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 4.0 # Never get at start of game
+        
+        ai_creation_factor = 107
+	}
+	fp_r_merchant_house_5 = { # Decrepit Mansion
+		desc = fp_r_merchant_house_5_desc
+		upgrades_from = fp_r_merchant_house_4
+		
+		gold_cost = 450
+		build_time = 725
+		
+		levy_size = 0.05
+		tax_income = 4
+		
+		monthly_character_prestige = 0.05
+		max_tradeposts = 1
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 5.0 # Never get at start of game
+        
+        ai_creation_factor = 106
+	}
+	fp_r_merchant_house_6 = { # Renovated Mansion
+		desc = fp_r_merchant_house_6_desc
+		upgrades_from = fp_r_merchant_house_5
+		
+		gold_cost = 500
+		build_time = 1087
+		
+		levy_size = 0.05
+		tax_income = 4
+		
+		monthly_character_prestige = 0.10
+		max_tradeposts = 1
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 6.0 # Never get at start of game
+        
+        ai_creation_factor = 105
+	}
+	fp_r_merchant_house_7 = { # Redecorated Mansion
+		desc = fp_r_merchant_house_7_desc
+		upgrades_from = fp_r_merchant_house_6
+		
+		gold_cost = 600
+		build_time = 1631
+		
+		levy_size = 0.05
+		tax_income = 5
+		
+		monthly_character_prestige = 0.15
+		max_tradeposts = 1
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 7.0 # Never get at start of game
+        
+        ai_creation_factor = 104
+	}
+	fp_r_merchant_house_8 = { # Opulent Mansion
+		desc = fp_r_merchant_house_8_desc
+		upgrades_from = fp_r_merchant_house_7
+		
+		gold_cost = 700
+		build_time = 1903
+		
+		levy_size = 0.05
+		tax_income = 6
+		
+		monthly_character_prestige = 0.20
+		max_tradeposts = 2
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 8.0 # Never get at start of game
+        
+        ai_creation_factor = 103
+	}
+	fp_r_merchant_house_9 = { # Regal Mansion
+		desc = fp_r_merchant_house_9_desc
+		upgrades_from = fp_r_merchant_house_8
+		
+		gold_cost = 800
+		build_time = 2039
+		
+		levy_size = 0.10
+		tax_income = 7
+		
+		monthly_character_prestige = 0.30
+		max_tradeposts = 2
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 9.0 # Never get at start of game
+        
+        ai_creation_factor = 102
+	}
+	fp_r_merchant_house_10 = { # Republican's Palace
+		desc = fp_r_merchant_house_10_desc
+		upgrades_from = fp_r_merchant_house_9
+		
+		gold_cost = 1000
+		build_time = 2411
+		
+		levy_size = 0.20
+		tax_income = 8
+		
+		monthly_character_prestige = 0.30
+		demesne_size = 1
+		max_tradeposts = 3
+		diplomacy = 1
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 10.0 # Never get at start of game
+        
+        ai_creation_factor = 101
+	}
+	
+	# GARDEN (Prestige)
+	# Garden tree is constructed using prestige and offers prestige (and only prestige) in return.
+	# Statue tree does the same.
+	
+	fp_r_merchant_garden_1 = { # Meagre Garden
+		desc = fp_r_merchant_garden_1_desc
+		
+		prerequisites = { fp_r_merchant_house_1 }
+		
+		prestige_cost = 50
+		build_time = 730
+		
+		monthly_character_prestige = 0.02
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 1.9 # Never get at start of game
+        
+        ai_creation_factor = 104
+	}
+	fp_r_merchant_garden_2 = { # Small Pond
+		desc = fp_r_merchant_garden_2_desc
+		upgrades_from = fp_r_merchant_garden_1
+		
+		prerequisites = { fp_r_merchant_house_1 }
+		
+		# gold_cost = 150
+		prestige_cost = 75
+		build_time = 730
+		
+		monthly_character_prestige = 0.02
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 2.0 # Never get at start of game
+        
+        ai_creation_factor = 103
+	}
+	fp_r_merchant_garden_3 = { # Sizeable Garden
+		desc = fp_r_merchant_garden_3_desc
+		upgrades_from = fp_r_merchant_garden_2
+		
+		prerequisites = { fp_r_merchant_house_2 }
+		
+		# gold_cost = 150
+		prestige_cost = 100
+		build_time = 730
+		
+		monthly_character_prestige = 0.02
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 3.0 # Never get at start of game
+        
+        ai_creation_factor = 102
+	}
+	fp_r_merchant_garden_4 = { # Scenic Pond
+		desc = fp_r_merchant_garden_4_desc
+		upgrades_from = fp_r_merchant_garden_3
+		
+		prerequisites = { fp_r_merchant_house_3 }
+		
+		# gold_cost = 150
+		prestige_cost = 150
+		build_time = 730
+		
+		monthly_character_prestige = 0.03
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 4.0 # Never get at start of game
+        
+        ai_creation_factor = 101
+	}
+	fp_r_merchant_garden_5 = { # Prestigious Garden
+		desc = fp_r_merchant_garden_5_desc
+		upgrades_from = fp_r_merchant_garden_4
+		
+		prerequisites = { fp_r_merchant_house_4 }
+		
+		# gold_cost = 150
+		prestige_cost = 250
+		build_time = 730
+		
+		monthly_character_prestige = 0.05
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 5.0 # Never get at start of game
+        
+        ai_creation_factor = 100
+	}
+	fp_r_merchant_garden_6 = { # Shabby Estates
+		desc = fp_r_merchant_garden_6_desc
+		upgrades_from = fp_r_merchant_garden_5
+		
+		prerequisites = { fp_r_merchant_house_5 }
+		
+		# gold_cost = 150
+		prestige_cost = 350
+		build_time = 730
+		
+		monthly_character_prestige = 0.05
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 6.0 # Never get at start of game
+        
+        ai_creation_factor = 99
+	}
+	fp_r_merchant_garden_7 = { # Transplanted Flora
+		desc = fp_r_merchant_garden_7_desc
+		upgrades_from = fp_r_merchant_garden_6
+		
+		prerequisites = { fp_r_merchant_house_6 }
+		
+		# gold_cost = 150
+		prestige_cost = 500
+		build_time = 730
+		
+		monthly_character_prestige = 0.10
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 7.0 # Never get at start of game
+        
+        ai_creation_factor = 98
+	}
+	fp_r_merchant_garden_8 = { # Impressive Estates
+		desc = fp_r_merchant_garden_8_desc
+		upgrades_from = fp_r_merchant_garden_7
+		
+		prerequisites = { fp_r_merchant_house_8 }
+		
+		# gold_cost = 150
+		prestige_cost = 650
+		build_time = 730
+		
+		monthly_character_prestige = 0.10
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 9.0 # Never get at start of game
+        
+        ai_creation_factor = 97
+	}
+	fp_r_merchant_garden_9 = { # Exotic Flora
+		desc = fp_r_merchant_garden_9_desc
+		upgrades_from = fp_r_merchant_garden_8
+		
+		prerequisites = { fp_r_merchant_house_9 }
+		
+		# gold_cost = 150
+		prestige_cost = 800
+		build_time = 730
+		
+		monthly_character_prestige = 0.10
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 10.0 # Never get at start of game
+        
+        ai_creation_factor = 96
+	}
+	fp_r_merchant_garden_10 = { # Grand Fountain
+		desc = fp_r_merchant_garden_10_desc
+		upgrades_from = fp_r_merchant_garden_9
+		
+		prerequisites = { fp_r_merchant_house_10 }
+		
+		# gold_cost = 150
+		prestige_cost = 900
+		build_time = 730
+		
+		monthly_character_prestige = 0.10
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 10.0 # Never get at start of game
+        
+        ai_creation_factor = 95
+	}
+	fp_r_merchant_garden_11 = { # Palace Garden
+		desc = fp_r_merchant_garden_11_desc
+		upgrades_from = fp_r_merchant_garden_10
+		
+		prerequisites = { fp_r_merchant_house_10 }
+		
+		# gold_cost = 150
+		prestige_cost = 1000
+		build_time = 730
+		
+		monthly_character_prestige = 0.10
+		diplomacy = 1
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 10.0 # Never get at start of game
+        
+        ai_creation_factor = 94
+	}
+	
+	# Statues
+	
+	fp_r_merchant_statues_1 = { # Aged Family Statue
+		desc = fp_r_merchant_statues_1_desc
+		
+		prerequisites = { fp_r_merchant_house_5 }
+
+		# gold_cost = 150
+		prestige_cost = 200
+		build_time = 730
+		
+		monthly_character_prestige = 0.05
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 5.0 # Never get at start of game
+        
+        ai_creation_factor = 99
+	}
+	fp_r_merchant_statues_2 = { # Refurbished Family Statue
+		desc = fp_r_merchant_statues_2_desc
+		upgrades_from = fp_r_merchant_statues_1
+		
+		prerequisites = { fp_r_merchant_house_5 }
+
+		# gold_cost = 150
+		prestige_cost = 500
+		build_time = 730
+		
+		monthly_character_prestige = 0.25
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 6.0 # Never get at start of game
+        
+        ai_creation_factor = 98
+	}
+	
+	# WAREHOUSES (Retinue size, levy reinforcement, stewardship and morale)
+	
+	fp_r_merchant_warehouse_1 = { # Personal Log
+		desc = fp_r_merchant_warehouse_1_desc
+		prerequisites = { fp_r_merchant_house_1 }
+		
+		gold_cost = 25
+		build_time = 30
+		
+		stewardship = 1
+		land_morale = 0.05
+		levy_reinforce_rate = 0.05
+		retinuesize = 100
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 2.0 # Never get at start of game
+        
+        ai_creation_factor = 99
+	}
+	fp_r_merchant_warehouse_2 = { # Rented Warehouse
+		desc = fp_r_merchant_warehouse_2_desc
+		prerequisites = { fp_r_merchant_house_2 }
+		upgrades_from = fp_r_merchant_warehouse_1
+		
+		gold_cost = 75
+		build_time = 30
+		
+		land_morale = 0.05
+		levy_reinforce_rate = 0.05
+		retinuesize = 100
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 3.0 # Never get at start of game
+        
+        ai_creation_factor = 98
+	}
+	fp_r_merchant_warehouse_3 = { # Private Warehouse
+		desc = fp_r_merchant_warehouse_3_desc
+		prerequisites = { fp_r_merchant_house_4 }
+		upgrades_from = fp_r_merchant_warehouse_2
+		
+		gold_cost = 250
+		build_time = 730
+		
+		land_morale = 0.05
+		levy_reinforce_rate = 0.05
+		retinuesize = 100
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 5.0 # Never get at start of game
+        
+        ai_creation_factor = 97
+	}
+	fp_r_merchant_warehouse_4 = { # Military Warehouse
+		desc = fp_r_merchant_warehouse_4_desc
+		prerequisites = { fp_r_merchant_house_6 }
+		upgrades_from = fp_r_merchant_warehouse_3
+		
+		gold_cost = 300
+		build_time = 870
+		
+		land_morale = 0.15
+		levy_reinforce_rate = 0.15
+		retinuesize = 200
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 7.0 # Never get at start of game
+        
+        ai_creation_factor = 96
+	}
+	fp_r_merchant_warehouse_5 = { # Administrative Office
+		desc = fp_r_merchant_warehouse_5_desc
+		prerequisites = { fp_r_merchant_house_8 }
+		upgrades_from = fp_r_merchant_warehouse_4
+		
+		gold_cost = 150
+		build_time = 980
+		
+		stewardship = 1
+		land_morale = 0.15
+		levy_reinforce_rate = 0.15
+		retinuesize = 200
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 9.0 # Never get at start of game
+        
+        ai_creation_factor = 95
+	}
+	fp_r_merchant_warehouse_6 = { # Palace Archives
+		desc = fp_r_merchant_warehouse_6_desc
+		prerequisites = { fp_r_merchant_house_10 }
+		upgrades_from = fp_r_merchant_warehouse_5
+		
+		gold_cost = 150
+		build_time = 1085
+		
+		stewardship = 1
+		land_morale = 0.2
+		levy_reinforce_rate = 0.2
+		retinuesize = 300
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 10.0 # Never get at start of game
+        
+        ai_creation_factor = 94
+	}
+	
+	# WINE CELLARS [Fertility]
+	
+	fp_r_merchant_cellar_1 = { # Small Wine Cellar
+		desc = fp_r_merchant_cellar_1_desc
+		prerequisites = { fp_r_merchant_house_3 }
+		
+		gold_cost = 150
+		build_time = 730
+		
+		fertility = 0.05
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 4.0 # Never get at start of game
+        
+        ai_creation_factor = 110
+	}
+	fp_r_merchant_cellar_2 = { # Huge Wine Cellar
+		desc = fp_r_merchant_cellar_2_desc
+		prerequisites = { fp_r_merchant_house_5 }
+        upgrades_from = fp_r_merchant_cellar_1
+		
+		gold_cost = 250
+		build_time = 930
+		
+		fertility = 0.10
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 6.0 # Never get at start of game
+        
+        ai_creation_factor = 109
+	}
+	fp_r_merchant_cellar_3 = { # Royal Wine Cellar
+		desc = fp_r_merchant_cellar_3_desc
+		prerequisites = { fp_r_merchant_house_10 }
+        upgrades_from = fp_r_merchant_cellar_2
+		
+		gold_cost = 500
+		build_time = 1230
+		
+		fertility = 0.15
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 10.0 # Never get at start of game
+        
+        ai_creation_factor = 108
+	}
+	
+	# CATACOMBS [Events, Martial]
+
+	fp_r_merchant_dungeon_1 = { # Catacombs
+		desc = fp_r_merchant_dungeon_1_desc
+        prerequisites = { fp_r_merchant_house_5 }
+        
+		gold_cost = 250
+		build_time = 1095
+        
+		martial = 1
+		
+        trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+        extra_tech_building_start = 6.0 # Never get at start of game
+        
+        ai_creation_factor = 110
+	}
+	fp_r_merchant_dungeon_2 = { # Dungeon Complex
+		desc = fp_r_merchant_dungeon_2_desc
+        prerequisites = { fp_r_merchant_house_10 }
+        upgrades_from = fp_r_merchant_dungeon_1
+        
+		gold_cost = 350
+		build_time = 1460
+        
+		martial = 1
+        
+        trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+        extra_tech_building_start = 4.0 # Never get at start of game
+        
+        ai_creation_factor = 105
+	}
+	
+	# RELIGION (Piety, learning)
+	
+	
+	fp_r_merchant_shrine_1 = { # Personal Shrine
+		desc = fp_r_merchant_shrine_1_desc
+        prerequisites = { fp_r_merchant_house_2 }
+        
+		gold_cost = 150
+		build_time = 730
+		
+		church_opinion = 2
+		monthly_character_piety = 0.05
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 2.0 # Never get at start of game
+        
+        ai_creation_factor = 100
+	}
+	fp_r_merchant_shrine_2 = { # Small Chapel
+		desc = fp_r_merchant_shrine_2_desc
+		upgrades_from = fp_r_merchant_shrine_1
+        prerequisites = { fp_r_merchant_house_5 }
+		
+		gold_cost = 250
+		build_time = 873
+		
+		church_opinion = 3
+		monthly_character_piety = 0.05
+		learning = 1
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 6.0 # Never get at start of game
+        
+        ai_creation_factor = 99
+	}
+	fp_r_merchant_shrine_3 = { # Palace Chapel
+		desc = fp_r_merchant_shrine_3_desc
+		upgrades_from = fp_r_merchant_shrine_2
+        prerequisites = { fp_r_merchant_house_10 }
+		
+		gold_cost = 450
+		build_time = 1104
+		
+		church_opinion = 10
+		monthly_character_piety = 0.10
+		learning = 1
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 10.0 # Never get at start of game
+        
+        ai_creation_factor = 98
+	}
+	
+	# VAULTS (Tax income, intrigue)
+	
+	fp_r_merchant_vault_1 = { # Family Vault
+		desc = fp_r_merchant_vault_1_desc
+        prerequisites = { fp_r_merchant_house_3 }
+		
+		gold_cost = 250
+		build_time = 730
+		
+		tax_income = 2
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 4.0 # Never get at start of game
+        
+        ai_creation_factor = 115
+	}
+	fp_r_merchant_vault_2 = { # Fortified Vault
+		desc = fp_r_merchant_vault_2_desc
+        prerequisites = { fp_r_merchant_house_4 }
+		upgrades_from = fp_r_merchant_vault_1
+		
+		gold_cost = 350
+		build_time = 820
+		
+		tax_income = 2
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 5.0 # Never get at start of game
+        ai_creation_factor = 114
+	}
+	fp_r_merchant_vault_3 = { # Secret Passages
+		desc = fp_r_merchant_vault_3_desc
+        prerequisites = { fp_r_merchant_house_6 }
+		upgrades_from = fp_r_merchant_vault_2
+		
+		gold_cost = 450
+		build_time = 940
+		
+		tax_income = 2
+		intrigue = 1
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 7.0 # Never get at start of game
+        
+        ai_creation_factor = 113
+	}
+	fp_r_merchant_vault_4 = { # Hidden Chambers
+		desc = fp_r_merchant_vault_4_desc
+        prerequisites = { fp_r_merchant_house_6 }
+		upgrades_from = fp_r_merchant_vault_3
+		
+		gold_cost = 450
+		build_time = 1023
+		
+		tax_income = 2
+		intrigue = 1
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 7.0 # Never get at start of game
+        
+        ai_creation_factor = 112
+	}
+	fp_r_merchant_vault_5 = { # Palace Vault
+		desc = fp_r_merchant_vault_5_desc
+        prerequisites = { fp_r_merchant_house_10 }
+		upgrades_from = fp_r_merchant_vault_4
+		
+		gold_cost = 600
+		build_time = 1430
+		
+		tax_income = 6
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 10.0 # Never get at start of game
+        
+        ai_creation_factor = 111
+	}
+	
+	#####################################################################
+	############## OLD
+	#####################################################################
+	
+	# Guard Barracks
+	fp_r_barracks_1 = {
+		desc = fp_r_barracks_1_desc
+		prerequisites = { fp_r_merchant_house_4 }
+		
+		gold_cost = 150
+		build_time = 730
+		
+		heavy_infantry = 70
+		pikemen = 50
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 5.0 # Never get at start of game
+        
+        ai_creation_factor = 105
+	}
+	# Swordsmith
+	fp_r_barracks_2 = {
+		desc = fp_r_barracks_2_desc
+        prerequisites = { fp_r_merchant_house_5 }
+		upgrades_from = fp_r_barracks_1
+
+		gold_cost = 250
+		build_time = 1095
+		
+		heavy_infantry = 85
+		pikemen = 65
+        
+        trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 6.0 # Never get at start of game
+        
+        ai_creation_factor = 104
+	}
+	# Armory
+	fp_r_barracks_3 = {
+		desc = fp_r_barracks_3_desc
+        prerequisites = { fp_r_merchant_house_7 }
+		upgrades_from = fp_r_barracks_2
+        
+		gold_cost = 350
+		build_time = 1460
+		
+		heavy_infantry = 100
+		pikemen = 80
+		
+        trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 8.0 # Never get at start of game
+        
+        ai_creation_factor = 103
+	}
+	
+	# Small Stable
+	fp_r_stable_1 = {
+		desc = fp_r_stable_1_desc
+		prerequisites = { fp_r_merchant_house_4 }
+		
+		gold_cost = 150
+		build_time = 730
+		
+		light_cavalry = 75
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 5.0 # Never get at start of game
+        
+        ai_creation_factor = 105
+	}
+	# Riding Grounds
+	fp_r_stable_2 = {
+		desc = fp_r_stable_2_desc
+		prerequisites = { fp_r_merchant_house_5 }
+        upgrades_from = fp_r_stable_1
+		
+		gold_cost = 250
+		build_time = 1095
+		
+		light_cavalry = 90
+		
+        trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 6.0 # Never get at start of game
+        
+        ai_creation_factor = 104
+	}
+	# Horse Breeder
+	fp_r_stable_3 = {
+		desc = fp_r_stable_3_desc
+		prerequisites = { fp_r_merchant_house_8 }
+        upgrades_from = fp_r_stable_2
+		
+		gold_cost = 350
+		build_time = 1460
+		
+		light_cavalry = 105
+		knights = 45
+		
+        trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 9.0 # Never get at start of game
+        
+        ai_creation_factor = 103
+	}
+	
+	# Bowyer
+	fp_r_bowyer_1 = {
+		desc = fp_r_bowyer_1_desc
+		prerequisites = { fp_r_merchant_house_4 }
+		
+		gold_cost = 150
+		build_time = 730
+		
+		light_infantry = 95
+		archers = 95
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 5.0 # Never get at start of game
+        
+        ai_creation_factor = 105
+	}
+	# Target Range
+	fp_r_bowyer_2 = {
+		desc = fp_r_bowyer_2_desc
+		prerequisites = { fp_r_merchant_house_5 }
+        upgrades_from = fp_r_bowyer_1
+		
+		gold_cost = 250
+		build_time = 1095
+		
+		light_infantry = 110
+		archers = 110
+		
+        trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 6.0 # Never get at start of game
+        
+        ai_creation_factor = 104
+	}
+	# Crossbow Workshop
+	fp_r_bowyer_3 = {
+		desc = fp_r_bowyer_3_desc
+		prerequisites = { fp_r_merchant_house_6 }
+        upgrades_from = fp_r_bowyer_2
+		
+		gold_cost = 350
+		build_time = 1460
+		
+		light_infantry = 120
+		archers = 120
+		
+        trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 7.0 # Never get at start of game
+        
+        ai_creation_factor = 103
+	}
+	
+	# Map Room
+	fp_r_shipyard_1 = {
+		desc = fp_r_shipyard_1_desc
+		prerequisites = { fp_r_merchant_house_3 }
+		
+		gold_cost = 150
+		build_time = 730
+		
+		galleys = 6
+		
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 4.0 # Never get at start of game
+        
+        ai_creation_factor = 99
+	}
+	#  Private Shipyard
+	fp_r_shipyard_2 = {
+		desc = fp_r_shipyard_2_desc
+		prerequisites = { fp_r_merchant_house_4 }
+        upgrades_from = fp_r_shipyard_1
+		
+		gold_cost = 250
+		build_time = 1095
+		
+		galleys = 12
+		
+        trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 5.0 # Never get at start of game
+        
+        ai_creation_factor = 98
+	}
+	# Naval Arsenal
+	fp_r_shipyard_3 = {
+		desc = fp_r_shipyard_3_desc
+		prerequisites = { fp_r_merchant_house_8 }
+        upgrades_from = fp_r_shipyard_2
+		
+		gold_cost = 350
+		build_time = 1460
+        
+		galleys = 18
+		
+        trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 9.0 # Never get at start of game
+        
+        ai_creation_factor = 97
+	}
+}

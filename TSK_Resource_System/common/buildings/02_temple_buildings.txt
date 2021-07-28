@@ -1,0 +1,8188 @@
+temple = {
+	tp_r_settlement_1 = {
+		desc = tp_r_settlement_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 120
+
+		build_time = 165
+
+		prestige_cost = 214
+
+		fort_level = 0.15
+		levy_size = -0.02
+		levy_reinforce_rate = -0.01
+
+
+		tax_income = 0.77
+		local_revolt_risk = -0.005
+
+		land_morale = 0.02
+
+		light_infantry = 4
+		archers = 4
+		heavy_infantry = 3
+		pikemen = 5
+		knights = 2
+
+
+		retinuesize = 50
+	}
+	tp_r_settlement_2 = {
+		desc = tp_r_settlement_2_desc
+		upgrades_from = tp_r_settlement_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_1
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 119
+
+		build_time = 462
+
+		prestige_cost = 600
+
+		fort_level = 0.15
+		levy_size = -0.02
+		levy_reinforce_rate = -0.01
+
+
+		tax_income = 0.91
+		local_revolt_risk = -0.005
+
+		land_morale = 0.02
+
+		light_infantry = 5
+		archers = 5
+		heavy_infantry = 5
+		pikemen = 5
+		knights = 2
+
+
+		retinuesize = 50
+	}
+	tp_r_settlement_3 = {
+		desc = tp_r_settlement_3_desc
+		upgrades_from = tp_r_settlement_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 118
+
+		build_time = 758
+
+		prestige_cost = 986
+
+		fort_level = 0.15
+		levy_size = -0.02
+		levy_reinforce_rate = -0.01
+
+		monthly_character_piety = 0.05
+
+		tax_income = 1.05
+		local_revolt_risk = -0.005
+
+		land_morale = 0.02
+
+		light_infantry = 6
+		archers = 6
+		heavy_infantry = 6
+		pikemen = 5
+		knights = 2
+
+
+		retinuesize = 50
+	}
+	tp_r_settlement_4 = {
+		desc = tp_r_settlement_4_desc
+		upgrades_from = tp_r_settlement_3
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 117
+
+		build_time = 1055
+
+		prestige_cost = 1371
+
+		fort_level = 0.35
+		levy_size = -0.02
+		levy_reinforce_rate = -0.01
+
+		monthly_character_piety = 0.05
+
+		tax_income = 1.19
+		local_revolt_risk = -0.005
+
+		land_morale = 0.02
+
+		light_infantry = 8
+		archers = 8
+		heavy_infantry = 7
+		pikemen = 5
+		knights = 2
+
+
+		retinuesize = 50
+	}
+	tp_r_settlement_5 = {
+		desc = tp_r_settlement_5_desc
+		upgrades_from = tp_r_settlement_4
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 116
+
+		build_time = 1352
+
+		prestige_cost = 1757
+
+		fort_level = 0.35
+		levy_size = -0.02
+		levy_reinforce_rate = -0.01
+
+		monthly_character_piety = 0.05
+
+		tax_income = 1.33
+		local_revolt_risk = -0.005
+
+		land_morale = 0.02
+
+		light_infantry = 9
+		archers = 9
+		heavy_infantry = 8
+		pikemen = 5
+		knights = 2
+		galleys = 3
+
+
+		retinuesize = 50
+	}
+	tp_r_settlement_6 = {
+		desc = tp_r_settlement_6_desc
+		upgrades_from = tp_r_settlement_5
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 115
+
+		build_time = 1648
+
+		prestige_cost = 2143
+
+		fort_level = 0.35
+		levy_size = -0.02
+		levy_reinforce_rate = -0.01
+
+		monthly_character_piety = 0.1
+
+		tax_income = 1.47
+		local_revolt_risk = -0.005
+
+		land_morale = 0.02
+
+		light_infantry = 10
+		archers = 10
+		heavy_infantry = 10
+		pikemen = 5
+		knights = 4
+		galleys = 6
+
+
+		retinuesize = 50
+	}
+	tp_r_settlement_7 = {
+		desc = tp_r_settlement_7_desc
+		upgrades_from = tp_r_settlement_6
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 114
+
+		build_time = 1945
+
+		prestige_cost = 2529
+
+		fort_level = 0.75
+		levy_size = -0.02
+		levy_reinforce_rate = -0.01
+
+		monthly_character_piety = 0.1
+
+		tax_income = 1.61
+		local_revolt_risk = -0.005
+
+		land_morale = 0.02
+
+		light_infantry = 11
+		archers = 11
+		heavy_infantry = 11
+		pikemen = 5
+		knights = 4
+		galleys = 9
+
+
+		retinuesize = 50
+	}
+	tp_r_settlement_8 = {
+		desc = tp_r_settlement_8_desc
+		upgrades_from = tp_r_settlement_7
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 113
+
+		build_time = 2242
+
+		prestige_cost = 2914
+
+		fort_level = 0.75
+		levy_size = -0.02
+		levy_reinforce_rate = -0.01
+
+		monthly_character_piety = 0.1
+
+		tax_income = 1.75
+		local_revolt_risk = -0.005
+
+		land_morale = 0.02
+
+		light_infantry = 12
+		archers = 12
+		heavy_infantry = 12
+		pikemen = 5
+		knights = 4
+		galleys = 12
+
+
+		retinuesize = 50
+	}
+	tp_r_settlement_9 = {
+		desc = tp_r_settlement_9_desc
+		upgrades_from = tp_r_settlement_8
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 112
+
+		build_time = 2538
+
+		prestige_cost = 3300
+
+		fort_level = 1
+		levy_size = -0.02
+		levy_reinforce_rate = -0.01
+
+		monthly_character_piety = 0.15
+
+		tax_income = 1.89
+		local_revolt_risk = -0.005
+
+		land_morale = 0.02
+
+		light_infantry = 15
+		archers = 15
+		heavy_infantry = 13
+		pikemen = 5
+		knights = 4
+		galleys = 15
+
+
+		retinuesize = 50
+	}
+	tp_r_settlement_10 = {
+		desc = tp_r_settlement_10_desc
+		upgrades_from = tp_r_settlement_9
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			has_province_modifier = tsk_infra_5
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 111
+
+		build_time = 2835
+
+		prestige_cost = 3686
+
+		fort_level = 2
+		levy_size = -0.02
+		levy_reinforce_rate = -0.01
+
+		monthly_character_piety = 0.2
+
+		tax_income = 2.03
+		local_revolt_risk = -0.005
+
+		land_morale = 0.02
+
+		light_infantry = 20
+		archers = 20
+		heavy_infantry = 21
+		pikemen = 5
+		knights = 8
+		galleys = 18
+
+
+		retinuesize = 50
+	}
+	tp_r_walls_1 = {
+		desc = tp_r_walls_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+		}
+		prerequisites = {
+			tp_r_settlement_2
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 109
+
+		build_time = 9
+
+		gold_cost = 10.9
+
+		fort_level = 0.2
+		garrison_size = 0.02
+
+
+		tax_income = -0.1
+		local_revolt_risk = -0.005
+
+		land_morale = 0.01
+
+
+
+	}
+	tp_r_walls_2 = {
+		desc = tp_r_walls_2_desc
+		upgrades_from = tp_r_walls_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_1
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_2
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 108
+
+		build_time = 44
+
+		gold_cost = 54.9
+
+		fort_level = 0.2
+		garrison_size = 0.02
+
+
+		tax_income = -0.1
+		local_revolt_risk = -0.005
+
+		land_morale = 0.01
+
+
+
+	}
+	tp_r_walls_3 = {
+		desc = tp_r_walls_3_desc
+		upgrades_from = tp_r_walls_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_1
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_4
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 107
+
+		build_time = 79
+
+		gold_cost = 98.9
+
+		fort_level = 0.3
+		garrison_size = 0.02
+
+
+		tax_income = -0.1
+		local_revolt_risk = -0.005
+
+		land_morale = 0.01
+
+
+
+	}
+	tp_r_walls_4 = {
+		desc = tp_r_walls_4_desc
+		upgrades_from = tp_r_walls_3
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_4
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 106
+
+		build_time = 114
+
+		gold_cost = 142.9
+
+		fort_level = 0.3
+		garrison_size = 0.02
+
+
+		tax_income = -0.1
+		local_revolt_risk = -0.005
+
+		land_morale = 0.01
+
+
+
+	}
+	tp_r_walls_5 = {
+		desc = tp_r_walls_5_desc
+		upgrades_from = tp_r_walls_4
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_5
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 105
+
+		build_time = 149
+
+		gold_cost = 186.9
+
+		fort_level = 0.5
+		garrison_size = 0.02
+
+
+		tax_income = -0.1
+		local_revolt_risk = -0.005
+
+		land_morale = 0.01
+
+
+
+	}
+	tp_r_walls_6 = {
+		desc = tp_r_walls_6_desc
+		upgrades_from = tp_r_walls_5
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_6
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 104
+
+		build_time = 185
+
+		gold_cost = 230.9
+
+		fort_level = 0.75
+		garrison_size = 0.02
+
+		monthly_character_piety = 0.01
+
+		tax_income = -0.1
+		local_revolt_risk = -0.005
+
+		land_morale = 0.01
+
+
+
+	}
+	tp_r_walls_7 = {
+		desc = tp_r_walls_7_desc
+		upgrades_from = tp_r_walls_6
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_6
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 103
+
+		build_time = 220
+
+		gold_cost = 274.9
+
+		fort_level = 0.75
+		garrison_size = 0.02
+
+		monthly_character_piety = 0.01
+
+		tax_income = -0.1
+		local_revolt_risk = -0.005
+
+		land_morale = 0.01
+
+
+
+	}
+	tp_r_town_1 = {
+		desc = tp_r_town_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+		}
+		prerequisites = {
+			tp_r_settlement_1
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 120
+
+		build_time = 18
+
+		gold_cost = 23.3
+
+		levy_reinforce_rate = -0.01
+
+
+		tax_income = 0.244
+		local_revolt_risk = 0.1
+
+
+		light_infantry = 10
+		archers = 3
+
+
+	}
+	tp_r_town_2 = {
+		desc = tp_r_town_2_desc
+		upgrades_from = tp_r_town_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+		}
+		prerequisites = {
+			tp_r_settlement_1
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 120
+
+		build_time = 47
+
+		gold_cost = 63.2
+
+		fort_level = -0.1
+		levy_reinforce_rate = -0.01
+
+
+		tax_income = 0.362
+		local_revolt_risk = 0.1
+
+
+		light_infantry = 10
+		archers = 3
+
+
+	}
+	tp_r_town_3 = {
+		desc = tp_r_town_3_desc
+		upgrades_from = tp_r_town_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_1
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_2
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 120
+
+		build_time = 77
+
+		gold_cost = 103.1
+
+		fort_level = -0.1
+		levy_reinforce_rate = -0.01
+
+
+		tax_income = 0.481
+		local_revolt_risk = 0.1
+
+
+		light_infantry = 10
+		archers = 3
+
+
+	}
+	tp_r_town_4 = {
+		desc = tp_r_town_4_desc
+		upgrades_from = tp_r_town_3
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_1
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_3
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 119
+
+		build_time = 107
+
+		gold_cost = 143
+
+		fort_level = -0.2
+		levy_reinforce_rate = -0.01
+
+
+		tax_income = 0.599
+		local_revolt_risk = 0.1
+
+
+		light_infantry = 10
+		archers = 3
+
+
+	}
+	tp_r_town_5 = {
+		desc = tp_r_town_5_desc
+		upgrades_from = tp_r_town_4
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_4
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 119
+
+		build_time = 137
+
+		gold_cost = 182.8
+
+		fort_level = -0.3
+		levy_reinforce_rate = -0.01
+
+
+		tax_income = 0.718
+		local_revolt_risk = 0.1
+
+
+		light_infantry = 10
+		archers = 3
+
+
+	}
+	tp_r_town_6 = {
+		desc = tp_r_town_6_desc
+		upgrades_from = tp_r_town_5
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_4
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 119
+
+		build_time = 167
+
+		gold_cost = 222.7
+
+		fort_level = -0.3
+		levy_reinforce_rate = -0.01
+
+
+		tax_income = 0.836
+		local_revolt_risk = 0.1
+
+
+		light_infantry = 10
+		archers = 3
+
+
+	}
+	tp_r_town_7 = {
+		desc = tp_r_town_7_desc
+		upgrades_from = tp_r_town_6
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_5
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 118
+
+		build_time = 197
+
+		gold_cost = 262.6
+
+		fort_level = -0.5
+		levy_reinforce_rate = -0.01
+
+
+		tax_income = 0.955
+		local_revolt_risk = 0.1
+
+
+		light_infantry = 10
+		archers = 3
+
+
+	}
+	tp_r_town_8 = {
+		desc = tp_r_town_8_desc
+		upgrades_from = tp_r_town_7
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_5
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 118
+
+		build_time = 227
+
+		gold_cost = 302.5
+
+		fort_level = -0.5
+		levy_reinforce_rate = -0.01
+
+
+		tax_income = 1.073
+		local_revolt_risk = 0.1
+
+
+		light_infantry = 10
+		archers = 3
+
+
+	}
+	tp_r_town_9 = {
+		desc = tp_r_town_9_desc
+		upgrades_from = tp_r_town_8
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_5
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 117
+
+		build_time = 257
+
+		gold_cost = 342.4
+
+		fort_level = -0.75
+		levy_reinforce_rate = -0.01
+
+
+		tax_income = 1.192
+		local_revolt_risk = 0.1
+
+
+		light_infantry = 14
+		archers = 5
+
+
+	}
+	tp_r_town_10 = {
+		desc = tp_r_town_10_desc
+		upgrades_from = tp_r_town_9
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_5
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 117
+
+		build_time = 287
+
+		gold_cost = 382.3
+
+		fort_level = -1.25
+		levy_reinforce_rate = -0.01
+
+
+		tax_income = 1.31
+		local_revolt_risk = 0.1
+
+
+		light_infantry = 16
+		archers = 5
+
+
+	}
+	tp_r_town_11 = {
+		desc = tp_r_town_11_desc
+		upgrades_from = tp_r_town_10
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			has_province_modifier = tsk_infra_5
+		}
+		prerequisites = {
+			tp_r_settlement_5
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 116
+
+		build_time = 317
+
+		gold_cost = 422.2
+
+		fort_level = -1.5
+		levy_reinforce_rate = -0.01
+
+
+		tax_income = 1.429
+		local_revolt_risk = 0.1
+
+
+		light_infantry = 20
+		archers = 6
+
+
+	}
+	tp_r_chapterhouse_1 = {
+		desc = tp_r_chapterhouse_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_1
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_5
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 110
+
+		build_time = 38
+
+		gold_cost = 50
+
+		garrison_size = 0.02
+		levy_size = 0.02
+		levy_reinforce_rate = 0.02
+
+
+		tax_income = -0.5
+
+
+		light_infantry = -10
+		heavy_infantry = 6
+		pikemen = 2
+		knights = 2
+
+
+		retinuesize = 10
+	}
+	tp_r_chapterhouse_2 = {
+		desc = tp_r_chapterhouse_2_desc
+		upgrades_from = tp_r_chapterhouse_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_5
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 109
+
+		build_time = 113
+
+		gold_cost = 150
+
+		garrison_size = 0.02
+		levy_size = 0.02
+		levy_reinforce_rate = 0.03
+
+
+		tax_income = -0.5
+
+
+		light_infantry = -10
+		heavy_infantry = 6
+		pikemen = 2
+		knights = 2
+
+
+		retinuesize = 15
+	}
+	tp_r_chapterhouse_3 = {
+		desc = tp_r_chapterhouse_3_desc
+		upgrades_from = tp_r_chapterhouse_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_6
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 108
+
+		build_time = 188
+
+		gold_cost = 250
+
+		garrison_size = 0.03
+		levy_size = 0.03
+		levy_reinforce_rate = 0.05
+
+
+		tax_income = -0.5
+
+
+		light_infantry = -10
+		heavy_infantry = 6
+		pikemen = 2
+		knights = 2
+
+
+		retinuesize = 15
+	}
+	tp_r_chapterhouse_4 = {
+		desc = tp_r_chapterhouse_4_desc
+		upgrades_from = tp_r_chapterhouse_3
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_8
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 107
+
+		build_time = 263
+
+		gold_cost = 350
+
+		garrison_size = 0.03
+		levy_size = 0.03
+		levy_reinforce_rate = 0.05
+
+
+		tax_income = -0.5
+
+
+		light_infantry = -10
+		heavy_infantry = 6
+		pikemen = 2
+		knights = 2
+
+
+		retinuesize = 20
+	}
+	tp_r_chapterhouse_5 = {
+		desc = tp_r_chapterhouse_5_desc
+		upgrades_from = tp_r_chapterhouse_4
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			has_province_modifier = tsk_infra_5
+		}
+		prerequisites = {
+			tp_r_settlement_9
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 106
+
+		build_time = 338
+
+		gold_cost = 450
+
+		garrison_size = 0.05
+		levy_size = 0.05
+		levy_reinforce_rate = 0.1
+
+
+		tax_income = -0.5
+
+
+		light_infantry = -10
+		heavy_infantry = 6
+		pikemen = 2
+		knights = 2
+
+
+		retinuesize = 20
+	}
+	tp_r_barracks_1 = {
+		desc = tp_r_barracks_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+		}
+		prerequisites = {
+			tp_r_settlement_2
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 112
+
+		build_time = 17
+
+		gold_cost = 22.8
+
+		garrison_size = 0.01
+		levy_reinforce_rate = 0.01
+
+
+
+		land_morale = 0.02
+
+		light_infantry = -8
+		heavy_infantry = 6
+		pikemen = 2
+
+
+		retinuesize = 10
+	}
+	tp_r_barracks_2 = {
+		desc = tp_r_barracks_2_desc
+		upgrades_from = tp_r_barracks_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_1
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_2
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 111
+
+		build_time = 87
+
+		gold_cost = 115.2
+
+		garrison_size = 0.01
+		levy_reinforce_rate = 0.01
+
+
+
+		land_morale = 0.02
+
+		light_infantry = -8
+		heavy_infantry = 6
+		pikemen = 2
+
+
+		retinuesize = 15
+	}
+	tp_r_barracks_3 = {
+		desc = tp_r_barracks_3_desc
+		upgrades_from = tp_r_barracks_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_2
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 110
+
+		build_time = 156
+
+		gold_cost = 207.6
+
+		garrison_size = 0.01
+		levy_reinforce_rate = 0.01
+
+
+		local_tax_modifier = -0.01
+
+		land_morale = 0.02
+
+		light_infantry = -8
+		heavy_infantry = 6
+		pikemen = 2
+
+
+		retinuesize = 15
+	}
+	tp_r_barracks_4 = {
+		desc = tp_r_barracks_4_desc
+		upgrades_from = tp_r_barracks_3
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_2
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 109
+
+		build_time = 225
+
+		gold_cost = 300
+
+		garrison_size = 0.01
+		levy_reinforce_rate = 0.01
+
+
+		local_tax_modifier = -0.01
+
+		land_morale = 0.02
+
+		light_infantry = -16
+		heavy_infantry = 12
+		pikemen = 4
+
+
+		retinuesize = 20
+	}
+	tp_r_barracks_5 = {
+		desc = tp_r_barracks_5_desc
+		upgrades_from = tp_r_barracks_4
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_2
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 108
+
+		build_time = 295
+
+		gold_cost = 392.4
+
+		garrison_size = 0.01
+		levy_reinforce_rate = 0.01
+
+
+		local_tax_modifier = -0.02
+
+		land_morale = 0.02
+
+		light_infantry = -16
+		heavy_infantry = 12
+		pikemen = 4
+
+
+		retinuesize = 20
+	}
+	tp_r_barracks_6 = {
+		desc = tp_r_barracks_6_desc
+		upgrades_from = tp_r_barracks_5
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_2
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 107
+
+		build_time = 364
+
+		gold_cost = 484.8
+
+		garrison_size = 0.01
+		levy_reinforce_rate = 0.01
+
+
+		local_tax_modifier = -0.02
+
+		land_morale = 0.02
+
+		light_infantry = -20
+		heavy_infantry = 16
+		pikemen = 6
+
+
+		retinuesize = 30
+	}
+	tp_r_barracks_7 = {
+		desc = tp_r_barracks_7_desc
+		upgrades_from = tp_r_barracks_6
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			has_province_modifier = tsk_infra_5
+		}
+		prerequisites = {
+			tp_r_settlement_2
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 106
+
+		build_time = 433
+
+		gold_cost = 577.2
+
+		garrison_size = 0.01
+		levy_reinforce_rate = 0.01
+
+
+		local_tax_modifier = -0.03
+
+		land_morale = 0.02
+
+		light_infantry = -20
+		heavy_infantry = 16
+		pikemen = 6
+
+
+		retinuesize = 40
+	}
+	tp_r_stables_1 = {
+		desc = tp_r_stables_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+		}
+		prerequisites = {
+			tp_r_settlement_1
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 112
+
+		build_time = 16
+
+		gold_cost = 26.1
+
+		garrison_size = 0.01
+		levy_reinforce_rate = 0.01
+
+
+
+		land_morale = 0.01
+
+		light_infantry = -7
+		light_cavalry = 6
+		knights = 1
+
+
+		retinuesize = 10
+	}
+	tp_r_stables_2 = {
+		desc = tp_r_stables_2_desc
+		upgrades_from = tp_r_stables_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_1
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_1
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 111
+
+		build_time = 82
+
+		gold_cost = 131.7
+
+		garrison_size = 0.01
+		levy_reinforce_rate = 0.01
+
+
+
+		land_morale = 0.01
+
+		light_infantry = -7
+		light_cavalry = 6
+		knights = 1
+
+
+		retinuesize = 15
+	}
+	tp_r_stables_3 = {
+		desc = tp_r_stables_3_desc
+		upgrades_from = tp_r_stables_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_3
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 110
+
+		build_time = 148
+
+		gold_cost = 237.3
+
+		garrison_size = 0.01
+		levy_reinforce_rate = 0.01
+
+
+		local_tax_modifier = -0.01
+
+		land_morale = 0.01
+
+		light_infantry = -14
+		light_cavalry = 12
+		knights = 2
+
+
+		retinuesize = 15
+	}
+	tp_r_stables_4 = {
+		desc = tp_r_stables_4_desc
+		upgrades_from = tp_r_stables_3
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_5
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 109
+
+		build_time = 214
+
+		gold_cost = 342.9
+
+		garrison_size = 0.01
+		levy_reinforce_rate = 0.01
+
+
+		local_tax_modifier = -0.01
+
+		land_morale = 0.01
+
+		light_infantry = -14
+		light_cavalry = 12
+		knights = 2
+
+
+		retinuesize = 20
+	}
+	tp_r_stables_5 = {
+		desc = tp_r_stables_5_desc
+		upgrades_from = tp_r_stables_4
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_7
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 108
+
+		build_time = 280
+
+		gold_cost = 448.5
+
+		garrison_size = 0.01
+		levy_reinforce_rate = 0.01
+
+
+		local_tax_modifier = -0.02
+
+		land_morale = 0.01
+
+		light_infantry = -21
+		light_cavalry = 18
+		knights = 3
+
+
+		retinuesize = 20
+	}
+	tp_r_stables_6 = {
+		desc = tp_r_stables_6_desc
+		upgrades_from = tp_r_stables_5
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_8
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 107
+
+		build_time = 346
+
+		gold_cost = 554.1
+
+		garrison_size = 0.01
+		levy_reinforce_rate = 0.01
+
+
+		local_tax_modifier = -0.02
+
+		land_morale = 0.01
+
+		light_infantry = -29
+		light_cavalry = 24
+		knights = 5
+
+
+		retinuesize = 30
+	}
+	tp_r_stables_7 = {
+		desc = tp_r_stables_7_desc
+		upgrades_from = tp_r_stables_6
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			has_province_modifier = tsk_infra_5
+		}
+		prerequisites = {
+			tp_r_settlement_9
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 106
+
+		build_time = 412
+
+		gold_cost = 659.7
+
+		garrison_size = 0.01
+		levy_reinforce_rate = 0.01
+
+
+		local_tax_modifier = -0.03
+
+		land_morale = 0.01
+
+		light_infantry = -37
+		light_cavalry = 30
+		knights = 7
+
+
+		retinuesize = 40
+	}
+	tp_r_pat_1 = {
+		desc = tp_r_pat_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_road_1
+				has_province_modifier = tsk_road_2
+				has_province_modifier = tsk_road_3
+				has_province_modifier = tsk_road_4
+				has_province_modifier = tsk_road_5
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 108
+
+		build_time = 17
+
+		gold_cost = 22.4
+
+		fort_level = 0.01
+		garrison_size = 0.015
+		levy_size = -0.01
+		levy_reinforce_rate = 0.01
+
+
+		tax_income = -0.1
+		local_tax_modifier = 0.02
+		local_revolt_risk = -0.01
+
+
+		light_infantry = 15
+		pikemen = 5
+
+
+		retinuesize = 5
+	}
+	tp_r_pat_2 = {
+		desc = tp_r_pat_2_desc
+		upgrades_from = tp_r_pat_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_road_1
+				has_province_modifier = tsk_road_2
+				has_province_modifier = tsk_road_3
+				has_province_modifier = tsk_road_4
+				has_province_modifier = tsk_road_5
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 107
+
+		build_time = 71
+
+		gold_cost = 94.6
+
+		fort_level = 0.01
+		garrison_size = 0.015
+		levy_size = -0.01
+		levy_reinforce_rate = 0.01
+
+
+		tax_income = -0.1
+		local_tax_modifier = 0.02
+		local_revolt_risk = -0.01
+
+
+		light_infantry = 15
+		pikemen = 5
+
+
+		retinuesize = 5
+	}
+	tp_r_pat_3 = {
+		desc = tp_r_pat_3_desc
+		upgrades_from = tp_r_pat_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_road_2
+				has_province_modifier = tsk_road_3
+				has_province_modifier = tsk_road_4
+				has_province_modifier = tsk_road_5
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 106
+
+		build_time = 125
+
+		gold_cost = 166.8
+
+		fort_level = 0.01
+		garrison_size = 0.02
+		levy_size = -0.01
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.01
+
+		tax_income = -0.1
+		local_tax_modifier = 0.02
+		local_revolt_risk = -0.01
+
+
+		light_infantry = 15
+		pikemen = 5
+
+
+		retinuesize = 10
+	}
+	tp_r_pat_4 = {
+		desc = tp_r_pat_4_desc
+		upgrades_from = tp_r_pat_3
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_road_2
+				has_province_modifier = tsk_road_3
+				has_province_modifier = tsk_road_4
+				has_province_modifier = tsk_road_5
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 105
+
+		build_time = 179
+
+		gold_cost = 238.9
+
+		fort_level = 0.01
+		garrison_size = 0.02
+		levy_size = -0.01
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.02
+
+		tax_income = -0.1
+		local_tax_modifier = 0.02
+		local_revolt_risk = -0.01
+
+
+		light_infantry = 15
+		pikemen = 5
+
+
+		retinuesize = 10
+	}
+	tp_r_pat_5 = {
+		desc = tp_r_pat_5_desc
+		upgrades_from = tp_r_pat_4
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_road_3
+				has_province_modifier = tsk_road_4
+				has_province_modifier = tsk_road_5
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 104
+
+		build_time = 234
+
+		gold_cost = 311.1
+
+		fort_level = 0.01
+		garrison_size = 0.025
+		levy_size = -0.01
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.02
+
+		tax_income = -0.1
+		local_tax_modifier = 0.02
+		local_revolt_risk = -0.01
+
+
+		light_infantry = 10
+		archers = 5
+		light_cavalry = 5
+		galleys = 5
+
+
+		retinuesize = 15
+	}
+	tp_r_pat_6 = {
+		desc = tp_r_pat_6_desc
+		upgrades_from = tp_r_pat_5
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_road_3
+				has_province_modifier = tsk_road_4
+				has_province_modifier = tsk_road_5
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 103
+
+		build_time = 288
+
+		gold_cost = 383.2
+
+		fort_level = 0.01
+		garrison_size = 0.025
+		levy_size = -0.01
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.04
+
+		tax_income = -0.1
+		local_tax_modifier = 0.02
+		local_revolt_risk = -0.01
+
+
+		light_infantry = 10
+		archers = 5
+		light_cavalry = 5
+		galleys = 5
+
+
+		retinuesize = 15
+	}
+	tp_r_pat_7 = {
+		desc = tp_r_pat_7_desc
+		upgrades_from = tp_r_pat_6
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_road_4
+				has_province_modifier = tsk_road_5
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 102
+
+		build_time = 342
+
+		gold_cost = 455.4
+
+		fort_level = 0.01
+		garrison_size = 0.03
+		levy_size = -0.01
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.04
+
+		tax_income = -0.1
+		local_tax_modifier = 0.02
+		local_revolt_risk = -0.01
+
+
+		light_infantry = 10
+		archers = 5
+		light_cavalry = 5
+		galleys = 5
+
+
+		retinuesize = 20
+	}
+	tp_r_pat_8 = {
+		desc = tp_r_pat_8_desc
+		upgrades_from = tp_r_pat_7
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			has_province_modifier = tsk_road_5
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 101
+
+		build_time = 396
+
+		gold_cost = 527.6
+
+		fort_level = 0.01
+		garrison_size = 0.03
+		levy_size = -0.01
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.06
+
+		tax_income = -0.1
+		local_tax_modifier = 0.02
+		local_revolt_risk = -0.01
+
+
+		light_infantry = 10
+		archers = 5
+		light_cavalry = 5
+		galleys = 5
+
+
+		retinuesize = 20
+	}
+	tp_r_port_1 = {
+		desc = tp_r_port_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_1
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			location = {
+				port = yes
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_1
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 119
+
+		build_time = 56
+
+		gold_cost = 60
+
+		fort_level = 0.2
+
+
+		tax_income = 0.4
+
+
+		galleys = 2
+
+
+	}
+	tp_r_port_2 = {
+		desc = tp_r_port_2_desc
+		upgrades_from = tp_r_port_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			location = {
+				port = yes
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_3
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 118
+
+		build_time = 168
+
+		gold_cost = 180
+
+		fort_level = 0.6
+
+
+		tax_income = 1.2
+
+
+		galleys = 6
+
+
+	}
+	tp_r_port_3 = {
+		desc = tp_r_port_3_desc
+		upgrades_from = tp_r_port_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			location = {
+				port = yes
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_5
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 117
+
+		build_time = 280
+
+		gold_cost = 300
+
+		fort_level = 1
+
+
+		tax_income = 2
+
+
+		galleys = 10
+
+
+	}
+	tp_r_port_4 = {
+		desc = tp_r_port_4_desc
+		upgrades_from = tp_r_port_3
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			location = {
+				port = yes
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_5
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 116
+
+		build_time = 392
+
+		gold_cost = 420
+
+		fort_level = 1.4
+
+
+		tax_income = 2.8
+
+
+		galleys = 14
+
+
+	}
+	tp_r_port_5 = {
+		desc = tp_r_port_5_desc
+		upgrades_from = tp_r_port_4
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			has_province_modifier = tsk_infra_5
+		}
+		potential = {
+			location = {
+				port = yes
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_6
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 115
+
+		build_time = 504
+
+		gold_cost = 540
+
+		fort_level = 1.8
+
+
+		tax_income = 3.6
+
+
+		galleys = 18
+
+
+	}
+	tp_r_smith_1 = {
+		desc = tp_r_smith_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+		}
+		prerequisites = {
+			tp_r_settlement_1
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 110
+
+		build_time = 13
+
+		gold_cost = 13
+
+
+
+		tax_income = 0.182
+
+		land_morale = 0.02
+
+
+		light_infantry_offensive = 0.05
+		light_infantry_defensive = 0.05
+		heavy_infantry_offensive = 0.05
+		heavy_infantry_defensive = 0.05
+		pikemen_offensive = 0.05
+		pikemen_defensive = 0.05
+
+		retinuesize = 10
+	}
+	tp_r_smith_2 = {
+		desc = tp_r_smith_2_desc
+		upgrades_from = tp_r_smith_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+		}
+		prerequisites = {
+			tp_r_settlement_1
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 109
+
+		build_time = 66
+
+		gold_cost = 65.8
+
+
+
+		tax_income = 0.269
+
+		land_morale = 0.02
+
+
+		light_infantry_offensive = 0.05
+		light_infantry_defensive = 0.05
+		heavy_infantry_offensive = 0.05
+		heavy_infantry_defensive = 0.05
+		pikemen_offensive = 0.05
+		pikemen_defensive = 0.05
+
+		retinuesize = 15
+	}
+	tp_r_smith_3 = {
+		desc = tp_r_smith_3_desc
+		upgrades_from = tp_r_smith_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_1
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_2
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 108
+
+		build_time = 119
+
+		gold_cost = 118.6
+
+
+
+		tax_income = 0.356
+
+		land_morale = 0.02
+
+
+		light_infantry_offensive = 0.05
+		light_infantry_defensive = 0.05
+		heavy_infantry_offensive = 0.05
+		heavy_infantry_defensive = 0.05
+		pikemen_offensive = 0.05
+		pikemen_defensive = 0.05
+
+		retinuesize = 15
+	}
+	tp_r_smith_4 = {
+		desc = tp_r_smith_4_desc
+		upgrades_from = tp_r_smith_3
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_4
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 107
+
+		build_time = 171
+
+		gold_cost = 171.4
+
+
+
+		tax_income = 0.443
+
+		land_morale = 0.02
+
+
+		light_infantry_offensive = 0.05
+		light_infantry_defensive = 0.05
+		heavy_infantry_offensive = 0.05
+		heavy_infantry_defensive = 0.05
+		pikemen_offensive = 0.05
+		pikemen_defensive = 0.05
+
+		retinuesize = 20
+	}
+	tp_r_smith_5 = {
+		desc = tp_r_smith_5_desc
+		upgrades_from = tp_r_smith_4
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_6
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 106
+
+		build_time = 224
+
+		gold_cost = 224.2
+
+
+
+		tax_income = 0.53
+
+		land_morale = 0.02
+
+
+		light_infantry_offensive = 0.05
+		light_infantry_defensive = 0.05
+		heavy_infantry_offensive = 0.05
+		heavy_infantry_defensive = 0.05
+		pikemen_offensive = 0.05
+		pikemen_defensive = 0.05
+
+		retinuesize = 20
+	}
+	tp_r_smith_6 = {
+		desc = tp_r_smith_6_desc
+		upgrades_from = tp_r_smith_5
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_6
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 105
+
+		build_time = 277
+
+		gold_cost = 277
+
+
+
+		tax_income = 0.616
+
+		land_morale = 0.02
+
+
+		light_infantry_offensive = 0.05
+		light_infantry_defensive = 0.05
+		heavy_infantry_offensive = 0.05
+		heavy_infantry_defensive = 0.05
+		pikemen_offensive = 0.05
+		pikemen_defensive = 0.05
+
+		retinuesize = 30
+	}
+	tp_r_smith_7 = {
+		desc = tp_r_smith_7_desc
+		upgrades_from = tp_r_smith_6
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			has_province_modifier = tsk_infra_5
+		}
+		prerequisites = {
+			tp_r_settlement_6
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 104
+
+		build_time = 330
+
+		gold_cost = 329.8
+
+
+
+		tax_income = 0.703
+
+		land_morale = 0.02
+
+
+		light_infantry_offensive = 0.05
+		light_infantry_defensive = 0.05
+		heavy_infantry_offensive = 0.05
+		heavy_infantry_defensive = 0.05
+		pikemen_offensive = 0.05
+		pikemen_defensive = 0.05
+
+		retinuesize = 40
+	}
+	tp_r_far_sus_1 = {
+		desc = tp_r_far_sus_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+		}
+		prerequisites = {
+			tp_r_settlement_1
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 120
+
+		build_time = 14
+
+		gold_cost = 11.7
+
+		fort_level = -0.1
+		garrison_size = 0.01
+
+
+		tax_income = 0.1
+
+
+		light_infantry = 15
+		archers = 10
+
+
+	}
+	tp_r_far_sus_2 = {
+		desc = tp_r_far_sus_2_desc
+		upgrades_from = tp_r_far_sus_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_1
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_1
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 120
+
+		build_time = 88
+
+		gold_cost = 73.8
+
+		fort_level = -0.1
+		garrison_size = 0.01
+
+
+		tax_income = 0.1
+
+
+		light_infantry = 15
+		archers = 10
+
+
+	}
+	tp_r_far_sus_3 = {
+		desc = tp_r_far_sus_3_desc
+		upgrades_from = tp_r_far_sus_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_2
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 119
+
+		build_time = 163
+
+		gold_cost = 135.9
+
+		fort_level = -0.1
+		garrison_size = 0.02
+
+
+		tax_income = 0.1
+
+
+		light_infantry = 15
+		archers = 10
+
+
+	}
+	tp_r_far_sus_4 = {
+		desc = tp_r_far_sus_4_desc
+		upgrades_from = tp_r_far_sus_3
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_3
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 118
+
+		build_time = 237
+
+		gold_cost = 198.1
+
+		fort_level = -0.1
+		garrison_size = 0.03
+
+
+		tax_income = 0.1
+
+
+		light_infantry = 15
+		archers = 10
+
+
+	}
+	tp_r_far_sus_5 = {
+		desc = tp_r_far_sus_5_desc
+		upgrades_from = tp_r_far_sus_4
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_5
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 118
+
+		build_time = 312
+
+		gold_cost = 260.2
+
+		fort_level = -0.1
+		garrison_size = 0.03
+
+
+		tax_income = 0.1
+
+
+		light_infantry = 15
+		archers = 10
+
+
+	}
+	tp_r_far_sus_6 = {
+		desc = tp_r_far_sus_6_desc
+		upgrades_from = tp_r_far_sus_5
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			has_province_modifier = tsk_infra_5
+		}
+		prerequisites = {
+			tp_r_settlement_6
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 117
+
+		build_time = 386
+
+		gold_cost = 322.3
+
+		fort_level = -0.1
+		garrison_size = 0.05
+
+
+		tax_income = 0.1
+
+
+		light_infantry = 15
+		archers = 10
+
+
+	}
+	tp_r_steelworks_1 = {
+		desc = tp_r_steelworks_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_1
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = steel
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 114
+
+		build_time = 374
+
+		gold_cost = 780
+
+
+		monthly_character_piety = 0.01
+
+		tax_income = 0.286
+		tradevalue = 0.35
+		local_build_time_modifier = -0.02
+
+		land_morale = 0.02
+
+		light_infantry = -15
+		heavy_infantry = 5
+		pikemen = 5
+
+		light_infantry_offensive = 0.01
+		archers_offensive = 0.02
+		heavy_infantry_offensive = 0.02
+		heavy_infantry_defensive = 0.01
+		pikemen_offensive = 0.02
+		pikemen_defensive = 0.01
+		light_cavalry_offensive = 0.01
+		knights_offensive = 0.02
+		knights_defensive = 0.01
+
+		retinuesize = 5
+	}
+	tp_r_steelworks_2 = {
+		desc = tp_r_steelworks_2_desc
+		upgrades_from = tp_r_steelworks_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = steel
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 113
+
+		build_time = 307
+
+		gold_cost = 640
+
+
+		monthly_character_piety = 0.02
+
+		tax_income = 0.468
+		tradevalue = 0.35
+		local_build_time_modifier = -0.02
+
+		land_morale = 0.02
+
+		light_infantry = -15
+		heavy_infantry = 5
+		pikemen = 5
+
+		light_infantry_offensive = 0.01
+		archers_offensive = 0.02
+		heavy_infantry_offensive = 0.02
+		heavy_infantry_defensive = 0.01
+		pikemen_offensive = 0.02
+		pikemen_defensive = 0.01
+		light_cavalry_offensive = 0.01
+		knights_offensive = 0.02
+		knights_defensive = 0.01
+
+		retinuesize = 5
+	}
+	tp_r_steelworks_3 = {
+		desc = tp_r_steelworks_3_desc
+		upgrades_from = tp_r_steelworks_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = steel
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 112
+
+		build_time = 240
+
+		gold_cost = 500
+
+
+		monthly_character_piety = 0.03
+
+		tax_income = 0.65
+		tradevalue = 0.35
+		local_build_time_modifier = -0.02
+
+		land_morale = 0.02
+
+		light_infantry = -15
+		heavy_infantry = 5
+		pikemen = 5
+
+		light_infantry_offensive = 0.01
+		archers_offensive = 0.02
+		heavy_infantry_offensive = 0.02
+		heavy_infantry_defensive = 0.01
+		pikemen_offensive = 0.02
+		pikemen_defensive = 0.01
+		light_cavalry_offensive = 0.01
+		knights_offensive = 0.02
+		knights_defensive = 0.01
+
+		retinuesize = 5
+	}
+	tp_r_steelworks_4 = {
+		desc = tp_r_steelworks_4_desc
+		upgrades_from = tp_r_steelworks_3
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = steel
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 111
+
+		build_time = 173
+
+		gold_cost = 360
+
+
+		monthly_character_piety = 0.04
+
+		tax_income = 0.832
+		tradevalue = 0.35
+		local_build_time_modifier = -0.02
+
+		land_morale = 0.02
+
+		light_infantry = -15
+		heavy_infantry = 5
+		pikemen = 5
+
+		light_infantry_offensive = 0.01
+		archers_offensive = 0.02
+		heavy_infantry_offensive = 0.02
+		heavy_infantry_defensive = 0.01
+		pikemen_offensive = 0.02
+		pikemen_defensive = 0.01
+		light_cavalry_offensive = 0.01
+		knights_offensive = 0.02
+		knights_defensive = 0.01
+
+		retinuesize = 5
+	}
+	tp_r_steelworks_5 = {
+		desc = tp_r_steelworks_5_desc
+		upgrades_from = tp_r_steelworks_4
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			has_province_modifier = tsk_infra_5
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = steel
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 110
+
+		build_time = 106
+
+		gold_cost = 220
+
+
+		monthly_character_piety = 0.05
+
+		tax_income = 1.014
+		tradevalue = 0.35
+		local_build_time_modifier = -0.02
+
+		land_morale = 0.02
+
+		light_infantry = -15
+		heavy_infantry = 5
+		pikemen = 5
+
+		light_infantry_offensive = 0.01
+		archers_offensive = 0.02
+		heavy_infantry_offensive = 0.02
+		heavy_infantry_defensive = 0.01
+		pikemen_offensive = 0.02
+		pikemen_defensive = 0.01
+		light_cavalry_offensive = 0.01
+		knights_offensive = 0.02
+		knights_defensive = 0.01
+
+		retinuesize = 5
+	}
+	tp_r_lumbermill_k_1 = {
+		desc = tp_r_lumbermill_k_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_1
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = kingswood
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 105
+
+		build_time = 374
+
+		gold_cost = 780
+
+
+		monthly_character_piety = 0.01
+
+		tax_income = 0.352
+		tradevalue = 0.2
+		local_build_cost_modifier = -0.02
+		local_build_time_modifier = -0.01
+
+
+		light_infantry = -8
+		archers = 6
+		light_cavalry = 4
+
+		archers_offensive = 0.03
+		archers_defensive = 0.01
+		light_cavalry_offensive = 0.03
+		light_cavalry_defensive = 0.01
+
+	}
+	tp_r_lumbermill_k_2 = {
+		desc = tp_r_lumbermill_k_2_desc
+		upgrades_from = tp_r_lumbermill_k_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = kingswood
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 106
+
+		build_time = 307
+
+		gold_cost = 640
+
+
+		monthly_character_piety = 0.02
+
+		tax_income = 0.576
+		tradevalue = 0.2
+		local_build_cost_modifier = -0.02
+		local_build_time_modifier = -0.01
+
+
+		light_infantry = -8
+		archers = 6
+		light_cavalry = 4
+
+		archers_offensive = 0.03
+		archers_defensive = 0.01
+		light_cavalry_offensive = 0.03
+		light_cavalry_defensive = 0.01
+
+	}
+	tp_r_lumbermill_k_3 = {
+		desc = tp_r_lumbermill_k_3_desc
+		upgrades_from = tp_r_lumbermill_k_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = kingswood
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 107
+
+		build_time = 240
+
+		gold_cost = 500
+
+
+		monthly_character_piety = 0.03
+
+		tax_income = 0.8
+		tradevalue = 0.2
+		local_build_cost_modifier = -0.02
+		local_build_time_modifier = -0.01
+
+
+		light_infantry = -8
+		archers = 6
+		light_cavalry = 4
+
+		archers_offensive = 0.03
+		archers_defensive = 0.01
+		light_cavalry_offensive = 0.03
+		light_cavalry_defensive = 0.01
+
+	}
+	tp_r_lumbermill_k_4 = {
+		desc = tp_r_lumbermill_k_4_desc
+		upgrades_from = tp_r_lumbermill_k_3
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = kingswood
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 108
+
+		build_time = 173
+
+		gold_cost = 360
+
+
+		monthly_character_piety = 0.04
+
+		tax_income = 1.024
+		tradevalue = 0.2
+		local_build_cost_modifier = -0.02
+		local_build_time_modifier = -0.01
+
+
+		light_infantry = -8
+		archers = 6
+		light_cavalry = 4
+
+		archers_offensive = 0.03
+		archers_defensive = 0.01
+		light_cavalry_offensive = 0.03
+		light_cavalry_defensive = 0.01
+
+	}
+	tp_r_lumbermill_k_5 = {
+		desc = tp_r_lumbermill_k_5_desc
+		upgrades_from = tp_r_lumbermill_k_4
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			has_province_modifier = tsk_infra_5
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = kingswood
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 109
+
+		build_time = 106
+
+		gold_cost = 220
+
+
+		monthly_character_piety = 0.05
+
+		tax_income = 1.248
+		tradevalue = 0.2
+		local_build_cost_modifier = -0.02
+		local_build_time_modifier = -0.01
+
+
+		light_infantry = -8
+		archers = 6
+		light_cavalry = 4
+
+		archers_offensive = 0.03
+		archers_defensive = 0.01
+		light_cavalry_offensive = 0.03
+		light_cavalry_defensive = 0.01
+
+	}
+	tp_r_lumbermill_r_1 = {
+		desc = tp_r_lumbermill_r_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_1
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = rainwood
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 105
+
+		build_time = 374
+
+		gold_cost = 780
+
+
+		monthly_character_piety = 0.01
+
+		tax_income = 0.396
+		tradevalue = 0.2
+		local_build_cost_modifier = -0.02
+		local_build_time_modifier = -0.01
+
+
+		light_infantry = -8
+		light_cavalry = 8
+		knights = 2
+
+		archers_offensive = 0.02
+		archers_defensive = 0.02
+		knights_offensive = 0.02
+		knights_defensive = 0.01
+
+	}
+	tp_r_lumbermill_r_2 = {
+		desc = tp_r_lumbermill_r_2_desc
+		upgrades_from = tp_r_lumbermill_r_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = rainwood
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 106
+
+		build_time = 307
+
+		gold_cost = 640
+
+
+		monthly_character_piety = 0.02
+
+		tax_income = 0.648
+		tradevalue = 0.2
+		local_build_cost_modifier = -0.02
+		local_build_time_modifier = -0.01
+
+
+		light_infantry = -8
+		light_cavalry = 8
+		knights = 2
+
+		archers_offensive = 0.02
+		archers_defensive = 0.02
+		knights_offensive = 0.02
+		knights_defensive = 0.01
+
+	}
+	tp_r_lumbermill_r_3 = {
+		desc = tp_r_lumbermill_r_3_desc
+		upgrades_from = tp_r_lumbermill_r_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = rainwood
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 107
+
+		build_time = 240
+
+		gold_cost = 500
+
+
+		monthly_character_piety = 0.03
+
+		tax_income = 0.9
+		tradevalue = 0.2
+		local_build_cost_modifier = -0.02
+		local_build_time_modifier = -0.01
+
+
+		light_infantry = -8
+		light_cavalry = 8
+		knights = 2
+
+		archers_offensive = 0.02
+		archers_defensive = 0.02
+		knights_offensive = 0.02
+		knights_defensive = 0.01
+
+	}
+	tp_r_lumbermill_r_4 = {
+		desc = tp_r_lumbermill_r_4_desc
+		upgrades_from = tp_r_lumbermill_r_3
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = rainwood
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 108
+
+		build_time = 173
+
+		gold_cost = 360
+
+
+		monthly_character_piety = 0.04
+
+		tax_income = 1.152
+		tradevalue = 0.2
+		local_build_cost_modifier = -0.02
+		local_build_time_modifier = -0.01
+
+
+		light_infantry = -8
+		light_cavalry = 8
+		knights = 2
+
+		archers_offensive = 0.02
+		archers_defensive = 0.02
+		knights_offensive = 0.02
+		knights_defensive = 0.01
+
+	}
+	tp_r_lumbermill_r_5 = {
+		desc = tp_r_lumbermill_r_5_desc
+		upgrades_from = tp_r_lumbermill_r_4
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			has_province_modifier = tsk_infra_5
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = rainwood
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 109
+
+		build_time = 106
+
+		gold_cost = 220
+
+
+		monthly_character_piety = 0.05
+
+		tax_income = 1.404
+		tradevalue = 0.2
+		local_build_cost_modifier = -0.02
+		local_build_time_modifier = -0.01
+
+
+		light_infantry = -8
+		light_cavalry = 8
+		knights = 2
+
+		archers_offensive = 0.02
+		archers_defensive = 0.02
+		knights_offensive = 0.02
+		knights_defensive = 0.01
+
+	}
+	tp_r_lumbermill_m_1 = {
+		desc = tp_r_lumbermill_m_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_1
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = mistwood
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 105
+
+		build_time = 374
+
+		gold_cost = 780
+
+
+		monthly_character_piety = 0.01
+
+		tax_income = 0.33
+		tradevalue = 0.2
+		local_build_cost_modifier = -0.02
+		local_build_time_modifier = -0.01
+
+
+		light_infantry = 4
+		archers = 3
+
+		light_infantry_offensive = 0.03
+		light_infantry_defensive = 0.02
+		archers_offensive = 0.03
+		archers_defensive = 0.02
+
+	}
+	tp_r_lumbermill_m_2 = {
+		desc = tp_r_lumbermill_m_2_desc
+		upgrades_from = tp_r_lumbermill_m_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = mistwood
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 106
+
+		build_time = 307
+
+		gold_cost = 640
+
+
+		monthly_character_piety = 0.02
+
+		tax_income = 0.54
+		tradevalue = 0.2
+		local_build_cost_modifier = -0.02
+		local_build_time_modifier = -0.01
+
+
+		light_infantry = 4
+		archers = 3
+
+		light_infantry_offensive = 0.03
+		light_infantry_defensive = 0.02
+		archers_offensive = 0.03
+		archers_defensive = 0.02
+
+	}
+	tp_r_lumbermill_m_3 = {
+		desc = tp_r_lumbermill_m_3_desc
+		upgrades_from = tp_r_lumbermill_m_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = mistwood
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 107
+
+		build_time = 240
+
+		gold_cost = 500
+
+
+		monthly_character_piety = 0.03
+
+		tax_income = 0.75
+		tradevalue = 0.2
+		local_build_cost_modifier = -0.02
+		local_build_time_modifier = -0.01
+
+
+		light_infantry = 4
+		archers = 3
+
+		light_infantry_offensive = 0.03
+		light_infantry_defensive = 0.02
+		archers_offensive = 0.03
+		archers_defensive = 0.02
+
+	}
+	tp_r_lumbermill_m_4 = {
+		desc = tp_r_lumbermill_m_4_desc
+		upgrades_from = tp_r_lumbermill_m_3
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = mistwood
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 108
+
+		build_time = 173
+
+		gold_cost = 360
+
+
+		monthly_character_piety = 0.04
+
+		tax_income = 0.96
+		tradevalue = 0.2
+		local_build_cost_modifier = -0.02
+		local_build_time_modifier = -0.01
+
+
+		light_infantry = 4
+		archers = 3
+
+		light_infantry_offensive = 0.03
+		light_infantry_defensive = 0.02
+		archers_offensive = 0.03
+		archers_defensive = 0.02
+
+	}
+	tp_r_lumbermill_m_5 = {
+		desc = tp_r_lumbermill_m_5_desc
+		upgrades_from = tp_r_lumbermill_m_4
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			has_province_modifier = tsk_infra_5
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = mistwood
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 109
+
+		build_time = 106
+
+		gold_cost = 220
+
+
+		monthly_character_piety = 0.05
+
+		tax_income = 1.17
+		tradevalue = 0.2
+		local_build_cost_modifier = -0.02
+		local_build_time_modifier = -0.01
+
+
+		light_infantry = 4
+		archers = 3
+
+		light_infantry_offensive = 0.03
+		light_infantry_defensive = 0.02
+		archers_offensive = 0.03
+		archers_defensive = 0.02
+
+	}
+	tp_r_lumbermill_l_1 = {
+		desc = tp_r_lumbermill_l_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_1
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = lemonwood
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 105
+
+		build_time = 374
+
+		gold_cost = 780
+
+
+		monthly_character_piety = 0.01
+
+		tax_income = 0.44
+		tradevalue = 0.2
+		local_build_cost_modifier = -0.02
+		local_build_time_modifier = -0.01
+
+
+		light_infantry = 3
+		archers = 2
+
+		light_infantry_offensive = 0.03
+		light_infantry_defensive = 0.03
+		archers_offensive = 0.02
+		archers_defensive = 0.02
+
+	}
+	tp_r_lumbermill_l_2 = {
+		desc = tp_r_lumbermill_l_2_desc
+		upgrades_from = tp_r_lumbermill_l_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = lemonwood
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 106
+
+		build_time = 307
+
+		gold_cost = 640
+
+
+		monthly_character_piety = 0.02
+
+		tax_income = 0.72
+		tradevalue = 0.2
+		local_build_cost_modifier = -0.02
+		local_build_time_modifier = -0.01
+
+
+		light_infantry = 3
+		archers = 2
+
+		light_infantry_offensive = 0.03
+		light_infantry_defensive = 0.03
+		archers_offensive = 0.02
+		archers_defensive = 0.02
+
+	}
+	tp_r_lumbermill_l_3 = {
+		desc = tp_r_lumbermill_l_3_desc
+		upgrades_from = tp_r_lumbermill_l_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = lemonwood
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 107
+
+		build_time = 240
+
+		gold_cost = 500
+
+
+		monthly_character_piety = 0.03
+
+		tax_income = 1
+		tradevalue = 0.2
+		local_build_cost_modifier = -0.02
+		local_build_time_modifier = -0.01
+
+
+		light_infantry = 3
+		archers = 2
+
+		light_infantry_offensive = 0.03
+		light_infantry_defensive = 0.03
+		archers_offensive = 0.02
+		archers_defensive = 0.02
+
+	}
+	tp_r_lumbermill_l_4 = {
+		desc = tp_r_lumbermill_l_4_desc
+		upgrades_from = tp_r_lumbermill_l_3
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = lemonwood
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 108
+
+		build_time = 173
+
+		gold_cost = 360
+
+
+		monthly_character_piety = 0.04
+
+		tax_income = 1.28
+		tradevalue = 0.2
+		local_build_cost_modifier = -0.02
+		local_build_time_modifier = -0.01
+
+
+		light_infantry = 3
+		archers = 2
+
+		light_infantry_offensive = 0.03
+		light_infantry_defensive = 0.03
+		archers_offensive = 0.02
+		archers_defensive = 0.02
+
+	}
+	tp_r_lumbermill_l_5 = {
+		desc = tp_r_lumbermill_l_5_desc
+		upgrades_from = tp_r_lumbermill_l_4
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			has_province_modifier = tsk_infra_5
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = lemonwood
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 109
+
+		build_time = 106
+
+		gold_cost = 220
+
+
+		monthly_character_piety = 0.05
+
+		tax_income = 1.56
+		tradevalue = 0.2
+		local_build_cost_modifier = -0.02
+		local_build_time_modifier = -0.01
+
+
+		light_infantry = 3
+		archers = 2
+
+		light_infantry_offensive = 0.03
+		light_infantry_defensive = 0.03
+		archers_offensive = 0.02
+		archers_defensive = 0.02
+
+	}
+	tp_r_lumbermill_w_1 = {
+		desc = tp_r_lumbermill_w_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_1
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = wolfswood
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 105
+
+		build_time = 374
+
+		gold_cost = 780
+
+
+		monthly_character_piety = 0.01
+
+		tax_income = 0.308
+		tradevalue = 0.2
+		local_build_cost_modifier = -0.02
+		local_build_time_modifier = -0.01
+
+
+		light_infantry = 2
+		archers = 3
+
+		light_infantry_offensive = 0.02
+		light_infantry_defensive = 0.02
+		archers_offensive = 0.03
+		archers_defensive = 0.03
+
+	}
+	tp_r_lumbermill_w_2 = {
+		desc = tp_r_lumbermill_w_2_desc
+		upgrades_from = tp_r_lumbermill_w_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = wolfswood
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 106
+
+		build_time = 307
+
+		gold_cost = 640
+
+
+		monthly_character_piety = 0.02
+
+		tax_income = 0.504
+		tradevalue = 0.2
+		local_build_cost_modifier = -0.02
+		local_build_time_modifier = -0.01
+
+
+		light_infantry = 2
+		archers = 3
+
+		light_infantry_offensive = 0.02
+		light_infantry_defensive = 0.02
+		archers_offensive = 0.03
+		archers_defensive = 0.03
+
+	}
+	tp_r_lumbermill_w_3 = {
+		desc = tp_r_lumbermill_w_3_desc
+		upgrades_from = tp_r_lumbermill_w_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = wolfswood
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 107
+
+		build_time = 240
+
+		gold_cost = 500
+
+
+		monthly_character_piety = 0.03
+
+		tax_income = 0.7
+		tradevalue = 0.2
+		local_build_cost_modifier = -0.02
+		local_build_time_modifier = -0.01
+
+
+		light_infantry = 2
+		archers = 3
+
+		light_infantry_offensive = 0.02
+		light_infantry_defensive = 0.02
+		archers_offensive = 0.03
+		archers_defensive = 0.03
+
+	}
+	tp_r_lumbermill_w_4 = {
+		desc = tp_r_lumbermill_w_4_desc
+		upgrades_from = tp_r_lumbermill_w_3
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = wolfswood
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 108
+
+		build_time = 173
+
+		gold_cost = 360
+
+
+		monthly_character_piety = 0.04
+
+		tax_income = 0.896
+		tradevalue = 0.2
+		local_build_cost_modifier = -0.02
+		local_build_time_modifier = -0.01
+
+
+		light_infantry = 2
+		archers = 3
+
+		light_infantry_offensive = 0.02
+		light_infantry_defensive = 0.02
+		archers_offensive = 0.03
+		archers_defensive = 0.03
+
+	}
+	tp_r_lumbermill_w_5 = {
+		desc = tp_r_lumbermill_w_5_desc
+		upgrades_from = tp_r_lumbermill_w_4
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			has_province_modifier = tsk_infra_5
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = wolfswood
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 109
+
+		build_time = 106
+
+		gold_cost = 220
+
+
+		monthly_character_piety = 0.05
+
+		tax_income = 1.092
+		tradevalue = 0.2
+		local_build_cost_modifier = -0.02
+		local_build_time_modifier = -0.01
+
+
+		light_infantry = 2
+		archers = 3
+
+		light_infantry_offensive = 0.02
+		light_infantry_defensive = 0.02
+		archers_offensive = 0.03
+		archers_defensive = 0.03
+
+	}
+	tp_r_quarry_1 = {
+		desc = tp_r_quarry_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_1
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = flint
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 105
+
+		build_time = 374
+
+		gold_cost = 780
+
+
+		monthly_character_piety = 0.01
+
+		tax_income = 0.176
+		local_build_cost_modifier = -0.03
+		local_build_time_modifier = -0.02
+
+
+		light_infantry = 6
+
+		light_infantry_offensive = 0.04
+		archers_offensive = 0.02
+
+	}
+	tp_r_quarry_2 = {
+		desc = tp_r_quarry_2_desc
+		upgrades_from = tp_r_quarry_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = flint
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 106
+
+		build_time = 307
+
+		gold_cost = 640
+
+
+		monthly_character_piety = 0.02
+
+		tax_income = 0.288
+		local_build_cost_modifier = -0.03
+		local_build_time_modifier = -0.02
+
+
+		light_infantry = 6
+
+		light_infantry_offensive = 0.04
+		archers_offensive = 0.02
+
+	}
+	tp_r_quarry_3 = {
+		desc = tp_r_quarry_3_desc
+		upgrades_from = tp_r_quarry_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = flint
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 107
+
+		build_time = 240
+
+		gold_cost = 500
+
+
+		monthly_character_piety = 0.03
+
+		tax_income = 0.4
+		local_build_cost_modifier = -0.03
+		local_build_time_modifier = -0.02
+
+
+		light_infantry = 6
+
+		light_infantry_offensive = 0.04
+		archers_offensive = 0.02
+
+	}
+	tp_r_quarry_4 = {
+		desc = tp_r_quarry_4_desc
+		upgrades_from = tp_r_quarry_3
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = flint
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 108
+
+		build_time = 173
+
+		gold_cost = 360
+
+
+		monthly_character_piety = 0.04
+
+		tax_income = 0.512
+		local_build_cost_modifier = -0.03
+		local_build_time_modifier = -0.02
+
+
+		light_infantry = 6
+
+		light_infantry_offensive = 0.04
+		archers_offensive = 0.02
+
+	}
+	tp_r_quarry_5 = {
+		desc = tp_r_quarry_5_desc
+		upgrades_from = tp_r_quarry_4
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			has_province_modifier = tsk_infra_5
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = flint
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 109
+
+		build_time = 106
+
+		gold_cost = 220
+
+
+		monthly_character_piety = 0.05
+
+		tax_income = 0.624
+		local_build_cost_modifier = -0.03
+		local_build_time_modifier = -0.02
+
+
+		light_infantry = 6
+
+		light_infantry_offensive = 0.04
+		archers_offensive = 0.02
+
+	}
+	tp_r_mine_c_1 = {
+		desc = tp_r_mine_c_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_1
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = coal
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 105
+
+		build_time = 374
+
+		gold_cost = 780
+
+
+		monthly_character_prestige = 0.01
+
+		tax_income = 0.264
+		tradevalue = 0.25
+		local_tax_modifier = 0.01
+		local_build_cost_modifier = -0.015
+		local_build_time_modifier = -0.02
+
+		land_morale = 0.005
+
+
+		light_infantry_offensive = 0.01
+		light_infantry_defensive = 0.01
+		archers_offensive = 0.01
+		archers_defensive = 0.01
+		heavy_infantry_offensive = 0.01
+		heavy_infantry_defensive = 0.01
+		pikemen_offensive = 0.01
+		pikemen_defensive = 0.01
+		light_cavalry_offensive = 0.01
+		light_cavalry_defensive = 0.01
+		knights_offensive = 0.01
+		knights_defensive = 0.01
+
+	}
+	tp_r_mine_c_2 = {
+		desc = tp_r_mine_c_2_desc
+		upgrades_from = tp_r_mine_c_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = coal
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 106
+
+
+
+
+		monthly_character_prestige = 0.02
+
+		tax_income = 0.432
+		tradevalue = 0.25
+		local_tax_modifier = 0.01
+		local_build_cost_modifier = -0.015
+		local_build_time_modifier = -0.02
+
+		land_morale = 0.005
+
+
+		light_infantry_offensive = 0.01
+		light_infantry_defensive = 0.01
+		archers_offensive = 0.01
+		archers_defensive = 0.01
+		heavy_infantry_offensive = 0.01
+		heavy_infantry_defensive = 0.01
+		pikemen_offensive = 0.01
+		pikemen_defensive = 0.01
+		light_cavalry_offensive = 0.01
+		light_cavalry_defensive = 0.01
+		knights_offensive = 0.01
+		knights_defensive = 0.01
+
+	}
+	tp_r_mine_c_3 = {
+		desc = tp_r_mine_c_3_desc
+		upgrades_from = tp_r_mine_c_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = coal
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 107
+
+
+
+
+		monthly_character_prestige = 0.03
+
+		tax_income = 0.6
+		tradevalue = 0.25
+		local_tax_modifier = 0.01
+		local_build_cost_modifier = -0.015
+		local_build_time_modifier = -0.02
+
+		land_morale = 0.005
+
+
+		light_infantry_offensive = 0.01
+		light_infantry_defensive = 0.01
+		archers_offensive = 0.01
+		archers_defensive = 0.01
+		heavy_infantry_offensive = 0.01
+		heavy_infantry_defensive = 0.01
+		pikemen_offensive = 0.01
+		pikemen_defensive = 0.01
+		light_cavalry_offensive = 0.01
+		light_cavalry_defensive = 0.01
+		knights_offensive = 0.01
+		knights_defensive = 0.01
+
+	}
+	tp_r_mine_c_4 = {
+		desc = tp_r_mine_c_4_desc
+		upgrades_from = tp_r_mine_c_3
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = coal
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 108
+
+
+
+
+		monthly_character_prestige = 0.04
+
+		tax_income = 0.768
+		tradevalue = 0.25
+		local_tax_modifier = 0.01
+		local_build_cost_modifier = -0.015
+		local_build_time_modifier = -0.02
+
+		land_morale = 0.005
+
+
+		light_infantry_offensive = 0.01
+		light_infantry_defensive = 0.01
+		archers_offensive = 0.01
+		archers_defensive = 0.01
+		heavy_infantry_offensive = 0.01
+		heavy_infantry_defensive = 0.01
+		pikemen_offensive = 0.01
+		pikemen_defensive = 0.01
+		light_cavalry_offensive = 0.01
+		light_cavalry_defensive = 0.01
+		knights_offensive = 0.01
+		knights_defensive = 0.01
+
+	}
+	tp_r_mine_c_5 = {
+		desc = tp_r_mine_c_5_desc
+		upgrades_from = tp_r_mine_c_4
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			has_province_modifier = tsk_infra_5
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = coal
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 109
+
+
+
+
+		monthly_character_prestige = 0.05
+
+		tax_income = 0.936
+		tradevalue = 0.25
+		local_tax_modifier = 0.01
+		local_build_cost_modifier = -0.015
+		local_build_time_modifier = -0.02
+
+		land_morale = 0.005
+
+
+		light_infantry_offensive = 0.01
+		light_infantry_defensive = 0.01
+		archers_offensive = 0.01
+		archers_defensive = 0.01
+		heavy_infantry_offensive = 0.01
+		heavy_infantry_defensive = 0.01
+		pikemen_offensive = 0.01
+		pikemen_defensive = 0.01
+		light_cavalry_offensive = 0.01
+		light_cavalry_defensive = 0.01
+		knights_offensive = 0.01
+		knights_defensive = 0.01
+
+	}
+	tp_r_mine_sa_1 = {
+		desc = tp_r_mine_sa_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_1
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = salt
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 105
+
+		build_time = 374
+
+		gold_cost = 780
+
+
+		monthly_character_prestige = 0.01
+
+		tax_income = 0.352
+		tradevalue = 0.5
+		local_tax_modifier = 0.015
+		local_build_cost_modifier = -0.01
+
+
+
+
+	}
+	tp_r_mine_sa_2 = {
+		desc = tp_r_mine_sa_2_desc
+		upgrades_from = tp_r_mine_sa_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = salt
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 106
+
+		build_time = 307
+
+		gold_cost = 640
+
+
+		monthly_character_prestige = 0.02
+
+		tax_income = 0.576
+		tradevalue = 0.5
+		local_tax_modifier = 0.015
+		local_build_cost_modifier = -0.01
+
+
+
+
+	}
+	tp_r_mine_sa_3 = {
+		desc = tp_r_mine_sa_3_desc
+		upgrades_from = tp_r_mine_sa_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = salt
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 107
+
+		build_time = 240
+
+		gold_cost = 500
+
+
+		monthly_character_prestige = 0.03
+
+		tax_income = 0.8
+		tradevalue = 0.5
+		local_tax_modifier = 0.015
+		local_build_cost_modifier = -0.01
+
+
+
+
+	}
+	tp_r_mine_sa_4 = {
+		desc = tp_r_mine_sa_4_desc
+		upgrades_from = tp_r_mine_sa_3
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = salt
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 108
+
+		build_time = 173
+
+		gold_cost = 360
+
+
+		monthly_character_prestige = 0.04
+
+		tax_income = 1.024
+		tradevalue = 0.5
+		local_tax_modifier = 0.015
+		local_build_cost_modifier = -0.01
+
+
+
+
+	}
+	tp_r_mine_sa_5 = {
+		desc = tp_r_mine_sa_5_desc
+		upgrades_from = tp_r_mine_sa_4
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			has_province_modifier = tsk_infra_5
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = salt
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 109
+
+		build_time = 106
+
+		gold_cost = 220
+
+
+		monthly_character_prestige = 0.05
+
+		tax_income = 1.248
+		tradevalue = 0.5
+		local_tax_modifier = 0.015
+		local_build_cost_modifier = -0.01
+
+
+
+
+	}
+	tp_r_quarry_m_1 = {
+		desc = tp_r_quarry_m_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_1
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = marble
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 105
+
+		build_time = 374
+
+		gold_cost = 780
+
+
+		monthly_character_piety = 0.01
+
+		tax_income = 0.528
+		tradevalue = 0.3
+		local_tax_modifier = 0.015
+		local_build_cost_modifier = -0.04
+		local_build_time_modifier = -0.03
+
+
+
+
+	}
+	tp_r_quarry_m_2 = {
+		desc = tp_r_quarry_m_2_desc
+		upgrades_from = tp_r_quarry_m_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = marble
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 106
+
+		build_time = 307
+
+		gold_cost = 640
+
+
+		monthly_character_piety = 0.02
+
+		tax_income = 0.864
+		tradevalue = 0.3
+		local_tax_modifier = 0.015
+		local_build_cost_modifier = -0.04
+		local_build_time_modifier = -0.03
+
+
+
+
+	}
+	tp_r_quarry_m_3 = {
+		desc = tp_r_quarry_m_3_desc
+		upgrades_from = tp_r_quarry_m_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = marble
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 107
+
+		build_time = 240
+
+		gold_cost = 500
+
+
+		monthly_character_piety = 0.03
+
+		tax_income = 1.2
+		tradevalue = 0.3
+		local_tax_modifier = 0.015
+		local_build_cost_modifier = -0.04
+		local_build_time_modifier = -0.03
+
+
+
+
+	}
+	tp_r_quarry_m_4 = {
+		desc = tp_r_quarry_m_4_desc
+		upgrades_from = tp_r_quarry_m_3
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = marble
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 108
+
+		build_time = 173
+
+		gold_cost = 360
+
+
+		monthly_character_piety = 0.04
+
+		tax_income = 1.536
+		tradevalue = 0.3
+		local_tax_modifier = 0.015
+		local_build_cost_modifier = -0.04
+		local_build_time_modifier = -0.03
+
+
+
+
+	}
+	tp_r_quarry_m_5 = {
+		desc = tp_r_quarry_m_5_desc
+		upgrades_from = tp_r_quarry_m_4
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			has_province_modifier = tsk_infra_5
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = marble
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 109
+
+		build_time = 106
+
+		gold_cost = 220
+
+
+		monthly_character_piety = 0.05
+
+		tax_income = 1.872
+		tradevalue = 0.3
+		local_tax_modifier = 0.015
+		local_build_cost_modifier = -0.04
+		local_build_time_modifier = -0.03
+
+
+
+
+	}
+	tp_r_quarry_gr_1 = {
+		desc = tp_r_quarry_gr_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_1
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = granite
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 105
+
+		build_time = 374
+
+		gold_cost = 780
+
+
+		monthly_character_piety = 0.01
+
+		tax_income = 0.484
+		tradevalue = 0.15
+		local_tax_modifier = 0.01
+		local_build_cost_modifier = -0.05
+		local_build_time_modifier = -0.04
+
+
+
+
+	}
+	tp_r_quarry_gr_2 = {
+		desc = tp_r_quarry_gr_2_desc
+		upgrades_from = tp_r_quarry_gr_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = granite
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 106
+
+		build_time = 307
+
+		gold_cost = 640
+
+
+		monthly_character_piety = 0.02
+
+		tax_income = 0.792
+		tradevalue = 0.15
+		local_tax_modifier = 0.01
+		local_build_cost_modifier = -0.05
+		local_build_time_modifier = -0.04
+
+
+
+
+	}
+	tp_r_quarry_gr_3 = {
+		desc = tp_r_quarry_gr_3_desc
+		upgrades_from = tp_r_quarry_gr_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = granite
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 107
+
+		build_time = 240
+
+		gold_cost = 500
+
+
+		monthly_character_piety = 0.03
+
+		tax_income = 1.1
+		tradevalue = 0.15
+		local_tax_modifier = 0.01
+		local_build_cost_modifier = -0.05
+		local_build_time_modifier = -0.04
+
+
+
+
+	}
+	tp_r_quarry_gr_4 = {
+		desc = tp_r_quarry_gr_4_desc
+		upgrades_from = tp_r_quarry_gr_3
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = granite
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 108
+
+		build_time = 173
+
+		gold_cost = 360
+
+
+		monthly_character_piety = 0.04
+
+		tax_income = 1.408
+		tradevalue = 0.15
+		local_tax_modifier = 0.01
+		local_build_cost_modifier = -0.05
+		local_build_time_modifier = -0.04
+
+
+
+
+	}
+	tp_r_quarry_gr_5 = {
+		desc = tp_r_quarry_gr_5_desc
+		upgrades_from = tp_r_quarry_gr_4
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			has_province_modifier = tsk_infra_5
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = granite
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 109
+
+		build_time = 106
+
+		gold_cost = 220
+
+
+		monthly_character_piety = 0.05
+
+		tax_income = 1.716
+		tradevalue = 0.15
+		local_tax_modifier = 0.01
+		local_build_cost_modifier = -0.05
+		local_build_time_modifier = -0.04
+
+
+
+
+	}
+	tp_r_mine_co_1 = {
+		desc = tp_r_mine_co_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_1
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = copper
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 105
+
+		build_time = 374
+
+		gold_cost = 780
+
+
+		monthly_character_prestige = 0.01
+
+		tax_income = 0.352
+		tradevalue = 0.3
+
+		land_morale = 0.01
+
+
+		light_infantry_offensive = 0.02
+		archers_offensive = 0.02
+		heavy_infantry_offensive = 0.02
+		pikemen_offensive = 0.02
+		light_cavalry_offensive = 0.02
+		knights_offensive = 0.02
+
+	}
+	tp_r_mine_co_2 = {
+		desc = tp_r_mine_co_2_desc
+		upgrades_from = tp_r_mine_co_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = copper
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 106
+
+		build_time = 307
+
+		gold_cost = 640
+
+
+		monthly_character_prestige = 0.02
+
+		tax_income = 0.576
+		tradevalue = 0.3
+
+		land_morale = 0.01
+
+
+		light_infantry_offensive = 0.02
+		archers_offensive = 0.02
+		heavy_infantry_offensive = 0.02
+		pikemen_offensive = 0.02
+		light_cavalry_offensive = 0.02
+		knights_offensive = 0.02
+
+	}
+	tp_r_mine_co_3 = {
+		desc = tp_r_mine_co_3_desc
+		upgrades_from = tp_r_mine_co_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = copper
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 107
+
+		build_time = 240
+
+		gold_cost = 500
+
+
+		monthly_character_prestige = 0.03
+
+		tax_income = 0.8
+		tradevalue = 0.3
+
+		land_morale = 0.01
+
+
+		light_infantry_offensive = 0.02
+		archers_offensive = 0.02
+		heavy_infantry_offensive = 0.02
+		pikemen_offensive = 0.02
+		light_cavalry_offensive = 0.02
+		knights_offensive = 0.02
+
+	}
+	tp_r_mine_co_4 = {
+		desc = tp_r_mine_co_4_desc
+		upgrades_from = tp_r_mine_co_3
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = copper
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 108
+
+		build_time = 173
+
+		gold_cost = 360
+
+
+		monthly_character_prestige = 0.04
+
+		tax_income = 1.024
+		tradevalue = 0.3
+
+		land_morale = 0.01
+
+
+		light_infantry_offensive = 0.02
+		archers_offensive = 0.02
+		heavy_infantry_offensive = 0.02
+		pikemen_offensive = 0.02
+		light_cavalry_offensive = 0.02
+		knights_offensive = 0.02
+
+	}
+	tp_r_mine_co_5 = {
+		desc = tp_r_mine_co_5_desc
+		upgrades_from = tp_r_mine_co_4
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			has_province_modifier = tsk_infra_5
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = copper
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 109
+
+		build_time = 106
+
+		gold_cost = 220
+
+
+		monthly_character_prestige = 0.05
+
+		tax_income = 1.248
+		tradevalue = 0.3
+
+		land_morale = 0.01
+
+
+		light_infantry_offensive = 0.02
+		archers_offensive = 0.02
+		heavy_infantry_offensive = 0.02
+		pikemen_offensive = 0.02
+		light_cavalry_offensive = 0.02
+		knights_offensive = 0.02
+
+	}
+	tp_r_mine_i_1 = {
+		desc = tp_r_mine_i_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_1
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = iron
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 105
+
+		build_time = 374
+
+		gold_cost = 780
+
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.01
+
+		tax_income = 0.308
+		tradevalue = 0.2
+
+		land_morale = 0.01
+
+
+		light_infantry_offensive = 0.02
+		light_infantry_defensive = 0.01
+		archers_offensive = 0.02
+		archers_defensive = 0.01
+		heavy_infantry_offensive = 0.02
+		heavy_infantry_defensive = 0.01
+		pikemen_offensive = 0.02
+		pikemen_defensive = 0.01
+		light_cavalry_offensive = 0.02
+		light_cavalry_defensive = 0.01
+		knights_offensive = 0.02
+		knights_defensive = 0.01
+
+	}
+	tp_r_mine_i_2 = {
+		desc = tp_r_mine_i_2_desc
+		upgrades_from = tp_r_mine_i_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = iron
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 106
+
+		build_time = 307
+
+		gold_cost = 640
+
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.02
+
+		tax_income = 0.504
+		tradevalue = 0.2
+
+		land_morale = 0.01
+
+
+		light_infantry_offensive = 0.02
+		light_infantry_defensive = 0.01
+		archers_offensive = 0.02
+		archers_defensive = 0.01
+		heavy_infantry_offensive = 0.02
+		heavy_infantry_defensive = 0.01
+		pikemen_offensive = 0.02
+		pikemen_defensive = 0.01
+		light_cavalry_offensive = 0.02
+		light_cavalry_defensive = 0.01
+		knights_offensive = 0.02
+		knights_defensive = 0.01
+
+	}
+	tp_r_mine_i_3 = {
+		desc = tp_r_mine_i_3_desc
+		upgrades_from = tp_r_mine_i_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = iron
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 107
+
+		build_time = 240
+
+		gold_cost = 500
+
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.03
+
+		tax_income = 0.7
+		tradevalue = 0.2
+
+		land_morale = 0.01
+
+
+		light_infantry_offensive = 0.02
+		light_infantry_defensive = 0.01
+		archers_offensive = 0.02
+		archers_defensive = 0.01
+		heavy_infantry_offensive = 0.02
+		heavy_infantry_defensive = 0.01
+		pikemen_offensive = 0.02
+		pikemen_defensive = 0.01
+		light_cavalry_offensive = 0.02
+		light_cavalry_defensive = 0.01
+		knights_offensive = 0.02
+		knights_defensive = 0.01
+
+	}
+	tp_r_mine_i_4 = {
+		desc = tp_r_mine_i_4_desc
+		upgrades_from = tp_r_mine_i_3
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = iron
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 108
+
+		build_time = 173
+
+		gold_cost = 360
+
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.04
+
+		tax_income = 0.896
+		tradevalue = 0.2
+
+		land_morale = 0.01
+
+
+		light_infantry_offensive = 0.02
+		light_infantry_defensive = 0.01
+		archers_offensive = 0.02
+		archers_defensive = 0.01
+		heavy_infantry_offensive = 0.02
+		heavy_infantry_defensive = 0.01
+		pikemen_offensive = 0.02
+		pikemen_defensive = 0.01
+		light_cavalry_offensive = 0.02
+		light_cavalry_defensive = 0.01
+		knights_offensive = 0.02
+		knights_defensive = 0.01
+
+	}
+	tp_r_mine_i_5 = {
+		desc = tp_r_mine_i_5_desc
+		upgrades_from = tp_r_mine_i_4
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			has_province_modifier = tsk_infra_5
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = iron
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 109
+
+		build_time = 106
+
+		gold_cost = 220
+
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.05
+
+		tax_income = 1.092
+		tradevalue = 0.2
+
+		land_morale = 0.01
+
+
+		light_infantry_offensive = 0.02
+		light_infantry_defensive = 0.01
+		archers_offensive = 0.02
+		archers_defensive = 0.01
+		heavy_infantry_offensive = 0.02
+		heavy_infantry_defensive = 0.01
+		pikemen_offensive = 0.02
+		pikemen_defensive = 0.01
+		light_cavalry_offensive = 0.02
+		light_cavalry_defensive = 0.01
+		knights_offensive = 0.02
+		knights_defensive = 0.01
+
+	}
+	tp_r_mine_s_1 = {
+		desc = tp_r_mine_s_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_1
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = silver
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 105
+
+		build_time = 374
+
+		gold_cost = 780
+
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.01
+
+		tax_income = 0.704
+		tradevalue = 1
+		local_tax_modifier = 0.02
+
+		land_morale = 0.01
+
+
+
+	}
+	tp_r_mine_s_2 = {
+		desc = tp_r_mine_s_2_desc
+		upgrades_from = tp_r_mine_s_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = silver
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 106
+
+		build_time = 307
+
+		gold_cost = 640
+
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.02
+
+		tax_income = 1.152
+		tradevalue = 1
+		local_tax_modifier = 0.02
+
+		land_morale = 0.01
+
+
+
+	}
+	tp_r_mine_s_3 = {
+		desc = tp_r_mine_s_3_desc
+		upgrades_from = tp_r_mine_s_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = silver
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 107
+
+		build_time = 240
+
+		gold_cost = 500
+
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.03
+
+		tax_income = 1.6
+		tradevalue = 1
+		local_tax_modifier = 0.02
+
+		land_morale = 0.01
+
+
+
+	}
+	tp_r_mine_s_4 = {
+		desc = tp_r_mine_s_4_desc
+		upgrades_from = tp_r_mine_s_3
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = silver
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 108
+
+		build_time = 173
+
+		gold_cost = 360
+
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.04
+
+		tax_income = 2.048
+		tradevalue = 1
+		local_tax_modifier = 0.02
+
+		land_morale = 0.01
+
+
+
+	}
+	tp_r_mine_s_5 = {
+		desc = tp_r_mine_s_5_desc
+		upgrades_from = tp_r_mine_s_4
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			has_province_modifier = tsk_infra_5
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = silver
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 109
+
+		build_time = 106
+
+		gold_cost = 220
+
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.05
+
+		tax_income = 2.496
+		tradevalue = 1
+		local_tax_modifier = 0.02
+
+		land_morale = 0.01
+
+
+
+	}
+	tp_r_mine_g_1 = {
+		desc = tp_r_mine_g_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_1
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = gold
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 105
+
+		build_time = 374
+
+		gold_cost = 780
+
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.01
+
+		tax_income = 0.792
+		tradevalue = 1.25
+		local_tax_modifier = 0.02
+
+		land_morale = 0.02
+
+
+
+	}
+	tp_r_mine_g_2 = {
+		desc = tp_r_mine_g_2_desc
+		upgrades_from = tp_r_mine_g_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = gold
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 106
+
+		build_time = 307
+
+		gold_cost = 640
+
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.02
+
+		tax_income = 1.296
+		tradevalue = 1.25
+		local_tax_modifier = 0.02
+
+		land_morale = 0.02
+
+
+
+	}
+	tp_r_mine_g_3 = {
+		desc = tp_r_mine_g_3_desc
+		upgrades_from = tp_r_mine_g_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = gold
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 107
+
+		build_time = 240
+
+		gold_cost = 500
+
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.03
+
+		tax_income = 1.8
+		tradevalue = 1.25
+		local_tax_modifier = 0.02
+
+		land_morale = 0.02
+
+
+
+	}
+	tp_r_mine_g_4 = {
+		desc = tp_r_mine_g_4_desc
+		upgrades_from = tp_r_mine_g_3
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = gold
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 108
+
+		build_time = 173
+
+		gold_cost = 360
+
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.04
+
+		tax_income = 2.304
+		tradevalue = 1.25
+		local_tax_modifier = 0.02
+
+		land_morale = 0.02
+
+
+
+	}
+	tp_r_mine_g_5 = {
+		desc = tp_r_mine_g_5_desc
+		upgrades_from = tp_r_mine_g_4
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			has_province_modifier = tsk_infra_5
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = gold
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 109
+
+		build_time = 106
+
+		gold_cost = 220
+
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.05
+
+		tax_income = 2.808
+		tradevalue = 1.25
+		local_tax_modifier = 0.02
+
+		land_morale = 0.02
+
+
+
+	}
+	tp_r_mine_d_1 = {
+		desc = tp_r_mine_d_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_1
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = diamonds
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 105
+
+		build_time = 374
+
+		gold_cost = 780
+
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.01
+
+		tax_income = 0.682
+		tradevalue = 1.5
+		local_tax_modifier = 0.01
+
+		land_morale = 0.02
+
+
+
+	}
+	tp_r_mine_d_2 = {
+		desc = tp_r_mine_d_2_desc
+		upgrades_from = tp_r_mine_d_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = diamonds
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 106
+
+		build_time = 307
+
+		gold_cost = 640
+
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.02
+
+		tax_income = 1.116
+		tradevalue = 1.5
+		local_tax_modifier = 0.01
+
+		land_morale = 0.02
+
+
+
+	}
+	tp_r_mine_d_3 = {
+		desc = tp_r_mine_d_3_desc
+		upgrades_from = tp_r_mine_d_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = diamonds
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 107
+
+		build_time = 240
+
+		gold_cost = 500
+
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.03
+
+		tax_income = 1.55
+		tradevalue = 1.5
+		local_tax_modifier = 0.01
+
+		land_morale = 0.02
+
+
+
+	}
+	tp_r_mine_d_4 = {
+		desc = tp_r_mine_d_4_desc
+		upgrades_from = tp_r_mine_d_3
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = diamonds
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 108
+
+		build_time = 173
+
+		gold_cost = 360
+
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.04
+
+		tax_income = 1.984
+		tradevalue = 1.5
+		local_tax_modifier = 0.01
+
+		land_morale = 0.02
+
+
+
+	}
+	tp_r_mine_d_5 = {
+		desc = tp_r_mine_d_5_desc
+		upgrades_from = tp_r_mine_d_4
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			has_province_modifier = tsk_infra_5
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = diamonds
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 109
+
+		build_time = 106
+
+		gold_cost = 220
+
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.05
+
+		tax_income = 2.418
+		tradevalue = 1.5
+		local_tax_modifier = 0.01
+
+		land_morale = 0.02
+
+
+
+	}
+	tp_r_mine_gm_1 = {
+		desc = tp_r_mine_gm_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_1
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = northern_gems
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 105
+
+		build_time = 374
+
+		gold_cost = 780
+
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.01
+
+		tax_income = 0.616
+		tradevalue = 1
+		local_tax_modifier = 0.01
+
+		land_morale = 0.02
+
+
+
+	}
+	tp_r_mine_gm_2 = {
+		desc = tp_r_mine_gm_2_desc
+		upgrades_from = tp_r_mine_gm_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = northern_gems
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 106
+
+		build_time = 307
+
+		gold_cost = 640
+
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.02
+
+		tax_income = 1.008
+		tradevalue = 1
+		local_tax_modifier = 0.01
+
+		land_morale = 0.02
+
+
+
+	}
+	tp_r_mine_gm_3 = {
+		desc = tp_r_mine_gm_3_desc
+		upgrades_from = tp_r_mine_gm_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = northern_gems
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 107
+
+		build_time = 240
+
+		gold_cost = 500
+
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.03
+
+		tax_income = 1.4
+		tradevalue = 1
+		local_tax_modifier = 0.01
+
+		land_morale = 0.02
+
+
+
+	}
+	tp_r_mine_gm_4 = {
+		desc = tp_r_mine_gm_4_desc
+		upgrades_from = tp_r_mine_gm_3
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = northern_gems
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 108
+
+		build_time = 173
+
+		gold_cost = 360
+
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.04
+
+		tax_income = 1.792
+		tradevalue = 1
+		local_tax_modifier = 0.01
+
+		land_morale = 0.02
+
+
+
+	}
+	tp_r_mine_gm_5 = {
+		desc = tp_r_mine_gm_5_desc
+		upgrades_from = tp_r_mine_gm_4
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			has_province_modifier = tsk_infra_5
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = northern_gems
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 109
+
+		build_time = 106
+
+		gold_cost = 220
+
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.05
+
+		tax_income = 2.184
+		tradevalue = 1
+		local_tax_modifier = 0.01
+
+		land_morale = 0.02
+
+
+
+	}
+	tp_r_mine_o_1 = {
+		desc = tp_r_mine_o_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_1
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = obsidian
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 105
+
+		build_time = 374
+
+		gold_cost = 780
+
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.01
+
+		tax_income = 0.528
+		tradevalue = 0.5
+
+		land_morale = 0.02
+
+
+		light_infantry_offensive = 0.02
+		light_infantry_defensive = 0.01
+		archers_offensive = 0.02
+		archers_defensive = 0.01
+		heavy_infantry_offensive = 0.02
+		heavy_infantry_defensive = 0.01
+		pikemen_offensive = 0.02
+		pikemen_defensive = 0.01
+		light_cavalry_offensive = 0.02
+		light_cavalry_defensive = 0.01
+		knights_offensive = 0.02
+		knights_defensive = 0.01
+
+	}
+	tp_r_mine_o_2 = {
+		desc = tp_r_mine_o_2_desc
+		upgrades_from = tp_r_mine_o_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = obsidian
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 106
+
+		build_time = 307
+
+		gold_cost = 640
+
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.02
+
+		tax_income = 0.864
+		tradevalue = 0.5
+
+		land_morale = 0.02
+
+
+		light_infantry_offensive = 0.02
+		light_infantry_defensive = 0.01
+		archers_offensive = 0.02
+		archers_defensive = 0.01
+		heavy_infantry_offensive = 0.02
+		heavy_infantry_defensive = 0.01
+		pikemen_offensive = 0.02
+		pikemen_defensive = 0.01
+		light_cavalry_offensive = 0.02
+		light_cavalry_defensive = 0.01
+		knights_offensive = 0.02
+		knights_defensive = 0.01
+
+	}
+	tp_r_mine_o_3 = {
+		desc = tp_r_mine_o_3_desc
+		upgrades_from = tp_r_mine_o_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = obsidian
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 107
+
+		build_time = 240
+
+		gold_cost = 500
+
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.03
+
+		tax_income = 1.2
+		tradevalue = 0.5
+
+		land_morale = 0.02
+
+
+		light_infantry_offensive = 0.02
+		light_infantry_defensive = 0.01
+		archers_offensive = 0.02
+		archers_defensive = 0.01
+		heavy_infantry_offensive = 0.02
+		heavy_infantry_defensive = 0.01
+		pikemen_offensive = 0.02
+		pikemen_defensive = 0.01
+		light_cavalry_offensive = 0.02
+		light_cavalry_defensive = 0.01
+		knights_offensive = 0.02
+		knights_defensive = 0.01
+
+	}
+	tp_r_mine_o_4 = {
+		desc = tp_r_mine_o_4_desc
+		upgrades_from = tp_r_mine_o_3
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = obsidian
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 108
+
+		build_time = 173
+
+		gold_cost = 360
+
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.04
+
+		tax_income = 1.536
+		tradevalue = 0.5
+
+		land_morale = 0.02
+
+
+		light_infantry_offensive = 0.02
+		light_infantry_defensive = 0.01
+		archers_offensive = 0.02
+		archers_defensive = 0.01
+		heavy_infantry_offensive = 0.02
+		heavy_infantry_defensive = 0.01
+		pikemen_offensive = 0.02
+		pikemen_defensive = 0.01
+		light_cavalry_offensive = 0.02
+		light_cavalry_defensive = 0.01
+		knights_offensive = 0.02
+		knights_defensive = 0.01
+
+	}
+	tp_r_mine_o_5 = {
+		desc = tp_r_mine_o_5_desc
+		upgrades_from = tp_r_mine_o_4
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			has_province_modifier = tsk_infra_5
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = obsidian
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 109
+
+		build_time = 106
+
+		gold_cost = 220
+
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.05
+
+		tax_income = 1.872
+		tradevalue = 0.5
+
+		land_morale = 0.02
+
+
+		light_infantry_offensive = 0.02
+		light_infantry_defensive = 0.01
+		archers_offensive = 0.02
+		archers_defensive = 0.01
+		heavy_infantry_offensive = 0.02
+		heavy_infantry_defensive = 0.01
+		pikemen_offensive = 0.02
+		pikemen_defensive = 0.01
+		light_cavalry_offensive = 0.02
+		light_cavalry_defensive = 0.01
+		knights_offensive = 0.02
+		knights_defensive = 0.01
+
+	}
+	tp_r_seal_hunt_1 = {
+		desc = tp_r_seal_hunt_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = seals
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 105
+
+		build_time = 374
+
+		gold_cost = 780
+
+		levy_size = 0.01
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.01
+		monthly_character_piety = 0.01
+
+		tax_income = 0.352
+		tradevalue = 0.4
+		local_build_cost_modifier = -0.01
+		local_build_time_modifier = -0.01
+
+		land_morale = 0.01
+
+
+
+	}
+	tp_r_seal_hunt_2 = {
+		desc = tp_r_seal_hunt_2_desc
+		upgrades_from = tp_r_seal_hunt_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = seals
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 106
+
+		build_time = 307
+
+		gold_cost = 640
+
+		levy_size = 0.01
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.01
+		monthly_character_piety = 0.01
+
+		tax_income = 0.576
+		tradevalue = 0.4
+		local_build_cost_modifier = -0.01
+		local_build_time_modifier = -0.01
+
+		land_morale = 0.01
+
+
+
+	}
+	tp_r_seal_hunt_3 = {
+		desc = tp_r_seal_hunt_3_desc
+		upgrades_from = tp_r_seal_hunt_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = seals
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 107
+
+		build_time = 240
+
+		gold_cost = 500
+
+		levy_size = 0.01
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.01
+		monthly_character_piety = 0.01
+
+		tax_income = 0.8
+		tradevalue = 0.4
+		local_build_cost_modifier = -0.01
+		local_build_time_modifier = -0.01
+
+		land_morale = 0.01
+
+
+
+	}
+	tp_r_seal_hunt_4 = {
+		desc = tp_r_seal_hunt_4_desc
+		upgrades_from = tp_r_seal_hunt_3
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = seals
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 108
+
+		build_time = 173
+
+		gold_cost = 360
+
+		levy_size = 0.01
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.02
+		monthly_character_piety = 0.02
+
+		tax_income = 1.024
+		tradevalue = 0.4
+		local_build_cost_modifier = -0.01
+		local_build_time_modifier = -0.01
+
+		land_morale = 0.01
+
+
+
+	}
+	tp_r_seal_hunt_5 = {
+		desc = tp_r_seal_hunt_5_desc
+		upgrades_from = tp_r_seal_hunt_4
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = seals
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 109
+
+		build_time = 106
+
+		gold_cost = 220
+
+		levy_size = 0.01
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.02
+		monthly_character_piety = 0.02
+
+		tax_income = 1.248
+		tradevalue = 0.4
+		local_build_cost_modifier = -0.01
+		local_build_time_modifier = -0.01
+
+		land_morale = 0.01
+
+
+
+	}
+	tp_r_hunt_1 = {
+		desc = tp_r_hunt_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = game
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 105
+
+		build_time = 374
+
+		gold_cost = 780
+
+		levy_size = 0.02
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.01
+
+		tax_income = 0.33
+		tradevalue = 0.2
+		local_build_cost_modifier = -0.01
+		local_build_time_modifier = -0.01
+
+
+
+
+	}
+	tp_r_hunt_2 = {
+		desc = tp_r_hunt_2_desc
+		upgrades_from = tp_r_hunt_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = game
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 106
+
+		build_time = 307
+
+		gold_cost = 640
+
+		levy_size = 0.02
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.02
+
+		tax_income = 0.54
+		tradevalue = 0.2
+		local_build_cost_modifier = -0.01
+		local_build_time_modifier = -0.01
+
+
+
+
+	}
+	tp_r_hunt_3 = {
+		desc = tp_r_hunt_3_desc
+		upgrades_from = tp_r_hunt_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = game
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 107
+
+		build_time = 240
+
+		gold_cost = 500
+
+		levy_size = 0.02
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.03
+
+		tax_income = 0.75
+		tradevalue = 0.2
+		local_build_cost_modifier = -0.01
+		local_build_time_modifier = -0.01
+
+
+
+
+	}
+	tp_r_hunt_4 = {
+		desc = tp_r_hunt_4_desc
+		upgrades_from = tp_r_hunt_3
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = game
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 108
+
+		build_time = 173
+
+		gold_cost = 360
+
+		levy_size = 0.02
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.04
+
+		tax_income = 0.96
+		tradevalue = 0.2
+		local_build_cost_modifier = -0.01
+		local_build_time_modifier = -0.01
+
+
+
+
+	}
+	tp_r_hunt_5 = {
+		desc = tp_r_hunt_5_desc
+		upgrades_from = tp_r_hunt_4
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = game
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 109
+
+		build_time = 106
+
+		gold_cost = 220
+
+		levy_size = 0.02
+		levy_reinforce_rate = 0.01
+
+		monthly_character_prestige = 0.05
+
+		tax_income = 1.17
+		tradevalue = 0.2
+		local_build_cost_modifier = -0.01
+		local_build_time_modifier = -0.01
+
+
+
+
+	}
+	tp_r_jewellery_1 = {
+		desc = tp_r_jewellery_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_1
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = jewellery
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 105
+
+		build_time = 374
+
+		gold_cost = 780
+
+
+		monthly_character_prestige = 0.01
+
+		tax_income = 0.792
+		tradevalue = 2
+		local_tax_modifier = 0.02
+
+		land_morale = 0.01
+
+
+
+	}
+	tp_r_jewellery_2 = {
+		desc = tp_r_jewellery_2_desc
+		upgrades_from = tp_r_jewellery_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = jewellery
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 106
+
+		build_time = 307
+
+		gold_cost = 640
+
+
+		monthly_character_prestige = 0.02
+
+		tax_income = 1.296
+		tradevalue = 2
+		local_tax_modifier = 0.02
+
+		land_morale = 0.01
+
+
+
+	}
+	tp_r_jewellery_3 = {
+		desc = tp_r_jewellery_3_desc
+		upgrades_from = tp_r_jewellery_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = jewellery
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 107
+
+		build_time = 240
+
+		gold_cost = 500
+
+
+		monthly_character_prestige = 0.03
+
+		tax_income = 1.8
+		tradevalue = 2
+		local_tax_modifier = 0.02
+
+		land_morale = 0.01
+
+
+
+	}
+	tp_r_jewellery_4 = {
+		desc = tp_r_jewellery_4_desc
+		upgrades_from = tp_r_jewellery_3
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = jewellery
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 108
+
+		build_time = 173
+
+		gold_cost = 360
+
+
+		monthly_character_prestige = 0.04
+
+		tax_income = 2.304
+		tradevalue = 2
+		local_tax_modifier = 0.02
+
+		land_morale = 0.01
+
+
+
+	}
+	tp_r_jewellery_5 = {
+		desc = tp_r_jewellery_5_desc
+		upgrades_from = tp_r_jewellery_4
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			has_province_modifier = tsk_infra_5
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = jewellery
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 109
+
+		build_time = 106
+
+		gold_cost = 220
+
+
+		monthly_character_prestige = 0.05
+
+		tax_income = 2.808
+		tradevalue = 2
+		local_tax_modifier = 0.02
+
+		land_morale = 0.01
+
+
+
+	}
+	tp_r_precious_fabrics_1 = {
+		desc = tp_r_precious_fabrics_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_1
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = precious_fabrics
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 105
+
+		build_time = 374
+
+		gold_cost = 780
+
+
+		monthly_character_prestige = 0.01
+
+		tax_income = 0.792
+		tradevalue = 2
+		local_tax_modifier = 0.01
+
+		land_morale = 0.02
+
+
+
+	}
+	tp_r_precious_fabrics_2 = {
+		desc = tp_r_precious_fabrics_2_desc
+		upgrades_from = tp_r_precious_fabrics_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = precious_fabrics
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 106
+
+		build_time = 307
+
+		gold_cost = 640
+
+
+		monthly_character_prestige = 0.02
+
+		tax_income = 1.296
+		tradevalue = 2
+		local_tax_modifier = 0.01
+
+		land_morale = 0.02
+
+
+
+	}
+	tp_r_precious_fabrics_3 = {
+		desc = tp_r_precious_fabrics_3_desc
+		upgrades_from = tp_r_precious_fabrics_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = precious_fabrics
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 107
+
+		build_time = 240
+
+		gold_cost = 500
+
+
+		monthly_character_prestige = 0.03
+
+		tax_income = 1.8
+		tradevalue = 2
+		local_tax_modifier = 0.01
+
+		land_morale = 0.02
+
+
+
+	}
+	tp_r_precious_fabrics_4 = {
+		desc = tp_r_precious_fabrics_4_desc
+		upgrades_from = tp_r_precious_fabrics_3
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = precious_fabrics
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 108
+
+		build_time = 173
+
+		gold_cost = 360
+
+
+		monthly_character_prestige = 0.04
+
+		tax_income = 2.304
+		tradevalue = 2
+		local_tax_modifier = 0.01
+
+		land_morale = 0.02
+
+
+
+	}
+	tp_r_precious_fabrics_5 = {
+		desc = tp_r_precious_fabrics_5_desc
+		upgrades_from = tp_r_precious_fabrics_4
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			has_province_modifier = tsk_infra_5
+		}
+		potential = {
+			FROMFROM = { is_capital = yes }
+			location = {
+				has_province_modifier = precious_fabrics
+			}
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 109
+
+		build_time = 106
+
+		gold_cost = 220
+
+
+		monthly_character_prestige = 0.05
+
+		tax_income = 2.808
+		tradevalue = 2
+		local_tax_modifier = 0.01
+
+		land_morale = 0.02
+
+
+
+	}
+	tp_r_castle_chapel_1 = {
+		desc = tp_r_castle_chapel_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_1
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_1
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 110
+
+		build_time = 153
+
+		piety_cost = 138
+
+
+		monthly_character_piety = 0.2
+		liege_piety = 0.1
+
+		tax_income = 0.1
+		local_revolt_risk = -0.01
+
+		land_morale = 0.01
+
+
+
+	}
+	tp_r_castle_chapel_2 = {
+		desc = tp_r_castle_chapel_2_desc
+		upgrades_from = tp_r_castle_chapel_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_5
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 109
+
+		build_time = 333
+
+		piety_cost = 300
+
+		levy_reinforce_rate = 0.01
+
+		monthly_character_piety = 0.2
+		liege_piety = 0.1
+
+		tax_income = 0.15
+		local_revolt_risk = -0.01
+
+		land_morale = 0.01
+
+
+
+	}
+	tp_r_castle_chapel_3 = {
+		desc = tp_r_castle_chapel_3_desc
+		upgrades_from = tp_r_castle_chapel_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		prerequisites = {
+			tp_r_settlement_6
+		}
+
+		extra_tech_building_start = 9
+		ai_creation_factor = 108
+
+		build_time = 513
+
+		piety_cost = 462
+
+		levy_reinforce_rate = 0.02
+
+		monthly_character_piety = 0.2
+		liege_piety = 0.1
+
+		tax_income = 0.2
+		local_revolt_risk = -0.01
+
+		land_morale = 0.01
+
+
+
+	}
+	tp_r_farming_v_1 = {
+		desc = tp_r_farming_v_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_1
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			region_can_build_vineyards_trigger = yes
+		}
+		prerequisites = {
+			tp_r_settlement_5
+		}
+
+		extra_tech_building_start = 9
+
+		build_time = 64
+
+		piety_cost = 60
+
+		fort_level = -0.1
+
+
+		tax_income = 0.367
+
+
+		pikemen = 5
+		knights = 2
+
+
+	}
+	tp_r_farming_v_2 = {
+		desc = tp_r_farming_v_2_desc
+		upgrades_from = tp_r_farming_v_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+		}
+		potential = {
+			region_can_build_vineyards_trigger = yes
+		}
+		prerequisites = {
+			tp_r_settlement_5
+		}
+
+		extra_tech_building_start = 9
+
+		build_time = 102
+
+		piety_cost = 96
+
+		fort_level = -0.1
+
+
+		tax_income = 0.587
+
+
+		pikemen = 5
+		knights = 2
+
+
+	}
+	tp_r_farming_v_3 = {
+		desc = tp_r_farming_v_3_desc
+		upgrades_from = tp_r_farming_v_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			region_can_build_vineyards_trigger = yes
+		}
+		prerequisites = {
+			tp_r_settlement_5
+		}
+
+		extra_tech_building_start = 9
+
+		build_time = 141
+
+		piety_cost = 132
+
+		fort_level = -0.1
+
+
+		tax_income = 0.807
+
+
+		pikemen = 5
+		knights = 2
+
+
+	}
+	tp_r_farming_v_4 = {
+		desc = tp_r_farming_v_4_desc
+		upgrades_from = tp_r_farming_v_3
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			region_can_build_vineyards_trigger = yes
+		}
+		prerequisites = {
+			tp_r_settlement_5
+		}
+
+		extra_tech_building_start = 9
+
+		build_time = 179
+
+		piety_cost = 168
+
+		fort_level = -0.1
+
+
+		tax_income = 1.027
+
+
+		pikemen = 5
+		knights = 2
+
+
+	}
+	tp_r_farming_v_5 = {
+		desc = tp_r_farming_v_5_desc
+		upgrades_from = tp_r_farming_v_4
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			region_can_build_vineyards_trigger = yes
+		}
+		prerequisites = {
+			tp_r_settlement_5
+		}
+
+		extra_tech_building_start = 9
+
+		build_time = 218
+
+		piety_cost = 204
+
+		fort_level = -0.1
+
+
+		tax_income = 1.247
+
+
+		pikemen = 5
+		knights = 2
+
+
+	}
+	tp_r_farming_v_6 = {
+		desc = tp_r_farming_v_6_desc
+		upgrades_from = tp_r_farming_v_5
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			has_province_modifier = tsk_infra_5
+		}
+		potential = {
+			region_can_build_vineyards_trigger = yes
+		}
+		prerequisites = {
+			tp_r_settlement_5
+		}
+
+		extra_tech_building_start = 9
+
+		build_time = 256
+
+		piety_cost = 240
+
+		fort_level = -0.1
+
+
+		tax_income = 1.467
+
+
+		pikemen = 5
+		knights = 2
+
+
+	}
+	tp_r_farming_o_1 = {
+		desc = tp_r_farming_o_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_1
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			region_can_build_orchards_trigger = yes
+		}
+		prerequisites = {
+			tp_r_settlement_5
+		}
+
+		extra_tech_building_start = 9
+
+		build_time = 60
+
+		piety_cost = 57
+
+		fort_level = -0.1
+
+
+		tax_income = 0.333
+
+
+		pikemen = 7
+		knights = 1
+
+
+	}
+	tp_r_farming_o_2 = {
+		desc = tp_r_farming_o_2_desc
+		upgrades_from = tp_r_farming_o_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+		}
+		potential = {
+			region_can_build_orchards_trigger = yes
+		}
+		prerequisites = {
+			tp_r_settlement_5
+		}
+
+		extra_tech_building_start = 9
+
+		build_time = 96
+
+		piety_cost = 91
+
+		fort_level = -0.1
+
+
+		tax_income = 0.533
+		local_tax_modifier = 0.01
+
+
+		pikemen = 7
+		knights = 1
+
+
+	}
+	tp_r_farming_o_3 = {
+		desc = tp_r_farming_o_3_desc
+		upgrades_from = tp_r_farming_o_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			region_can_build_orchards_trigger = yes
+		}
+		prerequisites = {
+			tp_r_settlement_5
+		}
+
+		extra_tech_building_start = 9
+
+		build_time = 132
+
+		piety_cost = 125
+
+		fort_level = -0.1
+
+
+		tax_income = 0.733
+
+
+		pikemen = 7
+		knights = 1
+
+
+	}
+	tp_r_farming_o_4 = {
+		desc = tp_r_farming_o_4_desc
+		upgrades_from = tp_r_farming_o_3
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			region_can_build_orchards_trigger = yes
+		}
+		prerequisites = {
+			tp_r_settlement_5
+		}
+
+		extra_tech_building_start = 9
+
+		build_time = 168
+
+		piety_cost = 159
+
+		fort_level = -0.1
+
+
+		tax_income = 0.933
+		local_tax_modifier = 0.01
+
+
+		pikemen = 7
+		knights = 1
+
+
+	}
+	tp_r_farming_o_5 = {
+		desc = tp_r_farming_o_5_desc
+		upgrades_from = tp_r_farming_o_4
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			region_can_build_orchards_trigger = yes
+		}
+		prerequisites = {
+			tp_r_settlement_5
+		}
+
+		extra_tech_building_start = 9
+
+		build_time = 204
+
+		piety_cost = 193
+
+		fort_level = -0.1
+
+
+		tax_income = 1.133
+
+
+		pikemen = 7
+		knights = 1
+
+
+	}
+	tp_r_farming_o_6 = {
+		desc = tp_r_farming_o_6_desc
+		upgrades_from = tp_r_farming_o_5
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			has_province_modifier = tsk_infra_5
+		}
+		potential = {
+			region_can_build_orchards_trigger = yes
+		}
+		prerequisites = {
+			tp_r_settlement_5
+		}
+
+		extra_tech_building_start = 9
+
+		build_time = 240
+
+		piety_cost = 227
+
+		fort_level = -0.1
+
+
+		tax_income = 1.333
+		local_tax_modifier = 0.01
+
+
+		pikemen = 7
+		knights = 1
+
+
+	}
+	tp_r_pasture_c_1 = {
+		desc = tp_r_pasture_c_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_1
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			region_can_build_pastures_cattle_trigger = yes
+		}
+		prerequisites = {
+			tp_r_settlement_3
+		}
+
+		extra_tech_building_start = 9
+
+		build_time = 60
+
+		piety_cost = 57
+
+		fort_level = -0.1
+		levy_size = 0.005
+
+
+		tax_income = 0.283
+
+
+		light_infantry = 9
+		archers = 4
+
+
+	}
+	tp_r_pasture_c_2 = {
+		desc = tp_r_pasture_c_2_desc
+		upgrades_from = tp_r_pasture_c_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+		}
+		potential = {
+			region_can_build_pastures_cattle_trigger = yes
+		}
+		prerequisites = {
+			tp_r_settlement_3
+		}
+
+		extra_tech_building_start = 9
+
+		build_time = 96
+
+		piety_cost = 92
+
+		fort_level = -0.1
+		levy_size = 0.005
+
+
+		tax_income = 0.453
+
+
+		light_infantry = 9
+		archers = 4
+
+
+	}
+	tp_r_pasture_c_3 = {
+		desc = tp_r_pasture_c_3_desc
+		upgrades_from = tp_r_pasture_c_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			region_can_build_pastures_cattle_trigger = yes
+		}
+		prerequisites = {
+			tp_r_settlement_4
+		}
+
+		extra_tech_building_start = 9
+
+		build_time = 132
+
+		piety_cost = 126
+
+		fort_level = -0.1
+		levy_size = 0.005
+
+
+		tax_income = 0.623
+
+
+		light_infantry = 9
+		archers = 4
+
+
+	}
+	tp_r_pasture_c_4 = {
+		desc = tp_r_pasture_c_4_desc
+		upgrades_from = tp_r_pasture_c_3
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			region_can_build_pastures_cattle_trigger = yes
+		}
+		prerequisites = {
+			tp_r_settlement_5
+		}
+
+		extra_tech_building_start = 9
+
+		build_time = 168
+
+		piety_cost = 161
+
+		fort_level = -0.1
+		levy_size = 0.005
+
+
+		tax_income = 0.793
+
+
+		light_infantry = 9
+		archers = 4
+
+
+	}
+	tp_r_pasture_c_5 = {
+		desc = tp_r_pasture_c_5_desc
+		upgrades_from = tp_r_pasture_c_4
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			region_can_build_pastures_cattle_trigger = yes
+		}
+		prerequisites = {
+			tp_r_settlement_5
+		}
+
+		extra_tech_building_start = 9
+
+		build_time = 204
+
+		piety_cost = 195
+
+		fort_level = -0.1
+		levy_size = 0.005
+
+
+		tax_income = 0.963
+
+
+		light_infantry = 9
+		archers = 4
+
+
+	}
+	tp_r_pasture_c_6 = {
+		desc = tp_r_pasture_c_6_desc
+		upgrades_from = tp_r_pasture_c_5
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			has_province_modifier = tsk_infra_5
+		}
+		potential = {
+			region_can_build_pastures_cattle_trigger = yes
+		}
+		prerequisites = {
+			tp_r_settlement_5
+		}
+
+		extra_tech_building_start = 9
+
+		build_time = 240
+
+		piety_cost = 229
+
+		fort_level = -0.1
+		levy_size = 0.005
+
+
+		tax_income = 1.133
+
+
+		light_infantry = 9
+		archers = 4
+
+
+	}
+	tp_r_pasture_s_1 = {
+		desc = tp_r_pasture_s_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_1
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			region_can_build_pastures_sheep_trigger = yes
+		}
+		prerequisites = {
+			tp_r_settlement_3
+		}
+
+		extra_tech_building_start = 9
+
+		build_time = 60
+
+		piety_cost = 58
+
+		fort_level = -0.1
+
+
+		tax_income = 0.267
+		local_tax_modifier = 0.01
+
+
+		light_infantry = 4
+		archers = 6
+
+
+	}
+	tp_r_pasture_s_2 = {
+		desc = tp_r_pasture_s_2_desc
+		upgrades_from = tp_r_pasture_s_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+		}
+		potential = {
+			region_can_build_pastures_sheep_trigger = yes
+		}
+		prerequisites = {
+			tp_r_settlement_3
+		}
+
+		extra_tech_building_start = 9
+
+		build_time = 96
+
+		piety_cost = 93
+
+		fort_level = -0.1
+
+
+		tax_income = 0.427
+		local_tax_modifier = 0.01
+
+
+		light_infantry = 4
+		archers = 6
+
+
+	}
+	tp_r_pasture_s_3 = {
+		desc = tp_r_pasture_s_3_desc
+		upgrades_from = tp_r_pasture_s_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			region_can_build_pastures_sheep_trigger = yes
+		}
+		prerequisites = {
+			tp_r_settlement_4
+		}
+
+		extra_tech_building_start = 9
+
+		build_time = 132
+
+		piety_cost = 128
+
+		fort_level = -0.1
+
+
+		tax_income = 0.587
+		local_tax_modifier = 0.01
+
+
+		light_infantry = 4
+		archers = 6
+
+
+	}
+	tp_r_pasture_s_4 = {
+		desc = tp_r_pasture_s_4_desc
+		upgrades_from = tp_r_pasture_s_3
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			region_can_build_pastures_sheep_trigger = yes
+		}
+		prerequisites = {
+			tp_r_settlement_5
+		}
+
+		extra_tech_building_start = 9
+
+		build_time = 168
+
+		piety_cost = 162
+
+		fort_level = -0.1
+
+
+		tax_income = 0.747
+		local_tax_modifier = 0.01
+
+
+		light_infantry = 4
+		archers = 6
+
+
+	}
+	tp_r_pasture_s_5 = {
+		desc = tp_r_pasture_s_5_desc
+		upgrades_from = tp_r_pasture_s_4
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			region_can_build_pastures_sheep_trigger = yes
+		}
+		prerequisites = {
+			tp_r_settlement_5
+		}
+
+		extra_tech_building_start = 9
+
+		build_time = 204
+
+		piety_cost = 197
+
+		fort_level = -0.1
+
+
+		tax_income = 0.907
+		local_tax_modifier = 0.01
+
+
+		light_infantry = 4
+		archers = 6
+
+
+	}
+	tp_r_pasture_s_6 = {
+		desc = tp_r_pasture_s_6_desc
+		upgrades_from = tp_r_pasture_s_5
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			has_province_modifier = tsk_infra_5
+		}
+		potential = {
+			region_can_build_pastures_sheep_trigger = yes
+		}
+		prerequisites = {
+			tp_r_settlement_5
+		}
+
+		extra_tech_building_start = 9
+
+		build_time = 240
+
+		piety_cost = 232
+
+		fort_level = -0.1
+
+
+		tax_income = 1.067
+		local_tax_modifier = 0.01
+
+
+		light_infantry = 4
+		archers = 6
+
+
+	}
+	tp_r_pasture_g_1 = {
+		desc = tp_r_pasture_g_1_desc
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_1
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			region_can_build_pastures_goats_trigger = yes
+		}
+		prerequisites = {
+			tp_r_settlement_3
+		}
+
+		extra_tech_building_start = 9
+
+		build_time = 53
+
+		piety_cost = 58
+
+		fort_level = -0.1
+
+
+		tax_income = 0.2
+
+
+		light_infantry = 4
+		archers = 8
+
+
+	}
+	tp_r_pasture_g_2 = {
+		desc = tp_r_pasture_g_2_desc
+		upgrades_from = tp_r_pasture_g_1
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+		}
+		potential = {
+			region_can_build_pastures_goats_trigger = yes
+		}
+		prerequisites = {
+			tp_r_settlement_3
+		}
+
+		extra_tech_building_start = 9
+
+		build_time = 85
+
+		piety_cost = 93
+
+		fort_level = -0.1
+
+
+		tax_income = 0.32
+
+
+		light_infantry = 4
+		archers = 8
+
+
+	}
+	tp_r_pasture_g_3 = {
+		desc = tp_r_pasture_g_3_desc
+		upgrades_from = tp_r_pasture_g_2
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_2
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			region_can_build_pastures_goats_trigger = yes
+		}
+		prerequisites = {
+			tp_r_settlement_4
+		}
+
+		extra_tech_building_start = 9
+
+		build_time = 117
+
+		piety_cost = 128
+
+		fort_level = -0.1
+
+
+		tax_income = 0.44
+
+
+		light_infantry = 4
+		archers = 8
+
+
+	}
+	tp_r_pasture_g_4 = {
+		desc = tp_r_pasture_g_4_desc
+		upgrades_from = tp_r_pasture_g_3
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_3
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			region_can_build_pastures_goats_trigger = yes
+		}
+		prerequisites = {
+			tp_r_settlement_5
+		}
+
+		extra_tech_building_start = 9
+
+		build_time = 149
+
+		piety_cost = 162
+
+		fort_level = -0.1
+
+
+		tax_income = 0.56
+
+
+		light_infantry = 4
+		archers = 8
+
+
+	}
+	tp_r_pasture_g_5 = {
+		desc = tp_r_pasture_g_5_desc
+		upgrades_from = tp_r_pasture_g_4
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			OR = {
+				has_province_modifier = tsk_infra_4
+				has_province_modifier = tsk_infra_5
+			}
+		}
+		potential = {
+			region_can_build_pastures_goats_trigger = yes
+		}
+		prerequisites = {
+			tp_r_settlement_5
+		}
+
+		extra_tech_building_start = 9
+
+		build_time = 181
+
+		piety_cost = 197
+
+		fort_level = -0.1
+
+
+		tax_income = 0.68
+
+
+		light_infantry = 4
+		archers = 8
+
+
+	}
+	tp_r_pasture_g_6 = {
+		desc = tp_r_pasture_g_6_desc
+		upgrades_from = tp_r_pasture_g_5
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			has_province_modifier = tsk_infra_5
+		}
+		potential = {
+			region_can_build_pastures_goats_trigger = yes
+		}
+		prerequisites = {
+			tp_r_settlement_5
+		}
+
+		extra_tech_building_start = 9
+
+		build_time = 213
+
+		piety_cost = 232
+
+		fort_level = -0.1
+
+
+		tax_income = 0.8
+
+
+		light_infantry = 4
+		archers = 8
+
+
+	}
+}
